@@ -19,7 +19,7 @@ dependencies = [
 ]
 
 [project.optional-dependencies]
-scraping = ["beautifulsoup4>=4.12", "lxml>=5", "tenacity>=8.2", "selectolax>=0.3"]
+scraping = ["beautifulsoup4>=4.12", "lxml>=5", "tenacity>=8.2", "selectolax>=1.0.2"]
 linkage = ["numpy>=1.26", "pandas>=2.1", "scikit-learn>=1.4", "rapidfuzz>=3.6", "networkx>=3.2"]
 warehouse = ["pandas>=2.1", "sqlalchemy>=2.0,<3"]
 analytics = ["pandas>=2.1", "numpy>=1.26", "scipy>=1.11", "statsmodels>=0.14", "lifelines>=0.28"]
