@@ -14,7 +14,7 @@ jobs:
     if: vars.STAGING_ENABLED == 'true'
     runs-on: [self-hosted, staging]
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
       - run: pip install -e ".[dev]"
       - run: python -m autolens.mlops.health --open-issues
         env:
