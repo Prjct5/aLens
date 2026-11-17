@@ -1,0 +1,602 @@
+{
+  "components": {
+    "schemas": {
+      "DuplicatesResponse": {
+        "properties": {
+          "cluster_size": {
+            "default": 1,
+            "title": "Cluster Size",
+            "type": "integer"
+          },
+          "duplicates": {
+            "default": [],
+            "items": {
+              "type": "string"
+            },
+            "title": "Duplicates",
+            "type": "array"
+          },
+          "listing_key": {
+            "title": "Listing Key",
+            "type": "string"
+          },
+          "vehicle_id": {
+            "anyOf": [
+              {
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Vehicle Id"
+          }
+        },
+        "required": [
+          "listing_key"
+        ],
+        "title": "DuplicatesResponse",
+        "type": "object"
+      },
+      "HTTPValidationError": {
+        "properties": {
+          "detail": {
+            "items": {
+              "$ref": "#/components/schemas/ValidationError"
+            },
+            "title": "Detail",
+            "type": "array"
+          }
+        },
+        "title": "HTTPValidationError",
+        "type": "object"
+      },
+      "ListingCheckRequest": {
+        "properties": {
+          "asking_price_egp": {
+            "exclusiveMinimum": 0.0,
+            "title": "Asking Price Egp",
+            "type": "number"
+          },
+          "description": {
+            "anyOf": [
+              {
+                "maxLength": 5000,
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Description"
+          },
+          "make": {
+            "title": "Make",
+            "type": "string"
+          },
+          "mileage_km": {
+            "maximum": 2000000.0,
+            "minimum": 0.0,
+            "title": "Mileage Km",
+            "type": "integer"
+          },
+          "model": {
+            "title": "Model",
+            "type": "string"
+          },
+          "photos_base64": {
+            "items": {
+              "type": "string"
+            },
+            "maxItems": 8,
+            "title": "Photos Base64",
+            "type": "array"
+          },
+          "year": {
+            "maximum": 2027.0,
+            "minimum": 1980.0,
+            "title": "Year",
+            "type": "integer"
+          }
+        },
+        "required": [
+          "make",
+          "model",
+          "year",
+          "mileage_km",
+          "asking_price_egp"
+        ],
+        "title": "ListingCheckRequest",
+        "type": "object"
+      },
+      "ListingCheckResponse": {
+        "properties": {
+          "disclaimer": {
+            "default": "Automated signal only. A high score is a reason to look closer, not proof.",
+            "title": "Disclaimer",
+            "type": "string"
+          },
+          "model_version": {
+            "title": "Model Version",
+            "type": "string"
+          },
+          "reasons": {
+            "default": [],
+            "items": {
+              "type": "string"
+            },
+            "title": "Reasons",
+            "type": "array"
+          },
+          "suspicion_score": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "title": "Suspicion Score",
+            "type": "number"
+          },
+          "warnings": {
+            "default": [],
+            "items": {
+              "type": "string"
+            },
+            "title": "Warnings",
+            "type": "array"
+          }
+        },
+        "required": [
+          "suspicion_score",
+          "model_version"
+        ],
+        "title": "ListingCheckResponse",
+        "type": "object"
+      },
+      "MarketIndexPoint": {
+        "properties": {
+          "hi": {
+            "title": "Hi",
+            "type": "number"
+          },
+          "index": {
+            "title": "Index",
+            "type": "number"
+          },
+          "lo": {
+            "title": "Lo",
+            "type": "number"
+          },
+          "n_listings": {
+            "title": "N Listings",
+            "type": "integer"
+          },
+          "week_start": {
+            "format": "date",
+            "title": "Week Start",
+            "type": "string"
+          }
+        },
+        "required": [
+          "week_start",
+          "index",
+          "lo",
+          "hi",
+          "n_listings"
+        ],
+        "title": "MarketIndexPoint",
+        "type": "object"
+      },
+      "MarketIndexResponse": {
+        "properties": {
+          "base_week": {
+            "format": "date",
+            "title": "Base Week",
+            "type": "string"
+          },
+          "data_window": {
+            "title": "Data Window",
+            "type": "string"
+          },
+          "limitations": {
+            "default": "Asking prices, not transaction prices. Delisting is a proxy for sale, not proof of one.",
+            "title": "Limitations",
+            "type": "string"
+          },
+          "points": {
+            "items": {
+              "$ref": "#/components/schemas/MarketIndexPoint"
+            },
+            "title": "Points",
+            "type": "array"
+          }
+        },
+        "required": [
+          "base_week",
+          "data_window",
+          "points"
+        ],
+        "title": "MarketIndexResponse",
+        "type": "object"
+      },
+      "PriceEstimateRequest": {
+        "properties": {
+          "description": {
+            "anyOf": [
+              {
+                "maxLength": 5000,
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Description"
+          },
+          "fuel_type": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Fuel Type"
+          },
+          "governorate": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Governorate"
+          },
+          "make": {
+            "title": "Make",
+            "type": "string"
+          },
+          "mileage_km": {
+            "maximum": 2000000.0,
+            "minimum": 0.0,
+            "title": "Mileage Km",
+            "type": "integer"
+          },
+          "model": {
+            "title": "Model",
+            "type": "string"
+          },
+          "photos_base64": {
+            "items": {
+              "type": "string"
+            },
+            "maxItems": 8,
+            "title": "Photos Base64",
+            "type": "array"
+          },
+          "transmission": {
+            "anyOf": [
+              {
+                "enum": [
+                  "manual",
+                  "automatic"
+                ],
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Transmission"
+          },
+          "trim": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Trim"
+          },
+          "year": {
+            "maximum": 2027.0,
+            "minimum": 1980.0,
+            "title": "Year",
+            "type": "integer"
+          }
+        },
+        "required": [
+          "make",
+          "model",
+          "year",
+          "mileage_km"
+        ],
+        "title": "PriceEstimateRequest",
+        "type": "object"
+      },
+      "PriceEstimateResponse": {
+        "properties": {
+          "calibrated_at": {
+            "title": "Calibrated At",
+            "type": "string"
+          },
+          "confidence_level": {
+            "title": "Confidence Level",
+            "type": "number"
+          },
+          "currency": {
+            "const": "EGP",
+            "default": "EGP",
+            "title": "Currency",
+            "type": "string"
+          },
+          "disclaimer": {
+            "default": "Typical asking-price range for comparable cars, not an appraisal or a transaction price.",
+            "title": "Disclaimer",
+            "type": "string"
+          },
+          "hi": {
+            "title": "Hi",
+            "type": "number"
+          },
+          "inputs_used": {
+            "additionalProperties": {
+              "type": "boolean"
+            },
+            "title": "Inputs Used",
+            "type": "object"
+          },
+          "lo": {
+            "title": "Lo",
+            "type": "number"
+          },
+          "median": {
+            "title": "Median",
+            "type": "number"
+          },
+          "model_version": {
+            "title": "Model Version",
+            "type": "string"
+          },
+          "warnings": {
+            "default": [],
+            "items": {
+              "type": "string"
+            },
+            "title": "Warnings",
+            "type": "array"
+          }
+        },
+        "required": [
+          "median",
+          "lo",
+          "hi",
+          "confidence_level",
+          "calibrated_at",
+          "model_version",
+          "inputs_used"
+        ],
+        "title": "PriceEstimateResponse",
+        "type": "object"
+      },
+      "ValidationError": {
+        "properties": {
+          "ctx": {
+            "title": "Context",
+            "type": "object"
+          },
+          "input": {
+            "title": "Input"
+          },
+          "loc": {
+            "items": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "integer"
+                }
+              ]
+            },
+            "title": "Location",
+            "type": "array"
+          },
+          "msg": {
+            "title": "Message",
+            "type": "string"
+          },
+          "type": {
+            "title": "Error Type",
+            "type": "string"
+          }
+        },
+        "required": [
+          "loc",
+          "msg",
+          "type"
+        ],
+        "title": "ValidationError",
+        "type": "object"
+      }
+    }
+  },
+  "info": {
+    "description": "Price ranges, listing checks, duplicates and market index (Egypt).",
+    "title": "AutoLens Egypt API",
+    "version": "1.0"
+  },
+  "openapi": "3.1.0",
+  "paths": {
+    "/health": {
+      "get": {
+        "operationId": "health_health_get",
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "additionalProperties": true,
+                  "title": "Response Health Health Get",
+                  "type": "object"
+                }
+              }
+            },
+            "description": "Successful Response"
+          }
+        },
+        "summary": "Health",
+        "tags": [
+          "ops"
+        ]
+      }
+    },
+    "/listings/check": {
+      "post": {
+        "operationId": "listings_check_listings_check_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ListingCheckRequest"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ListingCheckResponse"
+                }
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Listings Check",
+        "tags": [
+          "listings"
+        ]
+      }
+    },
+    "/listings/{listing_id}/duplicates": {
+      "get": {
+        "operationId": "listing_duplicates_listings__listing_id__duplicates_get",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "listing_id",
+            "required": true,
+            "schema": {
+              "title": "Listing Id",
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/DuplicatesResponse"
+                }
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Listing Duplicates",
+        "tags": [
+          "listings"
+        ]
+      }
+    },
+    "/market/index": {
+      "get": {
+        "operationId": "market_index_market_index_get",
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/MarketIndexResponse"
+                }
+              }
+            },
+            "description": "Successful Response"
+          }
+        },
+        "summary": "Market Index",
+        "tags": [
+          "market"
+        ]
+      }
+    },
+    "/price/estimate": {
+      "post": {
+        "operationId": "price_estimate_price_estimate_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PriceEstimateRequest"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PriceEstimateResponse"
+                }
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Price Estimate",
+        "tags": [
+          "price"
+        ]
+      }
+    }
+  }
+}

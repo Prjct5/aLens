@@ -1,0 +1,167 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "accident": {
+      "default": "unknown",
+      "enum": [
+        "none",
+        "minor",
+        "major",
+        "unknown"
+      ],
+      "title": "Accident",
+      "type": "string"
+    },
+    "accident_conf": {
+      "anyOf": [
+        {
+          "type": "number"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Accident Conf"
+    },
+    "desc_len": {
+      "anyOf": [
+        {
+          "type": "integer"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Desc Len"
+    },
+    "description_hash": {
+      "title": "Description Hash",
+      "type": "string"
+    },
+    "extractor_version": {
+      "title": "Extractor Version",
+      "type": "string"
+    },
+    "factory_condition_claim": {
+      "anyOf": [
+        {
+          "type": "boolean"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Factory Condition Claim"
+    },
+    "installments": {
+      "anyOf": [
+        {
+          "type": "boolean"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Installments"
+    },
+    "language_mix": {
+      "anyOf": [
+        {
+          "additionalProperties": {
+            "type": "number"
+          },
+          "type": "object"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Language Mix"
+    },
+    "license_status": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "License Status"
+    },
+    "listing_key": {
+      "title": "Listing Key",
+      "type": "string"
+    },
+    "n_owners": {
+      "anyOf": [
+        {
+          "type": "integer"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "N Owners"
+    },
+    "n_repainted_parts": {
+      "anyOf": [
+        {
+          "type": "integer"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "N Repainted Parts"
+    },
+    "negotiable": {
+      "anyOf": [
+        {
+          "type": "boolean"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Negotiable"
+    },
+    "repainted_parts": {
+      "anyOf": [
+        {
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Repainted Parts"
+    },
+    "scored_at": {
+      "format": "date-time",
+      "title": "Scored At",
+      "type": "string"
+    }
+  },
+  "required": [
+    "listing_key",
+    "description_hash",
+    "extractor_version",
+    "scored_at"
+  ],
+  "title": "TextAttributes",
+  "type": "object"
+}

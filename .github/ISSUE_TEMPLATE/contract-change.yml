@@ -1,0 +1,22 @@
+name: Contract change
+description: Change to a shared schema, table or model interface
+title: "[contract] "
+labels: [contract-change]
+body:
+  - type: textarea
+    id: change
+    attributes:
+      label: What changes
+    validations:
+      required: true
+  - type: textarea
+    id: consumers
+    attributes:
+      label: Consumers affected (tag them)
+    validations:
+      required: true
+  - type: dropdown
+    id: additive
+    attributes:
+      label: Additive change?
+      options: ["Yes (new nullable column / optional field)", "No (rename or removal, one-week deprecation)"]

@@ -1,0 +1,58 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "cluster_size": {
+      "title": "Cluster Size",
+      "type": "integer"
+    },
+    "link_run_id": {
+      "title": "Link Run Id",
+      "type": "string"
+    },
+    "listing_key": {
+      "title": "Listing Key",
+      "type": "string"
+    },
+    "max_edge_weight": {
+      "anyOf": [
+        {
+          "type": "number"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Max Edge Weight"
+    },
+    "method": {
+      "title": "Method",
+      "type": "string"
+    },
+    "min_edge_weight": {
+      "anyOf": [
+        {
+          "type": "number"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Min Edge Weight"
+    },
+    "vehicle_id": {
+      "title": "Vehicle Id",
+      "type": "integer"
+    }
+  },
+  "required": [
+    "listing_key",
+    "vehicle_id",
+    "link_run_id",
+    "cluster_size",
+    "method"
+  ],
+  "title": "VehicleLink",
+  "type": "object"
+}

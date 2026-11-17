@@ -1,0 +1,260 @@
+{
+  "additionalProperties": false,
+  "description": "staging.parsed_listing. Draft columns: to be frozen at the Contract v1 meeting.",
+  "properties": {
+    "body_type_raw": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Body Type Raw"
+    },
+    "currency_raw": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Currency Raw"
+    },
+    "description": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Description"
+    },
+    "fuel_raw": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Fuel Raw"
+    },
+    "image_urls": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Image Urls",
+      "type": "array"
+    },
+    "location_raw": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Location Raw"
+    },
+    "make_raw": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Make Raw"
+    },
+    "mileage_raw": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Mileage Raw"
+    },
+    "model_raw": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Model Raw"
+    },
+    "parser_version": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Parser Version"
+    },
+    "price_raw": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Price Raw"
+    },
+    "raw_key": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Raw Key"
+    },
+    "run_id": {
+      "title": "Run Id",
+      "type": "string"
+    },
+    "scrape_date": {
+      "format": "date",
+      "title": "Scrape Date",
+      "type": "string"
+    },
+    "scraped_at": {
+      "format": "date-time",
+      "title": "Scraped At",
+      "type": "string"
+    },
+    "seller_type": {
+      "anyOf": [
+        {
+          "enum": [
+            "dealer",
+            "individual"
+          ],
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Seller Type"
+    },
+    "source": {
+      "enum": [
+        "hatla2ee",
+        "contactcars",
+        "dubizzle"
+      ],
+      "title": "Source",
+      "type": "string"
+    },
+    "source_listing_id": {
+      "title": "Source Listing Id",
+      "type": "string"
+    },
+    "status": {
+      "default": "live",
+      "enum": [
+        "live",
+        "gone",
+        "error"
+      ],
+      "title": "Status",
+      "type": "string"
+    },
+    "title": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Title"
+    },
+    "transmission_raw": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Transmission Raw"
+    },
+    "trim_raw": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Trim Raw"
+    },
+    "url": {
+      "title": "Url",
+      "type": "string"
+    },
+    "year_raw": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Year Raw"
+    }
+  },
+  "required": [
+    "source",
+    "source_listing_id",
+    "scrape_date",
+    "scraped_at",
+    "run_id",
+    "url"
+  ],
+  "title": "ParsedListing",
+  "type": "object"
+}

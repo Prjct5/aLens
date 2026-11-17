@@ -1,0 +1,131 @@
+name: autolens
+
+services:
+  postgres:
+    image: postgres:16
+    environment:
+      POSTGRES_USER: autolens
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+      POSTGRES_DB: autolens
+      MLFLOW_DB_PASSWORD: ${MLFLOW_DB_PASSWORD}
+      PIPELINE_PASSWORD: ${PIPELINE_PASSWORD}
+      API_RO_PASSWORD: ${API_RO_PASSWORD}
+      DASHBOARD_RO_PASSWORD: ${DASHBOARD_RO_PASSWORD}
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+      - ./postgres-init:/docker-entrypoint-initdb.d:ro
+    ports: ["5432:5432"]
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U autolens -d autolens"]
+      interval: 5s
+      retries: 20
+
+  minio:
+    image: ${MINIO_IMAGE:-minio/minio:RELEASE.2025-04-22T22-12-26Z}
+    command: server /data --console-address ":9001"
+    environment:
+      MINIO_ROOT_USER: ${S3_ACCESS_KEY}
+      MINIO_ROOT_PASSWORD: ${S3_SECRET_KEY}
+    volumes:
+      - miniodata:/data
+    ports: ["9000:9000", "9001:9001"]
+
+  minio-init:
+    image: ${MC_IMAGE:-minio/mc:RELEASE.2025-04-16T18-13-26Z}
+    depends_on: [minio]
+    restart: "no"
+    environment:
+      S3_ACCESS_KEY: ${S3_ACCESS_KEY}
+      S3_SECRET_KEY: ${S3_SECRET_KEY}
+    entrypoint: >
+      /bin/sh -c "
+      until mc alias set local http://minio:9000 $$S3_ACCESS_KEY $$S3_SECRET_KEY; do sleep 2; done;
+      for b in raw quarantine images mlflow exports; do mc mb -p local/$$b; done;
+      if ! mc ilm rule ls local/quarantine 2>/dev/null | grep -qi expir; then
+        mc ilm rule add --expire-days 21 local/quarantine;
+      fi"
+
+  mlflow:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile.mlflow
+    depends_on:
+      postgres:
+        condition: service_healthy
+      minio-init:
+        condition: service_completed_successfully
+    environment:
+      MLFLOW_S3_ENDPOINT_URL: http://minio:9000
+      AWS_ACCESS_KEY_ID: ${S3_ACCESS_KEY}
+      AWS_SECRET_ACCESS_KEY: ${S3_SECRET_KEY}
+    command: >
+      mlflow server --host 0.0.0.0 --port 5000
+      --backend-store-uri postgresql://mlflow:${MLFLOW_DB_PASSWORD}@postgres:5432/mlflow
+      --artifacts-destination s3://mlflow
+    ports: ["5000:5000"]
+
+  prefect:
+    image: ${PREFECT_IMAGE:-prefecthq/prefect:3.4.0-python3.11}
+    command: prefect server start --host 0.0.0.0
+    environment:
+      PREFECT_API_DATABASE_CONNECTION_URL: postgresql+asyncpg://autolens:${POSTGRES_PASSWORD}@postgres:5432/prefect
+    depends_on:
+      postgres:
+        condition: service_healthy
+    ports: ["4200:4200"]
+
+  pipeline:
+    image: ghcr.io/prjct5/alens/pipeline:${IMAGE_TAG:-local}
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile.pipeline
+    depends_on:
+      postgres:
+        condition: service_healthy
+      minio-init:
+        condition: service_completed_successfully
+      prefect:
+        condition: service_started
+      mlflow:
+        condition: service_started
+    env_file: ../.env
+    environment:
+      DATABASE_URL: postgresql://pipeline:${PIPELINE_PASSWORD}@postgres:5432/autolens
+      S3_ENDPOINT: http://minio:9000
+      MLFLOW_TRACKING_URI: http://mlflow:5000
+      PREFECT_API_URL: http://prefect:4200/api
+    restart: unless-stopped
+
+  api:
+    image: ghcr.io/prjct5/alens/api:${IMAGE_TAG:-local}
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile.api
+    depends_on:
+      postgres:
+        condition: service_healthy
+      mlflow:
+        condition: service_started
+    env_file: ../.env
+    environment:
+      DATABASE_URL: postgresql://api_ro:${API_RO_PASSWORD}@postgres:5432/autolens
+      MLFLOW_TRACKING_URI: http://mlflow:5000
+    ports: ["8000:8000"]
+    restart: unless-stopped
+
+  dashboard:
+    image: ghcr.io/prjct5/alens/dashboard:${IMAGE_TAG:-local}
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile.dashboard
+    depends_on: [api]
+    env_file: ../.env
+    environment:
+      DATABASE_URL: postgresql://dashboard_ro:${DASHBOARD_RO_PASSWORD}@postgres:5432/autolens
+      API_BASE_URL: http://api:8000
+    ports: ["8501:8501"]
+    restart: unless-stopped
+
+volumes:
+  pgdata: {}
+  miniodata: {}

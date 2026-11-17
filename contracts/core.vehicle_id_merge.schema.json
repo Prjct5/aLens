@@ -1,0 +1,25 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "merged_at": {
+      "format": "date-time",
+      "title": "Merged At",
+      "type": "string"
+    },
+    "new_id": {
+      "title": "New Id",
+      "type": "integer"
+    },
+    "old_id": {
+      "title": "Old Id",
+      "type": "integer"
+    }
+  },
+  "required": [
+    "old_id",
+    "new_id",
+    "merged_at"
+  ],
+  "title": "VehicleIdMerge",
+  "type": "object"
+}

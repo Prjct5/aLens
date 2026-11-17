@@ -1,0 +1,32 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "description_hash": {
+      "title": "Description Hash",
+      "type": "string"
+    },
+    "listing_key": {
+      "title": "Listing Key",
+      "type": "string"
+    },
+    "model_name": {
+      "title": "Model Name",
+      "type": "string"
+    },
+    "vector": {
+      "items": {
+        "type": "number"
+      },
+      "title": "Vector",
+      "type": "array"
+    }
+  },
+  "required": [
+    "listing_key",
+    "description_hash",
+    "model_name",
+    "vector"
+  ],
+  "title": "TextEmbedding",
+  "type": "object"
+}

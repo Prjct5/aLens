@@ -1,0 +1,18 @@
+models:
+  price-multimodal: &price
+    pinball_q50: {direction: lower_is_better, max_relative_regression: 0.02}
+    coverage_80: {direction: higher_is_better, floor: 0.75}
+    latency_ms_median: {direction: lower_is_better, max_absolute: 500}
+  price-gbm: *price
+  vision-view:
+    macro_f1: {direction: higher_is_better, max_absolute_regression: 0.01}
+  vision-damage:
+    map50: {direction: higher_is_better, max_absolute_regression: 0.01}
+  vision-verify:
+    macro_f1: {direction: higher_is_better, max_absolute_regression: 0.01}
+  vision-embed:
+    recall_at_10: {direction: higher_is_better, max_absolute_regression: 0.01}
+  nlp-extractor:
+    macro_f1: {direction: higher_is_better, max_absolute_regression: 0.01}
+  fraud-iforest:
+    average_precision: {direction: higher_is_better, max_relative_regression: 0.05}

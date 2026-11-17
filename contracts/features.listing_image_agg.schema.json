@@ -1,0 +1,99 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "damage_score_max": {
+      "anyOf": [
+        {
+          "type": "number"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Damage Score Max"
+    },
+    "listing_key": {
+      "title": "Listing Key",
+      "type": "string"
+    },
+    "n_photos": {
+      "title": "N Photos",
+      "type": "integer"
+    },
+    "photo_reuse_count": {
+      "anyOf": [
+        {
+          "type": "integer"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Photo Reuse Count"
+    },
+    "quality_mean": {
+      "anyOf": [
+        {
+          "type": "number"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Quality Mean"
+    },
+    "run_date": {
+      "format": "date",
+      "title": "Run Date",
+      "type": "string"
+    },
+    "verify_conf": {
+      "anyOf": [
+        {
+          "type": "number"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Verify Conf"
+    },
+    "verify_mismatch": {
+      "anyOf": [
+        {
+          "type": "boolean"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Verify Mismatch"
+    },
+    "view_coverage": {
+      "anyOf": [
+        {
+          "maximum": 1,
+          "minimum": 0,
+          "type": "number"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "View Coverage"
+    }
+  },
+  "required": [
+    "listing_key",
+    "run_date",
+    "n_photos"
+  ],
+  "title": "ListingImageAgg",
+  "type": "object"
+}

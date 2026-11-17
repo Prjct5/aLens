@@ -1,0 +1,21 @@
+/src/autolens/scrapers/ @M1_USERNAME @M2_USERNAME
+/src/autolens/linkage/ @M1_USERNAME @M2_USERNAME
+/src/autolens/warehouse/ @M2_USERNAME @M1_USERNAME
+/src/autolens/features/ @M2_USERNAME @M1_USERNAME
+/src/autolens/analytics/ @M2_USERNAME @M1_USERNAME
+/sql/ @M2_USERNAME @M1_USERNAME
+/src/autolens/vision/ @M3_USERNAME @M4_USERNAME
+/src/autolens/nlp/ @M4_USERNAME @M3_USERNAME
+/src/autolens/pricing/ @M4_USERNAME @M3_USERNAME
+/src/autolens/common/ @M5_USERNAME @M1_USERNAME
+/src/autolens/pipelines/ @M5_USERNAME @M2_USERNAME
+/src/autolens/api/ @M5_USERNAME @M4_USERNAME
+/src/autolens/dashboard/ @M5_USERNAME @M4_USERNAME
+/src/autolens/mlops/ @M5_USERNAME @M4_USERNAME
+/contracts/ @M1_USERNAME @M2_USERNAME @M3_USERNAME @M4_USERNAME @M5_USERNAME
+/.github/ @M5_USERNAME @M2_USERNAME
+/docker/ @M5_USERNAME @M2_USERNAME
+/tests/integration/ @M5_USERNAME @M2_USERNAME
+/tests/contract/ @M5_USERNAME @M1_USERNAME
+/Makefile @M5_USERNAME @M2_USERNAME
+/pyproject.toml @M5_USERNAME @M2_USERNAME

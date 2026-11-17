@@ -1,0 +1,38 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "model_id": {
+      "title": "Model Id",
+      "type": "integer"
+    },
+    "price_egp": {
+      "title": "Price Egp",
+      "type": "number"
+    },
+    "valid_from": {
+      "format": "date",
+      "title": "Valid From",
+      "type": "string"
+    },
+    "valid_to": {
+      "anyOf": [
+        {
+          "format": "date",
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Valid To"
+    }
+  },
+  "required": [
+    "model_id",
+    "valid_from",
+    "price_egp"
+  ],
+  "title": "NewCarPrice",
+  "type": "object"
+}

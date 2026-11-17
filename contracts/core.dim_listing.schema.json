@@ -1,0 +1,53 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "first_seen": {
+      "format": "date",
+      "title": "First Seen",
+      "type": "string"
+    },
+    "last_seen": {
+      "format": "date",
+      "title": "Last Seen",
+      "type": "string"
+    },
+    "listing_key": {
+      "title": "Listing Key",
+      "type": "string"
+    },
+    "seller_type": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Seller Type"
+    },
+    "source": {
+      "enum": [
+        "hatla2ee",
+        "contactcars",
+        "dubizzle"
+      ],
+      "title": "Source",
+      "type": "string"
+    },
+    "url": {
+      "title": "Url",
+      "type": "string"
+    }
+  },
+  "required": [
+    "listing_key",
+    "source",
+    "url",
+    "first_seen",
+    "last_seen"
+  ],
+  "title": "DimListing",
+  "type": "object"
+}

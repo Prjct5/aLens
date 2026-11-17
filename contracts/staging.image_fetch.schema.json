@@ -1,0 +1,96 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "fetched_at": {
+      "format": "date-time",
+      "title": "Fetched At",
+      "type": "string"
+    },
+    "height": {
+      "anyOf": [
+        {
+          "type": "integer"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Height"
+    },
+    "image_id": {
+      "pattern": "^[0-9a-f]{64}$",
+      "title": "Image Id",
+      "type": "string"
+    },
+    "listing_key": {
+      "title": "Listing Key",
+      "type": "string"
+    },
+    "phash": {
+      "anyOf": [
+        {
+          "pattern": "^[0-9a-f]{16}$",
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Phash"
+    },
+    "position": {
+      "minimum": 0,
+      "title": "Position",
+      "type": "integer"
+    },
+    "quarantine_key": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Quarantine Key"
+    },
+    "source_url": {
+      "title": "Source Url",
+      "type": "string"
+    },
+    "status": {
+      "enum": [
+        "fetched",
+        "failed",
+        "promoted"
+      ],
+      "title": "Status",
+      "type": "string"
+    },
+    "width": {
+      "anyOf": [
+        {
+          "type": "integer"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Width"
+    }
+  },
+  "required": [
+    "listing_key",
+    "position",
+    "image_id",
+    "source_url",
+    "fetched_at",
+    "status"
+  ],
+  "title": "ImageFetch",
+  "type": "object"
+}

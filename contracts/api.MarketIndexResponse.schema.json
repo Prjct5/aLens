@@ -1,0 +1,68 @@
+{
+  "$defs": {
+    "MarketIndexPoint": {
+      "properties": {
+        "hi": {
+          "title": "Hi",
+          "type": "number"
+        },
+        "index": {
+          "title": "Index",
+          "type": "number"
+        },
+        "lo": {
+          "title": "Lo",
+          "type": "number"
+        },
+        "n_listings": {
+          "title": "N Listings",
+          "type": "integer"
+        },
+        "week_start": {
+          "format": "date",
+          "title": "Week Start",
+          "type": "string"
+        }
+      },
+      "required": [
+        "week_start",
+        "index",
+        "lo",
+        "hi",
+        "n_listings"
+      ],
+      "title": "MarketIndexPoint",
+      "type": "object"
+    }
+  },
+  "properties": {
+    "base_week": {
+      "format": "date",
+      "title": "Base Week",
+      "type": "string"
+    },
+    "data_window": {
+      "title": "Data Window",
+      "type": "string"
+    },
+    "limitations": {
+      "default": "Asking prices, not transaction prices. Delisting is a proxy for sale, not proof of one.",
+      "title": "Limitations",
+      "type": "string"
+    },
+    "points": {
+      "items": {
+        "$ref": "#/$defs/MarketIndexPoint"
+      },
+      "title": "Points",
+      "type": "array"
+    }
+  },
+  "required": [
+    "base_week",
+    "data_window",
+    "points"
+  ],
+  "title": "MarketIndexResponse",
+  "type": "object"
+}

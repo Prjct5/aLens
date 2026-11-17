@@ -1,0 +1,64 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "blur_model_version": {
+      "title": "Blur Model Version",
+      "type": "string"
+    },
+    "height": {
+      "title": "Height",
+      "type": "integer"
+    },
+    "image_id": {
+      "pattern": "^[0-9a-f]{64}$",
+      "title": "Image Id",
+      "type": "string"
+    },
+    "n_faces_blurred": {
+      "title": "N Faces Blurred",
+      "type": "integer"
+    },
+    "n_plates_blurred": {
+      "title": "N Plates Blurred",
+      "type": "integer"
+    },
+    "object_key": {
+      "title": "Object Key",
+      "type": "string"
+    },
+    "phash": {
+      "anyOf": [
+        {
+          "pattern": "^[0-9a-f]{16}$",
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Phash"
+    },
+    "promoted_at": {
+      "format": "date-time",
+      "title": "Promoted At",
+      "type": "string"
+    },
+    "width": {
+      "title": "Width",
+      "type": "integer"
+    }
+  },
+  "required": [
+    "image_id",
+    "width",
+    "height",
+    "object_key",
+    "n_faces_blurred",
+    "n_plates_blurred",
+    "blur_model_version",
+    "promoted_at"
+  ],
+  "title": "ImageAsset",
+  "type": "object"
+}

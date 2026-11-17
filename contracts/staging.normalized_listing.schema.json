@@ -1,0 +1,194 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "body_type": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Body Type"
+    },
+    "dq_flags": {
+      "additionalProperties": {
+        "type": "boolean"
+      },
+      "title": "Dq Flags",
+      "type": "object"
+    },
+    "fuel_type": {
+      "anyOf": [
+        {
+          "enum": [
+            "petrol",
+            "diesel",
+            "hybrid",
+            "electric",
+            "other"
+          ],
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Fuel Type"
+    },
+    "governorate_code": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Governorate Code"
+    },
+    "make_canon": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Make Canon"
+    },
+    "mapping_confidence": {
+      "anyOf": [
+        {
+          "maximum": 1,
+          "minimum": 0,
+          "type": "number"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Mapping Confidence"
+    },
+    "mileage_km": {
+      "anyOf": [
+        {
+          "type": "integer"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Mileage Km"
+    },
+    "model_canon": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Model Canon"
+    },
+    "model_id": {
+      "anyOf": [
+        {
+          "type": "integer"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Model Id"
+    },
+    "price_egp": {
+      "anyOf": [
+        {
+          "type": "number"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Price Egp"
+    },
+    "scrape_date": {
+      "format": "date",
+      "title": "Scrape Date",
+      "type": "string"
+    },
+    "source": {
+      "enum": [
+        "hatla2ee",
+        "contactcars",
+        "dubizzle"
+      ],
+      "title": "Source",
+      "type": "string"
+    },
+    "source_listing_id": {
+      "title": "Source Listing Id",
+      "type": "string"
+    },
+    "transmission": {
+      "anyOf": [
+        {
+          "enum": [
+            "manual",
+            "automatic"
+          ],
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Transmission"
+    },
+    "trim_canon": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Trim Canon"
+    },
+    "year": {
+      "anyOf": [
+        {
+          "type": "integer"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Year"
+    }
+  },
+  "required": [
+    "source",
+    "source_listing_id",
+    "scrape_date"
+  ],
+  "title": "NormalizedListing",
+  "type": "object"
+}

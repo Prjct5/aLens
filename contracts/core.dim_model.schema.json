@@ -1,0 +1,60 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "body_type": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Body Type"
+    },
+    "make": {
+      "title": "Make",
+      "type": "string"
+    },
+    "model": {
+      "title": "Model",
+      "type": "string"
+    },
+    "model_id": {
+      "title": "Model Id",
+      "type": "integer"
+    },
+    "segment": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Segment"
+    },
+    "trim": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Trim"
+    }
+  },
+  "required": [
+    "model_id",
+    "make",
+    "model"
+  ],
+  "title": "DimModel",
+  "type": "object"
+}

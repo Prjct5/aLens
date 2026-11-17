@@ -1,0 +1,33 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "dim": {
+      "title": "Dim",
+      "type": "integer"
+    },
+    "image_id": {
+      "pattern": "^[0-9a-f]{64}$",
+      "title": "Image Id",
+      "type": "string"
+    },
+    "model_version": {
+      "title": "Model Version",
+      "type": "string"
+    },
+    "vector": {
+      "items": {
+        "type": "number"
+      },
+      "title": "Vector",
+      "type": "array"
+    }
+  },
+  "required": [
+    "image_id",
+    "model_version",
+    "dim",
+    "vector"
+  ],
+  "title": "ImageEmbedding",
+  "type": "object"
+}

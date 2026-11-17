@@ -1,0 +1,38 @@
+{
+  "properties": {
+    "cluster_size": {
+      "default": 1,
+      "title": "Cluster Size",
+      "type": "integer"
+    },
+    "duplicates": {
+      "default": [],
+      "items": {
+        "type": "string"
+      },
+      "title": "Duplicates",
+      "type": "array"
+    },
+    "listing_key": {
+      "title": "Listing Key",
+      "type": "string"
+    },
+    "vehicle_id": {
+      "anyOf": [
+        {
+          "type": "integer"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Vehicle Id"
+    }
+  },
+  "required": [
+    "listing_key"
+  ],
+  "title": "DuplicatesResponse",
+  "type": "object"
+}

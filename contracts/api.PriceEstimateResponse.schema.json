@@ -1,0 +1,65 @@
+{
+  "properties": {
+    "calibrated_at": {
+      "title": "Calibrated At",
+      "type": "string"
+    },
+    "confidence_level": {
+      "title": "Confidence Level",
+      "type": "number"
+    },
+    "currency": {
+      "const": "EGP",
+      "default": "EGP",
+      "title": "Currency",
+      "type": "string"
+    },
+    "disclaimer": {
+      "default": "Typical asking-price range for comparable cars, not an appraisal or a transaction price.",
+      "title": "Disclaimer",
+      "type": "string"
+    },
+    "hi": {
+      "title": "Hi",
+      "type": "number"
+    },
+    "inputs_used": {
+      "additionalProperties": {
+        "type": "boolean"
+      },
+      "title": "Inputs Used",
+      "type": "object"
+    },
+    "lo": {
+      "title": "Lo",
+      "type": "number"
+    },
+    "median": {
+      "title": "Median",
+      "type": "number"
+    },
+    "model_version": {
+      "title": "Model Version",
+      "type": "string"
+    },
+    "warnings": {
+      "default": [],
+      "items": {
+        "type": "string"
+      },
+      "title": "Warnings",
+      "type": "array"
+    }
+  },
+  "required": [
+    "median",
+    "lo",
+    "hi",
+    "confidence_level",
+    "calibrated_at",
+    "model_version",
+    "inputs_used"
+  ],
+  "title": "PriceEstimateResponse",
+  "type": "object"
+}

@@ -1,0 +1,62 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "date_key": {
+      "title": "Date Key",
+      "type": "integer"
+    },
+    "fuel_92": {
+      "anyOf": [
+        {
+          "type": "number"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Fuel 92"
+    },
+    "fuel_95": {
+      "anyOf": [
+        {
+          "type": "number"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Fuel 95"
+    },
+    "fuel_diesel": {
+      "anyOf": [
+        {
+          "type": "number"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Fuel Diesel"
+    },
+    "usd_egp": {
+      "anyOf": [
+        {
+          "type": "number"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Usd Egp"
+    }
+  },
+  "required": [
+    "date_key"
+  ],
+  "title": "FactMacroDaily",
+  "type": "object"
+}

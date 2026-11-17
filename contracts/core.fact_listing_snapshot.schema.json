@@ -1,0 +1,53 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "date_key": {
+      "title": "Date Key",
+      "type": "integer"
+    },
+    "days_since_first_seen": {
+      "title": "Days Since First Seen",
+      "type": "integer"
+    },
+    "is_live": {
+      "title": "Is Live",
+      "type": "boolean"
+    },
+    "listing_key": {
+      "title": "Listing Key",
+      "type": "string"
+    },
+    "price_egp": {
+      "anyOf": [
+        {
+          "type": "number"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Price Egp"
+    },
+    "vehicle_id": {
+      "anyOf": [
+        {
+          "type": "integer"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Vehicle Id"
+    }
+  },
+  "required": [
+    "listing_key",
+    "date_key",
+    "is_live",
+    "days_since_first_seen"
+  ],
+  "title": "FactListingSnapshot",
+  "type": "object"
+}

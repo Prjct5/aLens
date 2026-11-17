@@ -1,0 +1,32 @@
+name: model-gate
+
+on:
+  workflow_dispatch:
+    inputs:
+      model:
+        description: registered model name
+        required: true
+      version:
+        description: candidate version
+        required: true
+
+permissions:
+  contents: read
+
+jobs:
+  gate:
+    runs-on: [self-hosted, staging]
+    steps:
+      - uses: actions/checkout@v4
+      - run: pip install -e ".[dev,mlops,pricing,vision,nlp]"
+      - run: python -m autolens.mlops.gate --model "${{ inputs.model }}" --candidate "${{ inputs.version }}" --out gate.json
+        env:
+          MLFLOW_TRACKING_URI: ${{ vars.MLFLOW_TRACKING_URI }}
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: gate-report
+          path: gate.json
+      - run: python -m autolens.mlops.promote --model "${{ inputs.model }}" --version "${{ inputs.version }}" --report gate.json
+        env:
+          MLFLOW_TRACKING_URI: ${{ vars.MLFLOW_TRACKING_URI }}

@@ -1,0 +1,59 @@
+{
+  "properties": {
+    "asking_price_egp": {
+      "exclusiveMinimum": 0,
+      "title": "Asking Price Egp",
+      "type": "number"
+    },
+    "description": {
+      "anyOf": [
+        {
+          "maxLength": 5000,
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Description"
+    },
+    "make": {
+      "title": "Make",
+      "type": "string"
+    },
+    "mileage_km": {
+      "maximum": 2000000,
+      "minimum": 0,
+      "title": "Mileage Km",
+      "type": "integer"
+    },
+    "model": {
+      "title": "Model",
+      "type": "string"
+    },
+    "photos_base64": {
+      "items": {
+        "type": "string"
+      },
+      "maxItems": 8,
+      "title": "Photos Base64",
+      "type": "array"
+    },
+    "year": {
+      "maximum": 2027,
+      "minimum": 1980,
+      "title": "Year",
+      "type": "integer"
+    }
+  },
+  "required": [
+    "make",
+    "model",
+    "year",
+    "mileage_km",
+    "asking_price_egp"
+  ],
+  "title": "ListingCheckRequest",
+  "type": "object"
+}

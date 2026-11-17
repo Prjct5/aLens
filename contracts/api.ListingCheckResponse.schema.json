@@ -1,0 +1,41 @@
+{
+  "properties": {
+    "disclaimer": {
+      "default": "Automated signal only. A high score is a reason to look closer, not proof.",
+      "title": "Disclaimer",
+      "type": "string"
+    },
+    "model_version": {
+      "title": "Model Version",
+      "type": "string"
+    },
+    "reasons": {
+      "default": [],
+      "items": {
+        "type": "string"
+      },
+      "title": "Reasons",
+      "type": "array"
+    },
+    "suspicion_score": {
+      "maximum": 1,
+      "minimum": 0,
+      "title": "Suspicion Score",
+      "type": "number"
+    },
+    "warnings": {
+      "default": [],
+      "items": {
+        "type": "string"
+      },
+      "title": "Warnings",
+      "type": "array"
+    }
+  },
+  "required": [
+    "suspicion_score",
+    "model_version"
+  ],
+  "title": "ListingCheckResponse",
+  "type": "object"
+}

@@ -1,0 +1,25 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "image_id": {
+      "pattern": "^[0-9a-f]{64}$",
+      "title": "Image Id",
+      "type": "string"
+    },
+    "listing_key": {
+      "title": "Listing Key",
+      "type": "string"
+    },
+    "position": {
+      "title": "Position",
+      "type": "integer"
+    }
+  },
+  "required": [
+    "listing_key",
+    "position",
+    "image_id"
+  ],
+  "title": "ListingImage",
+  "type": "object"
+}

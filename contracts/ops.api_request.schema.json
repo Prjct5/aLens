@@ -1,0 +1,54 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "endpoint": {
+      "title": "Endpoint",
+      "type": "string"
+    },
+    "hour": {
+      "format": "date-time",
+      "title": "Hour",
+      "type": "string"
+    },
+    "n_5xx": {
+      "title": "N 5Xx",
+      "type": "integer"
+    },
+    "n_requests": {
+      "title": "N Requests",
+      "type": "integer"
+    },
+    "p50_ms": {
+      "anyOf": [
+        {
+          "type": "number"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "P50 Ms"
+    },
+    "p95_ms": {
+      "anyOf": [
+        {
+          "type": "number"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "P95 Ms"
+    }
+  },
+  "required": [
+    "hour",
+    "endpoint",
+    "n_requests",
+    "n_5xx"
+  ],
+  "title": "ApiRequestRow",
+  "type": "object"
+}
