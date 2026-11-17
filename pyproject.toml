@@ -21,7 +21,7 @@ dependencies = [
 [project.optional-dependencies]
 scraping = ["beautifulsoup4>=4.12", "lxml>=5", "tenacity>=8.2", "selectolax>=0.3"]
 linkage = ["numpy>=1.26", "pandas>=2.1", "scikit-learn>=1.4", "rapidfuzz>=3.6", "networkx>=3.2"]
-warehouse = ["pandas>=2.1", "sqlalchemy>=2.0,<3"]
+warehouse = ["pandas>=2.1", "sqlalchemy>=2.1.8,<3"]
 analytics = ["pandas>=2.1", "numpy>=1.26", "scipy>=1.11", "statsmodels>=0.14", "lifelines>=0.28"]
 vision = ["torch>=2.2", "torchvision>=0.17", "pillow>=10", "opencv-python-headless>=4.9", "imagehash>=4.3", "numpy>=1.26"]
 nlp = ["pandas>=2.1", "numpy>=1.26", "torch>=2.2", "transformers>=4.40", "sentence-transformers>=2.7"]
