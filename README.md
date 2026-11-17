@@ -1,9 +1,7 @@
 # AutoLens Egypt
 
-Multi-source, multimodal intelligence platform for the Egyptian used-car market.
-Graduation project, Faculty of Computer and Data Science, Alexandria National University.
+![Project Logo](docs/logo.png)
 
-Repository: https://github.com/Prjct5/aLens
 
 ## Quick start (any member, under 15 minutes)
 
