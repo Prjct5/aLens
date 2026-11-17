@@ -22,7 +22,7 @@ jobs:
       - run: python -m autolens.mlops.gate --model "${{ inputs.model }}" --candidate "${{ inputs.version }}" --out gate.json
         env:
           MLFLOW_TRACKING_URI: ${{ vars.MLFLOW_TRACKING_URI }}
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v7
         if: always()
         with:
           name: gate-report
