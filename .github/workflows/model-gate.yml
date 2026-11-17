@@ -17,7 +17,7 @@ jobs:
   gate:
     runs-on: [self-hosted, staging]
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
       - run: pip install -e ".[dev,mlops,pricing,vision,nlp]"
       - run: python -m autolens.mlops.gate --model "${{ inputs.model }}" --candidate "${{ inputs.version }}" --out gate.json
         env:
