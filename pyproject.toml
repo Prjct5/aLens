@@ -32,7 +32,7 @@ pipelines = ["prefect>=3.1,<4", "mlflow-skinny>=2.12"]
 mlops = ["mlflow-skinny>=2.12"]
 dev = [
     "pytest>=8",
-    "pytest-cov>=5",
+    "pytest-cov>=7.1.0",
     "ruff>=0.5",
     "mypy>=1.10",
     "pre-commit>=3.7",
