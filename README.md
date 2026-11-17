@@ -1,6 +1,6 @@
 # AutoLens Egypt
 
-![Project Logo](docs/logo.png)
+![Project Logo](https://github.com/Prjct5/aLens/blob/main/docs/logo.jpg)
 
 
 ## Quick start (any member, under 15 minutes)
