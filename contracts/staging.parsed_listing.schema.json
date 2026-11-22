@@ -1,8 +1,8 @@
 {
   "additionalProperties": false,
-  "description": "staging.parsed_listing. Draft columns: to be frozen at the Contract v1 meeting.",
+  "description": "staging.parsed_listing: the parsed record plus the key of its raw object.",
   "properties": {
-    "body_type_raw": {
+    "body_raw": {
       "anyOf": [
         {
           "type": "string"
@@ -12,9 +12,9 @@
         }
       ],
       "default": null,
-      "title": "Body Type Raw"
+      "title": "Body Raw"
     },
-    "currency_raw": {
+    "city_raw": {
       "anyOf": [
         {
           "type": "string"
@@ -24,9 +24,9 @@
         }
       ],
       "default": null,
-      "title": "Currency Raw"
+      "title": "City Raw"
     },
-    "description": {
+    "color_raw": {
       "anyOf": [
         {
           "type": "string"
@@ -36,7 +36,36 @@
         }
       ],
       "default": null,
-      "title": "Description"
+      "title": "Color Raw"
+    },
+    "condition_raw": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Condition Raw"
+    },
+    "currency": {
+      "default": "EGP",
+      "title": "Currency",
+      "type": "string"
+    },
+    "description_raw": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Description Raw"
     },
     "fuel_raw": {
       "anyOf": [
@@ -50,14 +79,7 @@
       "default": null,
       "title": "Fuel Raw"
     },
-    "image_urls": {
-      "items": {
-        "type": "string"
-      },
-      "title": "Image Urls",
-      "type": "array"
-    },
-    "location_raw": {
+    "km_raw": {
       "anyOf": [
         {
           "type": "string"
@@ -67,7 +89,7 @@
         }
       ],
       "default": null,
-      "title": "Location Raw"
+      "title": "Km Raw"
     },
     "make_raw": {
       "anyOf": [
@@ -81,17 +103,17 @@
       "default": null,
       "title": "Make Raw"
     },
-    "mileage_raw": {
+    "mileage_km": {
       "anyOf": [
         {
-          "type": "string"
+          "type": "number"
         },
         {
           "type": "null"
         }
       ],
       "default": null,
-      "title": "Mileage Raw"
+      "title": "Mileage Km"
     },
     "model_raw": {
       "anyOf": [
@@ -105,7 +127,7 @@
       "default": null,
       "title": "Model Raw"
     },
-    "parser_version": {
+    "payload_key": {
       "anyOf": [
         {
           "type": "string"
@@ -115,7 +137,31 @@
         }
       ],
       "default": null,
-      "title": "Parser Version"
+      "title": "Payload Key"
+    },
+    "payment_raw": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Payment Raw"
+    },
+    "price_egp": {
+      "anyOf": [
+        {
+          "type": "number"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Price Egp"
     },
     "price_raw": {
       "anyOf": [
@@ -128,18 +174,6 @@
       ],
       "default": null,
       "title": "Price Raw"
-    },
-    "raw_key": {
-      "anyOf": [
-        {
-          "type": "string"
-        },
-        {
-          "type": "null"
-        }
-      ],
-      "default": null,
-      "title": "Raw Key"
     },
     "run_id": {
       "title": "Run Id",
@@ -155,22 +189,6 @@
       "title": "Scraped At",
       "type": "string"
     },
-    "seller_type": {
-      "anyOf": [
-        {
-          "enum": [
-            "dealer",
-            "individual"
-          ],
-          "type": "string"
-        },
-        {
-          "type": "null"
-        }
-      ],
-      "default": null,
-      "title": "Seller Type"
-    },
     "source": {
       "enum": [
         "hatla2ee",
@@ -184,28 +202,6 @@
       "title": "Source Listing Id",
       "type": "string"
     },
-    "status": {
-      "default": "live",
-      "enum": [
-        "live",
-        "gone",
-        "error"
-      ],
-      "title": "Status",
-      "type": "string"
-    },
-    "title": {
-      "anyOf": [
-        {
-          "type": "string"
-        },
-        {
-          "type": "null"
-        }
-      ],
-      "default": null,
-      "title": "Title"
-    },
     "transmission_raw": {
       "anyOf": [
         {
@@ -218,21 +214,21 @@
       "default": null,
       "title": "Transmission Raw"
     },
-    "trim_raw": {
+    "url": {
+      "title": "Url",
+      "type": "string"
+    },
+    "year": {
       "anyOf": [
         {
-          "type": "string"
+          "type": "integer"
         },
         {
           "type": "null"
         }
       ],
       "default": null,
-      "title": "Trim Raw"
-    },
-    "url": {
-      "title": "Url",
-      "type": "string"
+      "title": "Year"
     },
     "year_raw": {
       "anyOf": [
@@ -250,11 +246,11 @@
   "required": [
     "source",
     "source_listing_id",
+    "url",
     "scrape_date",
     "scraped_at",
-    "run_id",
-    "url"
+    "run_id"
   ],
-  "title": "ParsedListing",
+  "title": "ParsedListingRow",
   "type": "object"
 }

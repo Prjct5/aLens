@@ -16,6 +16,7 @@ class StageResult:
     rows_in: int
     rows_out: int
     warnings: list[str] = field(default_factory=list)
+    metrics: dict[str, Any] = field(default_factory=dict)
 
 
 @dataclass

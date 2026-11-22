@@ -6,6 +6,19 @@
       "title": "First Seen",
       "type": "string"
     },
+    "last_live_date": {
+      "anyOf": [
+        {
+          "format": "date",
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Last Live Date"
+    },
     "last_seen": {
       "format": "date",
       "title": "Last Seen",
@@ -14,6 +27,19 @@
     "listing_key": {
       "title": "Listing Key",
       "type": "string"
+    },
+    "posted_at": {
+      "anyOf": [
+        {
+          "format": "date-time",
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Posted At"
     },
     "seller_type": {
       "anyOf": [
@@ -36,6 +62,10 @@
       "title": "Source",
       "type": "string"
     },
+    "source_listing_id": {
+      "title": "Source Listing Id",
+      "type": "string"
+    },
     "url": {
       "title": "Url",
       "type": "string"
@@ -44,6 +74,7 @@
   "required": [
     "listing_key",
     "source",
+    "source_listing_id",
     "url",
     "first_seen",
     "last_seen"

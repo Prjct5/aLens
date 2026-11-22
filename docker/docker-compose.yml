@@ -94,6 +94,13 @@ services:
       S3_ENDPOINT: http://minio:9000
       MLFLOW_TRACKING_URI: http://mlflow:5000
       PREFECT_API_URL: http://prefect:4200/api
+      PROJECT_ROOT: /app
+      DATA_DIR: /app/data
+    volumes:
+      - ../data:/app/data:ro
+      - ../data_reference:/app/data_reference
+      - m1outputs:/app/outputs
+      - m1labels:/app/data_labels
     restart: unless-stopped
 
   api:
@@ -129,3 +136,5 @@ services:
 volumes:
   pgdata: {}
   miniodata: {}
+  m1outputs: {}
+  m1labels: {}

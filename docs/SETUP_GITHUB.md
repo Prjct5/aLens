@@ -67,3 +67,18 @@ Repeat weekly.
 Verify in the GitHub UI: Settings > Branches (rule on `main`), Settings > Code security
 (secret scanning, push protection), Settings > Actions > General (approval for all outside
 collaborators).
+
+## Adding the M1 integration to an existing repository
+
+```bash
+cd aLens                                  # your clone
+git checkout -b feat/m5-m1-integration
+# copy the contents of aLens-m1-integration.zip over the clone, then restore the files you edited by hand:
+git checkout -- .github/CODEOWNERS docs/TEAM.md
+git add -A && git commit -m "feat: integrate M1 scrapers, linkage and typed staging tables"
+git push -u origin feat/m5-m1-integration
+```
+
+Open a pull request. With protection enabled it needs green CI and one code-owner approval
+from a teammate (M1 or M2 can approve). Check `git status` shows no `data`, `raw`, `outputs`
+or `.env` before committing.

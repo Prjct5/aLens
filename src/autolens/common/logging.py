@@ -32,23 +32,36 @@ class StructuredLogger:
     def bind(self, **more: Any) -> StructuredLogger:
         return StructuredLogger(self._logger, **{**self._bound, **more})
 
-    def _log(self, level: int, msg: str, fields: dict[str, Any], exc_info: bool = False) -> None:
-        self._logger.log(level, msg, extra={"fields": {**self._bound, **fields}}, exc_info=exc_info)
+    def _log(
+        self,
+        level: int,
+        msg: str,
+        args: tuple[Any, ...],
+        fields: dict[str, Any],
+        exc_info: bool = False,
+    ) -> None:
+        self._logger.log(
+            level,
+            msg,
+            *args,
+            extra={"fields": {**self._bound, **fields}},
+            exc_info=exc_info,
+        )
 
-    def debug(self, msg: str, **fields: Any) -> None:
-        self._log(logging.DEBUG, msg, fields)
+    def debug(self, msg: str, *args: Any, **fields: Any) -> None:
+        self._log(logging.DEBUG, msg, args, fields)
 
-    def info(self, msg: str, **fields: Any) -> None:
-        self._log(logging.INFO, msg, fields)
+    def info(self, msg: str, *args: Any, **fields: Any) -> None:
+        self._log(logging.INFO, msg, args, fields)
 
-    def warning(self, msg: str, **fields: Any) -> None:
-        self._log(logging.WARNING, msg, fields)
+    def warning(self, msg: str, *args: Any, **fields: Any) -> None:
+        self._log(logging.WARNING, msg, args, fields)
 
-    def error(self, msg: str, **fields: Any) -> None:
-        self._log(logging.ERROR, msg, fields)
+    def error(self, msg: str, *args: Any, **fields: Any) -> None:
+        self._log(logging.ERROR, msg, args, fields)
 
-    def exception(self, msg: str, **fields: Any) -> None:
-        self._log(logging.ERROR, msg, fields, exc_info=True)
+    def exception(self, msg: str, *args: Any, **fields: Any) -> None:
+        self._log(logging.ERROR, msg, args, fields, exc_info=True)
 
 
 def configure_logging(level: str = "INFO") -> None:
@@ -66,6 +79,7 @@ def configure_logging(level: str = "INFO") -> None:
 
 def get_logger(
     name: str = "autolens",
+    level: str | None = None,
     *,
     run_id: str | None = None,
     stage: str | None = None,
@@ -79,4 +93,7 @@ def get_logger(
     if run_date is not None:
         bound["run_date"] = str(run_date)
     base = name if name.startswith("autolens") else f"autolens.{name}"
-    return StructuredLogger(logging.getLogger(base), **bound)
+    logger = logging.getLogger(base)
+    if level:
+        logger.setLevel(level.upper())
+    return StructuredLogger(logger, **bound)

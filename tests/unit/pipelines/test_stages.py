@@ -15,26 +15,37 @@ def test_stage_registry_is_complete_and_ordered() -> None:
 
 
 def test_stub_stages_run_without_services() -> None:
+    from autolens.pipelines.stages import _stub
+
     ctx = make_context(Settings(_env_file=None), models="stub", connect=False)
-    for name, fn in STAGES:
-        res = fn(date(2026, 1, 15), ctx)
+    for name in STAGE_NAMES:
+        res = _stub(name)(date(2026, 1, 15), ctx)
         assert res.stage == name and res.rows_out >= 0
 
 
+def test_m1_stages_are_registered() -> None:
+    from autolens.pipelines.m1_stages import M1_STAGES
+
+    registered = dict(STAGES)
+    for name, fn in M1_STAGES.items():
+        assert registered[name] is fn
+    assert set(M1_STAGES) == {"scrape", "normalize", "fetch_images", "linkage"}
+
+
 def test_implementations_override_stub() -> None:
+    import importlib
+
+    import autolens.pipelines.stages as stages
     from autolens.common.stage import StageResult
 
     def real(run_date: date, ctx: object) -> StageResult:
         return StageResult("scrape", run_date, 1, 1)
 
+    original = IMPLEMENTATIONS["scrape"]
     IMPLEMENTATIONS["scrape"] = real  # type: ignore[assignment]
     try:
-        import importlib
-
-        import autolens.pipelines.stages as stages
-
         importlib.reload(stages)
         assert dict(stages.STAGES)["scrape"] is real
     finally:
-        IMPLEMENTATIONS.pop("scrape")
+        IMPLEMENTATIONS["scrape"] = original
         importlib.reload(stages)
