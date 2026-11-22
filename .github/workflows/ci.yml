@@ -37,7 +37,7 @@ jobs:
           python-version: "3.11"
           cache: pip
           cache-dependency-path: pyproject.toml
-      - run: pip install -e ".[dev,api,pipelines]"
+      - run: pip install -e ".[dev,api,pipelines,scraping,linkage,warehouse]"
       - run: pytest tests/unit -q --cov=src/autolens --cov-report=term
 
   contracts:
@@ -90,7 +90,7 @@ jobs:
           python-version: "3.11"
           cache: pip
           cache-dependency-path: pyproject.toml
-      - run: pip install -e ".[dev,api,pipelines]"
+      - run: pip install -e ".[dev,api,pipelines,scraping,linkage,warehouse]"
       - run: python -m autolens.warehouse.migrate
       - run: pytest tests/integration -q
 

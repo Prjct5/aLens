@@ -1,0 +1,2712 @@
+normalized_alias,model_id,confidence
+001,500,0.950
+007,828,0.950
+007 reev,781,0.950
+008,1324,0.950
+009,1377,0.950
+01,181,0.950
+06,830,0.950
+07,503,0.950
+08,544,0.950
+1,1060,0.950
+1 series,1087,0.950
+104,1229,0.950
+106,874,0.950
+11,864,0.950
+1100,667,0.950
+116,493,0.950
+116i,633,0.950
+118,348,0.950
+118i,831,0.950
+12,241,0.950
+120,1089,0.950
+1200,771,0.950
+121,877,0.950
+124,728,0.950
+125,547,0.950
+126,919,0.950
+127,106,0.950
+128,18,0.950
+128 nova,151,0.950
+130,1274,0.950
+1300,725,0.950
+131,99,0.950
+132,134,0.950
+133,872,0.950
+14,819,0.950
+146,1017,0.950
+147,829,0.950
+1500,703,0.950
+156,744,0.950
+18,767,0.950
+180,280,0.950
+19,386,0.950
+190,554,0.950
+2,535,0.950
+200,156,0.950
+2008,80,0.950
+2017,772,0.950
+205,625,0.950
+206,221,0.950
+207,452,0.950
+207 sw,1412,0.950
+208,499,0.950
+21,1127,0.950
+2103,1232,0.950
+2104,1235,0.950
+2105,203,0.950
+2106,1236,0.950
+2107,65,0.950
+2110,377,0.950
+2111,1413,0.950
+218,720,0.950
+218 i,260,0.950
+218i,506,0.950
+220,1114,0.950
+225,1267,0.950
+230,292,0.950
+240,737,0.950
+25,1128,0.950
+250,676,0.950
+250 se,1107,0.950
+280,935,0.950
+3,120,0.950
+3 model,868,0.950
+3 series,723,0.950
+300,736,0.950
+3008,29,0.950
+300c,966,0.950
+300d,1414,0.950
+301,64,0.950
+305,429,0.950
+307,143,0.950
+307 sw,281,0.950
+308,313,0.950
+308 sw,405,0.950
+309,1008,0.950
+316,87,0.950
+316i,223,0.950
+318,61,0.950
+318i,179,0.950
+320,113,0.950
+320i,26,0.950
+323,235,0.950
+325,912,0.950
+325i,956,0.950
+328,660,0.950
+328i,1158,0.950
+330i,321,0.950
+335,796,0.950
+335i,1161,0.950
+340,463,0.950
+340i,953,0.950
+350,1113,0.950
+350 s,1190,0.950
+350 z,1210,0.950
+360,1121,0.950
+404,1213,0.950
+405,53,0.950
+406,178,0.950
+407,498,0.950
+408,160,0.950
+418,613,0.950
+418i,1160,0.950
+420,288,0.950
+420i convertible,833,0.950
+420i gran coupe,834,0.950
+430,719,0.950
+430i gran coupe,1154,0.950
+440i,797,0.950
+460,871,0.950
+5,47,0.950
+500,421,0.950
+500 x,545,0.950
+5008,89,0.950
+500c,546,0.950
+500x,195,0.950
+504,130,0.950
+504 sw,472,0.950
+505,273,0.950
+508,45,0.950
+508 gt max,1212,0.950
+518,1234,0.950
+520,50,0.950
+520i,199,0.950
+523,296,0.950
+523i,504,0.950
+525,278,0.950
+525i,505,0.950
+528,417,0.950
+528i,1157,0.950
+530,331,0.950
+530i,632,0.950
+535,896,0.950
+535i,1162,0.950
+540,1299,0.950
+6,140,0.950
+605,818,0.950
+607,1381,0.950
+620,1402,0.950
+626,873,0.950
+630,1086,0.950
+633,1370,0.950
+640,911,0.950
+640i,1159,0.950
+695,1335,0.950
+7,529,0.950
+718,1360,0.950
+718 boxster,994,0.950
+730,718,0.950
+730li,1156,0.950
+740,261,0.950
+740i,955,0.950
+740li,747,0.950
+750,522,0.950
+750li,1152,0.950
+760,1083,0.950
+760i,1084,0.950
+7x,488,0.950
+80,1247,0.950
+840i,1088,0.950
+850,722,0.950
+86,1345,0.950
+9,626,0.950
+9 0,1141,0.950
+900,263,0.950
+911,521,0.950
+929,605,0.950
+940,870,0.950
+9x,789,0.950
+a 150,807,0.950
+a 180,551,0.950
+a 200,385,0.950
+a 35 amg,679,0.950
+a 5,1219,0.950
+a1,565,0.950
+a10,1269,0.950
+a11,213,0.950
+a113,70,0.950
+a13,1021,0.950
+a15,466,0.950
+a150,1028,0.950
+a180,382,0.950
+a200,180,0.950
+a213,329,0.950
+a25,849,0.950
+a250e,808,0.950
+a3,154,0.950
+a35,1064,0.950
+a4,207,0.950
+a5,240,0.950
+a516,76,0.950
+a6,276,0.950
+a620,302,0.950
+a7,1073,0.950
+a8,1275,0.950
+abarth 695,1335,1.000
+accent,12,0.950
+accent hci,323,0.950
+accent rb,74,0.950
+accord,347,0.950
+actyon,1284,0.950
+adam,817,0.950
+adamas,416,0.950
+aerostar,1263,0.950
+aion i60,576,0.950
+aion lx,1055,0.950
+aito m9,1233,1.000
+aleko,1396,0.950
+alfa romeo,1150,0.950
+alfa romeo 146,1017,1.000
+alfa romeo 147,829,1.000
+alfa romeo 156,744,1.000
+alfa romeo alfa romeo,1150,1.000
+alfa romeo giulia,532,1.000
+alfa romeo giulietta,559,1.000
+alfa romeo giulietta veloce,951,1.000
+alfa romeo mito,687,1.000
+alfa romeo stelvio,501,1.000
+alfa romeo tonale,433,1.000
+alpha s5,1322,0.950
+alpha t5,1058,0.950
+alsvin,598,0.950
+altea,997,0.950
+altima,1211,0.950
+alto,102,0.950
+amarok,1139,0.950
+amg gt,932,0.950
+apollo,1237,0.950
+apv,1132,0.950
+arcfox alpha s5,1322,1.000
+arcfox alpha t5,1058,1.000
+arcfox t1,1046,1.000
+argenta,1081,0.950
+armada,941,0.950
+arona,253,0.950
+arrizo 5,31,0.950
+arrizo 5 pro,1040,0.950
+arrizo 6,381,0.950
+arrizo 8,1300,0.950
+ascona,1410,0.950
+aston martin dbs,1390,1.000
+aston martin dbx,1364,1.000
+aston martin other,1365,1.000
+aston martin rapide s,1398,1.000
+aston martin vantage,1366,1.000
+astra,7,0.950
+ateca,258,0.950
+atos,153,0.950
+atrage,517,0.950
+atto 3,1093,0.950
+atto 8 dm i,1342,0.950
+attrage,272,0.950
+audi 80,1247,1.000
+audi a1,745,1.000
+audi a3,154,1.000
+audi a4,207,1.000
+audi a5,240,1.000
+audi a6,276,1.000
+audi a7,1073,1.000
+audi a8,1275,1.000
+audi q2,502,1.000
+audi q3,152,1.000
+audi q4 e tron,631,1.000
+audi q5,688,1.000
+audi q5 e tron,1330,1.000
+audi q7,167,1.000
+audi q8,245,1.000
+audi rs q8,952,1.000
+audi rs5,905,1.000
+audi s 5,1151,1.000
+audi tt,746,1.000
+auris,595,0.950
+austral,363,0.950
+avante,107,0.950
+avanza,628,0.950
+avatr 06,830,1.000
+avatr 07,503,1.000
+avatr 11,899,1.000
+avatr 12,241,1.000
+avensis,776,0.950
+aveo,13,0.950
+ax,516,0.950
+azera,1325,0.950
+b 150,673,0.950
+b 160,806,0.950
+b 180,368,0.950
+b 200,312,0.950
+b15,1257,0.950
+b150,642,0.950
+b160,863,0.950
+b180,247,0.950
+b200,458,0.950
+baic a1,1261,1.000
+baic bj30,611,1.000
+baic u5 plus,303,1.000
+baic x3,1276,1.000
+baic x35,1285,1.000
+baic x55,710,1.000
+baic x7,891,1.000
+baleno,298,0.950
+bayon,445,0.950
+beetle,157,0.950
+beetles,646,0.950
+belta,408,0.950
+benni,479,0.950
+benni mini,299,0.950
+bentayga,791,0.950
+bentiaga,958,0.950
+bentley bentayga,791,1.000
+bentley bentiaga,958,1.000
+bentley continental gt,907,1.000
+bentley flying spur,1077,1.000
+berlingo,689,0.950
+bestune t33,1164,1.000
+bestune t55,959,1.000
+bestune t77,960,1.000
+besturn,1383,0.950
+bj30,611,0.950
+blazer,1264,0.950
+bluebird,814,0.950
+bmw 1 series,1087,1.000
+bmw 116,493,1.000
+bmw 116i,633,1.000
+bmw 118,348,1.000
+bmw 118i,831,1.000
+bmw 120,1089,1.000
+bmw 130,1274,1.000
+bmw 218,720,1.000
+bmw 218 i,260,1.000
+bmw 218i,506,1.000
+bmw 225,1267,1.000
+bmw 3 series,723,1.000
+bmw 316,87,1.000
+bmw 316i,223,1.000
+bmw 318,61,1.000
+bmw 318i,179,1.000
+bmw 320,113,1.000
+bmw 320i,26,1.000
+bmw 323,1082,1.000
+bmw 325,912,1.000
+bmw 325i,956,1.000
+bmw 328,660,1.000
+bmw 328i,1158,1.000
+bmw 330i,321,1.000
+bmw 335,796,1.000
+bmw 335i,1161,1.000
+bmw 340,463,1.000
+bmw 340i,953,1.000
+bmw 418,613,1.000
+bmw 418i,1160,1.000
+bmw 420,288,1.000
+bmw 420i convertible,833,1.000
+bmw 420i gran coupe,834,1.000
+bmw 430,719,1.000
+bmw 430i gran coupe,1154,1.000
+bmw 440i,797,1.000
+bmw 518,1234,1.000
+bmw 520,50,1.000
+bmw 520i,199,1.000
+bmw 523,296,1.000
+bmw 523i,504,1.000
+bmw 525,278,1.000
+bmw 525i,505,1.000
+bmw 528,417,1.000
+bmw 528i,1157,1.000
+bmw 530,331,1.000
+bmw 530i,632,1.000
+bmw 535,896,1.000
+bmw 535i,1162,1.000
+bmw 540,1299,1.000
+bmw 630,1086,1.000
+bmw 633,1370,1.000
+bmw 640,911,1.000
+bmw 640i,1159,1.000
+bmw 730,718,1.000
+bmw 730li,1156,1.000
+bmw 740,261,1.000
+bmw 740i,955,1.000
+bmw 740li,747,1.000
+bmw 750,522,1.000
+bmw 750li,1152,1.000
+bmw 760,1083,1.000
+bmw 760i,1084,1.000
+bmw 840i,1088,1.000
+bmw 850,722,1.000
+bmw gran coupe,1090,1.000
+bmw i3,366,1.000
+bmw i3 sedan,1153,1.000
+bmw i4,580,1.000
+bmw i5,443,1.000
+bmw i7,330,1.000
+bmw i8,1351,1.000
+bmw ix,478,1.000
+bmw ix1,661,1.000
+bmw ix2,1337,1.000
+bmw ix3,400,1.000
+bmw ix40,1316,1.000
+bmw ix50,910,1.000
+bmw m140i,1389,1.000
+bmw m235i,1085,1.000
+bmw m240i,1388,1.000
+bmw m3,401,1.000
+bmw m4,383,1.000
+bmw m5,832,1.000
+bmw m8,1155,1.000
+bmw m850,721,1.000
+bmw m850i,954,1.000
+bmw other,795,1.000
+bmw x1,52,1.000
+bmw x2,190,1.000
+bmw x3,41,1.000
+bmw x3 m,491,1.000
+bmw x4,201,1.000
+bmw x4m,492,1.000
+bmw x5,73,1.000
+bmw x5 m,361,1.000
+bmw x6,98,1.000
+bmw x6 m,237,1.000
+bmw x7,444,1.000
+bmw x7 m60i,581,1.000
+bmw xm,794,1.000
+bmw z4,442,1.000
+bolt,1372,0.950
+bora,294,0.950
+box,843,0.950
+boxster,520,0.950
+brava,586,0.950
+bravo,585,0.950
+brilliance cross,1255,1.000
+brilliance frv,242,1.000
+brilliance frv cross,453,1.000
+brilliance fsv,268,1.000
+brilliance galena,224,1.000
+brilliance h 530,1165,1.000
+brilliance splendor,560,1.000
+brilliance v3,836,1.000
+brilliance v5,533,1.000
+brilliance v6,597,1.000
+bronco raptor,1173,0.950
+buick apollo,1237,1.000
+buick park avenue,1034,1.000
+buick skylark,1406,1.000
+byd atto 3,1093,1.000
+byd atto 8 dm i,1342,1.000
+byd destroyer 05,518,1.000
+byd dolphin,724,1.000
+byd dolphin surf,1289,1.000
+byd f0,465,1.000
+byd f3,37,1.000
+byd f3r,1091,1.000
+byd flyer,418,1.000
+byd han,798,1.000
+byd l3,218,1.000
+byd leopard 5,662,1.000
+byd leopard 7,715,1.000
+byd leopard 8,1163,1.000
+byd leopard5,835,1.000
+byd m9,903,1.000
+byd other,1068,1.000
+byd qin,957,1.000
+byd s5,663,1.000
+byd seagull,464,1.000
+byd seal,780,1.000
+byd sealion 5,713,1.000
+byd sealion 6,326,1.000
+byd shark 6,716,1.000
+byd song l,289,1.000
+byd song plus,494,1.000
+byd tang,913,1.000
+byd tang l,787,1.000
+byd ti7,462,1.000
+byd yuan,1384,1.000
+byd yuan plus,1092,1.000
+bz3,1296,0.950
+bz3x,1311,0.950
+bz4x,1327,0.950
+c 180,27,0.950
+c 180 station,694,0.950
+c 200,103,0.950
+c 200 amg,447,0.950
+c 230,1103,0.950
+c 250,325,0.950
+c 280,526,0.950
+c 300,550,0.950
+c 350,938,0.950
+c amg,1117,0.950
+c class,930,0.950
+c coupe,861,0.950
+c elysee,188,0.950
+c elysée,1271,0.950
+c hr,430,0.950
+c max,1373,0.950
+c1,1374,0.950
+c180,3,0.950
+c2,1298,0.950
+c200,23,0.950
+c230,862,0.950
+c240,993,0.950
+c250,415,0.950
+c260l,674,0.950
+c280,649,0.950
+c3,193,0.950
+c3 aircross,250,0.950
+c3 picasso,1169,0.950
+c30,1251,0.950
+c300,364,0.950
+c350,1393,0.950
+c4,163,0.950
+c4 grand picasso,342,0.950
+c4 picasso,839,0.950
+c4 x,754,0.950
+c43,1102,0.950
+c43 amg,778,0.950
+c4x,574,0.950
+c5,192,0.950
+c5 aircross,189,0.950
+cabrio,886,0.950
+caddy,827,0.950
+caddy life,1003,0.950
+cadenza,731,0.950
+cadillac escalade,229,1.000
+cadillac lyriq,664,1.000
+cadillac vistiq,1355,1.000
+camaro,467,0.950
+camry,556,0.950
+caprice,615,0.950
+caprice classic,1167,0.950
+captiva,126,0.950
+captiva ev,1166,0.950
+captur,216,0.950
+caravan,1380,0.950
+carens,77,0.950
+carnival,142,0.950
+carnival mpv,1024,0.950
+carrera,793,0.950
+carry,821,0.950
+cascada,592,0.950
+cayenne,124,0.950
+cayenne coupe,643,0.950
+cayenne new,1215,0.950
+cayenne s,608,0.950
+cayman,717,0.950
+cc,476,0.950
+ceed,297,0.950
+celerio,406,0.950
+celica,1135,0.950
+celio,1170,0.950
+centennial,923,0.950
+cerato,17,0.950
+cerato coupe,486,0.950
+cerato koup,423,0.950
+challenger,790,0.950
+chana benni,479,1.000
+chana other,1020,1.000
+changan alsvin,598,1.000
+changan benni,572,1.000
+changan benni mini,299,1.000
+changan cs15,507,1.000
+changan cs35,750,1.000
+changan cs35 plus,961,1.000
+changan cs55,304,1.000
+changan cs55 plus,837,1.000
+changan cs75,1308,1.000
+changan eado,374,1.000
+changan eado plus,561,1.000
+changan nevo q05,779,1.000
+changan uni t,410,1.000
+changan uni v,749,1.000
+changan v7,748,1.000
+changan x5 plus,893,1.000
+changhe ideal,568,1.000
+changhe m50s,751,1.000
+changhe super panda,774,1.000
+charade,269,0.950
+charger,757,0.950
+chenko,972,0.950
+cherokee,105,0.950
+chery a11,213,1.000
+chery a15,466,1.000
+chery a3,915,1.000
+chery a5,583,1.000
+chery arrizo 5,31,1.000
+chery arrizo 5 pro,1040,1.000
+chery arrizo 6,381,1.000
+chery arrizo 8,1300,1.000
+chery e5,962,1.000
+chery envy,149,1.000
+chery eq7,890,1.000
+chery icar 03,1061,1.000
+chery other,582,1.000
+chery qq,341,1.000
+chery tiggo,117,1.000
+chery tiggo 2 pro max,1094,1.000
+chery tiggo 3,49,1.000
+chery tiggo 4,914,1.000
+chery tiggo 4 pro,182,1.000
+chery tiggo 5,1022,1.000
+chery tiggo 7,55,1.000
+chery tiggo 7 pro,225,1.000
+chery tiggo 7 pro max,332,1.000
+chery tiggo 8,133,1.000
+chery tiggo 8 pro,322,1.000
+chery tiggo 8 pro max,279,1.000
+chery tiggo 9,1079,1.000
+chevrolet aveo,13,1.000
+chevrolet blazer,1264,1.000
+chevrolet bolt,1372,1.000
+chevrolet camaro,467,1.000
+chevrolet caprice,615,1.000
+chevrolet caprice classic,1167,1.000
+chevrolet captiva,126,1.000
+chevrolet captiva ev,1166,1.000
+chevrolet chevrolet trax,965,1.000
+chevrolet corvette,838,1.000
+chevrolet cruze,35,1.000
+chevrolet equinox,495,1.000
+chevrolet frontera,917,1.000
+chevrolet groove,1095,1.000
+chevrolet lanos,8,1.000
+chevrolet malibu,333,1.000
+chevrolet n200,402,1.000
+chevrolet n300,191,1.000
+chevrolet nkr,963,1.000
+chevrolet optra,6,1.000
+chevrolet other,419,1.000
+chevrolet pickup,362,1.000
+chevrolet pickup dababa,169,1.000
+chevrolet silverado,752,1.000
+chevrolet sonic,584,1.000
+chevrolet spark,114,1.000
+chevrolet spark ev,1290,1.000
+chevrolet ssr,1371,1.000
+chevrolet suburban,1356,1.000
+chevrolet t series,665,1.000
+chevrolet tahoe,1069,1.000
+chevrolet tfr,508,1.000
+chevrolet trailblazer,964,1.000
+chevrolet trax,614,1.000
+chevrolet trial blazer,916,1.000
+chrysler 300,1288,1.000
+chrysler 300c,966,1.000
+chrysler c300,1392,1.000
+chrysler m300,775,1.000
+chrysler neon,1243,1.000
+chrysler pacifica,1067,1.000
+chrysler pt cruiser,1254,1.000
+chrysler town and country,599,1.000
+chrysler town country,967,1.000
+chrysler voyager,753,1.000
+ciaz,211,0.950
+cielo,666,0.950
+cinquecento,800,0.950
+citroen ax,516,1.000
+citroen berlingo,689,1.000
+citroen c elysee,188,1.000
+citroen c elysée,1271,1.000
+citroen c1,1374,1.000
+citroen c3,193,1.000
+citroen c3 aircross,250,1.000
+citroen c3 picasso,1169,1.000
+citroen c4,163,1.000
+citroen c4 grand picasso,342,1.000
+citroen c4 picasso,839,1.000
+citroen c4 x,754,1.000
+citroen c4x,574,1.000
+citroen c5,192,1.000
+citroen c5 aircross,189,1.000
+citroen ds3,840,1.000
+citroen ds4,1168,1.000
+citroen ds5,968,1.000
+citroen ds7,755,1.000
+citroen jumpy,1378,1.000
+citroen picasso,969,1.000
+citroen xsara,343,1.000
+citroen xsara picasso,1080,1.000
+citroen zx,690,1.000
+city,246,0.950
+city ray,892,0.950
+civic,92,0.950
+ck,569,0.950
+ck 2,977,0.950
+ck2,1014,0.950
+cla 180,148,0.950
+cla 200,78,0.950
+cla 250,1344,0.950
+cla 300l,902,0.950
+cla 45 s,1353,0.950
+cla class,708,0.950
+clarus,1272,0.950
+cle 200,335,0.950
+cle 300,740,0.950
+cle 53,906,0.950
+clio,56,0.950
+clk,1287,0.950
+cls,711,0.950
+cls 550,1202,0.950
+cls class,1104,0.950
+clubman,1312,0.950
+colt,528,0.950
+commander,854,0.950
+continental gt,907,0.950
+coolbear,1259,0.950
+coolray,344,0.950
+cooper,200,0.950
+cooper countryman,1205,0.950
+cooper f55,1206,0.950
+cooper paceman,1282,0.950
+cooper s,300,0.950
+cordoba,515,0.950
+corolla,4,0.950
+corolla cross,1134,0.950
+corolla hybrid,1286,0.950
+corona,387,0.950
+corsa,32,0.950
+corsa e,1125,0.950
+corvette,838,0.950
+countryman,277,0.950
+countryman s,412,0.950
+coupe,306,0.950
+cr v,327,0.950
+cr x del sol,1179,0.950
+cressida,409,0.950
+creta,208,0.950
+cross,1255,0.950
+cross land,257,0.950
+crossfox,1026,0.950
+crossland,115,0.950
+crossover,939,0.950
+crown,1012,0.950
+cruze,35,0.950
+crystala,1260,0.950
+cs15,507,0.950
+cs35,750,0.950
+cs35 plus,961,0.950
+cs55,304,0.950
+cs55 plus,837,0.950
+cs75,1308,0.950
+cullinan,1078,0.950
+cupra formentor,251,1.000
+cupra leon,236,1.000
+cupra terramar,202,1.000
+cx 3,986,0.950
+cx 30,1302,0.950
+cyberster,900,0.950
+cybertruck,579,0.950
+d max,394,0.950
+daewoo celio,1170,1.000
+daewoo cielo,666,1.000
+daewoo espero,384,1.000
+daewoo juliet,150,1.000
+daewoo lacetti,230,1.000
+daewoo lanos,14,1.000
+daewoo lanos 2,147,1.000
+daewoo lanos ii,194,1.000
+daewoo leganza,172,1.000
+daewoo matiz,238,1.000
+daewoo nubira,20,1.000
+daewoo nubira 1,219,1.000
+daewoo nubira 2,69,1.000
+daewoo racer,523,1.000
+daewoo zaz,1403,1.000
+daihatsu charade,269,1.000
+daihatsu gran max,691,1.000
+daihatsu grand terios,841,1.000
+daihatsu kancil,571,1.000
+daihatsu materia,842,1.000
+daihatsu mira,570,1.000
+daihatsu other,1018,1.000
+daihatsu pickup,707,1.000
+daihatsu sirion,454,1.000
+daihatsu terios,119,1.000
+daihatsu yrv,970,1.000
+dart,1404,0.950
+dashing,234,0.950
+datsun,451,0.950
+dbs,1390,0.950
+dbx,1364,0.950
+dedra,706,0.950
+deepal g318,461,1.000
+deepal s05,577,1.000
+deepal s07,656,1.000
+deepal s09,1394,1.000
+defender,481,0.950
+destinator,782,0.950
+destroyer 05,518,0.950
+dfsk e5,894,1.000
+dfsk e5 plus,652,1.000
+dfsk eagel 580,600,1.000
+dfsk eagle 580,1391,1.000
+dfsk eagle pro,1395,1.000
+dfsk glory,1031,1.000
+dfsk glory 330,756,1.000
+dfsk k01,1027,1.000
+dfsk other,1033,1.000
+discovery,456,0.950
+discovery sport,534,0.950
+doblo,726,0.950
+dodge caravan,1380,1.000
+dodge challenger,790,1.000
+dodge charger,757,1.000
+dodge dart,1404,1.000
+dodge durango,480,1.000
+dodge neon,1399,1.000
+dodge ram,354,1.000
+dogan,262,0.950
+dokker,681,0.950
+dolphin,724,0.950
+dolphin surf,1289,0.950
+domy x7,1293,1.000
+dongfeng 007 reev,781,1.000
+dongfeng 008,1324,1.000
+dongfeng box,843,1.000
+dongfeng e pai 007,1054,1.000
+dongfeng huge,1310,1.000
+dongfeng mage,1051,1.000
+dongfeng shine,1281,1.000
+ds ds3,1283,1.000
+ds ds4,1057,1.000
+ds ds5,1280,1.000
+ds ds7,714,1.000
+ds3,840,0.950
+ds4,1057,0.950
+ds5,968,0.950
+ds7,714,0.950
+durango,480,0.950
+duster,25,0.950
+dx 8s,1043,0.950
+dx3,1277,0.950
+dx5,1220,0.950
+dx8s coupe,998,0.950
+dzire,271,0.950
+e 180,186,0.950
+e 200,71,0.950
+e 200 amg,496,0.950
+e 230,549,0.950
+e 240,621,0.950
+e 250,311,0.950
+e 280,672,0.950
+e 300,291,0.950
+e 320,805,0.950
+e 350,525,0.950
+e 53 amg,928,0.950
+e 63s,1191,0.950
+e cabriolet,1204,0.950
+e class,589,0.950
+e coupe,1197,0.950
+e golf,949,0.950
+e hs9,1387,0.950
+e np1,1178,0.950
+e ns1,1177,0.950
+e pace,638,0.950
+e pai 007,1054,0.950
+e180,174,0.950
+e200,11,0.950
+e230,437,0.950
+e240,378,0.950
+e250,265,0.950
+e280,411,0.950
+e300,144,0.950
+e300e,606,0.950
+e320,537,0.950
+e350,356,0.950
+e400,1340,0.950
+e5,887,0.950
+e5 plus,652,0.950
+e53 amg,1072,0.950
+eado,374,0.950
+eado plus,561,0.950
+eagel 580,600,0.950
+eagle 580,1391,0.950
+eagle pro,1395,0.950
+echo,407,0.950
+eclipse,210,0.950
+eclipse cross,337,0.950
+ecosport,317,0.950
+edge,1174,0.950
+elantra,15,0.950
+elantra ad,158,0.950
+elantra cn7,137,0.950
+elantra coupe,668,0.950
+elantra hd,100,0.950
+elantra md,173,0.950
+emeya,1294,0.950
+emgrand,375,0.950
+emgrand 7,109,0.950
+emgrand x7,256,0.950
+emira,857,0.950
+emkoo,1176,0.950
+empow,434,0.950
+emzoom,895,0.950
+englon,1249,0.950
+envy,149,0.950
+eos,826,0.950
+eq7,890,0.950
+eqa 250,990,0.950
+eqa 260,622,0.950
+eqb,1065,0.950
+eqb 260,763,0.950
+eqb 300,991,0.950
+eqb 350,527,0.950
+eqe,931,0.950
+eqe 300,860,0.950
+eqe 350,470,0.950
+eqe 500,513,0.950
+eqe suv,988,0.950
+eqs 450,448,0.950
+eqs 500,927,0.950
+eqs 53,739,0.950
+eqs 580,590,0.950
+eqs suv,859,0.950
+equinox,495,0.950
+eqv 300,734,0.950
+ertiga,594,0.950
+escalade,229,0.950
+escape,1376,0.950
+escort,270,0.950
+espace,1256,0.950
+espero,384,0.950
+ev3,1052,0.950
+ev5,856,0.950
+ev6,1329,0.950
+evolution,1273,0.950
+evoque,217,0.950
+ex 90,1346,0.950
+ex2,1041,0.950
+ex30,1313,0.950
+ex5,655,0.950
+ex5 em i,712,0.950
+excel,44,0.950
+exeed vx,1049,1.000
+exora,1375,0.950
+expedition,1175,0.950
+explorer,973,0.950
+explosion,319,0.950
+express van,1216,0.950
+f pace,212,0.950
+f type,436,0.950
+f0,465,0.950
+f150,1172,0.950
+f3,37,0.950
+f3r,1091,0.950
+fabia,166,0.950
+familia,640,0.950
+family,1385,0.950
+fantasia,146,0.950
+favorit,222,0.950
+favorite,867,0.950
+faw besturn,1383,1.000
+faw n5,1244,1.000
+faw pickup,1401,1.000
+faw vita,971,1.000
+faw x40,844,1.000
+fc,1408,0.950
+felecia,72,0.950
+felicia,141,0.950
+felicia combi,315,0.950
+ferrari roma,1368,1.000
+fiat 1100,667,1.000
+fiat 1200,921,1.000
+fiat 124,728,1.000
+fiat 125,547,1.000
+fiat 126,919,1.000
+fiat 127,106,1.000
+fiat 128,18,1.000
+fiat 128 nova,151,1.000
+fiat 1300,725,1.000
+fiat 131,99,1.000
+fiat 132,134,1.000
+fiat 500,421,1.000
+fiat 500 x,545,1.000
+fiat 500c,546,1.000
+fiat 500x,195,1.000
+fiat argenta,1081,1.000
+fiat brava,586,1.000
+fiat bravo,585,1.000
+fiat chenko,972,1.000
+fiat cinquecento,800,1.000
+fiat doblo,726,1.000
+fiat dogan,262,1.000
+fiat fiorino,920,1.000
+fiat florida,729,1.000
+fiat grand punto,209,1.000
+fiat linea,727,1.000
+fiat marea,1238,1.000
+fiat nova,918,1.000
+fiat other,587,1.000
+fiat palio,255,1.000
+fiat panda,1096,1.000
+fiat petra,334,1.000
+fiat polonez,239,1.000
+fiat punto,83,1.000
+fiat punto evo,799,1.000
+fiat regata,145,1.000
+fiat ritmo,420,1.000
+fiat shahin,38,1.000
+fiat siena,58,1.000
+fiat tempra,139,1.000
+fiat tipo,24,1.000
+fiat tipo hatchback,634,1.000
+fiat uno,123,1.000
+fiat zastava,922,1.000
+fiesta,243,0.950
+fiorino,920,0.950
+florid,847,0.950
+florida,729,0.950
+fluence,68,0.950
+flyer,418,0.950
+flying spur,1077,0.950
+focus,79,0.950
+foison,1010,0.950
+ford aerostar,1263,1.000
+ford bronco raptor,1173,1.000
+ford c max,1373,1.000
+ford ecosport,317,1.000
+ford edge,1174,1.000
+ford escape,1376,1.000
+ford escort,270,1.000
+ford expedition,1175,1.000
+ford explorer,973,1.000
+ford f150,1172,1.000
+ford fiesta,243,1.000
+ford focus,79,1.000
+ford fusion,318,1.000
+ford grand c max,1171,1.000
+ford kuga,283,1.000
+ford mondeo,388,1.000
+ford mustang,509,1.000
+ford puma,1253,1.000
+ford ranger,1397,1.000
+ford taurus,1013,1.000
+foreman,820,0.950
+forester,1000,0.950
+forman,699,0.950
+formentor,251,0.950
+forte,307,0.950
+forthing s7,519,1.000
+forthing t5,575,1.000
+forthing t5 evo,562,1.000
+forthing u tour,1309,1.000
+forthing v9,1336,1.000
+fortuner,116,0.950
+foton c2,1298,1.000
+foton other,1250,1.000
+frontera,459,0.950
+fronx,946,0.950
+frota,875,0.950
+frv,242,0.950
+frv cross,453,0.950
+fsv,268,0.950
+fusion,318,0.950
+g 500,987,0.950
+g 63,641,0.950
+g 65 amg,1105,0.950
+g class,810,0.950
+g318,461,0.950
+g50,487,0.950
+g500,471,0.950
+g580 with eq technology,1199,0.950
+g6,1411,0.950
+g63,185,0.950
+g9,1226,0.950
+gac aion i60,576,1.000
+gac aion lx,1055,1.000
+gac emkoo,1176,1.000
+gac empow,434,1.000
+gac emzoom,895,1.000
+gac gs3,1297,1.000
+gac gs4,845,1.000
+gac gs4 max,974,1.000
+galant,426,0.950
+galaxy m9,1347,0.950
+galena,224,0.950
+galloper,670,0.950
+geely city ray,892,1.000
+geely ck,569,1.000
+geely ck 2,977,1.000
+geely ck2,1014,1.000
+geely coolray,344,1.000
+geely emgrand,375,1.000
+geely emgrand 7,109,1.000
+geely emgrand x7,256,1.000
+geely englon,1249,1.000
+geely ex2,1041,1.000
+geely ex5,655,1.000
+geely ex5 em i,712,1.000
+geely fc,1408,1.000
+geely frota,875,1.000
+geely galaxy m9,1347,1.000
+geely gx3 pro,345,1.000
+geely imperial,975,1.000
+geely maple,541,1.000
+geely mk,879,1.000
+geely okavango,601,1.000
+geely pandino,196,1.000
+geely sparky,880,1.000
+geely starray,846,1.000
+geely x 7,636,1.000
+geely x pandido,882,1.000
+geely x pandino,976,1.000
+gen 2,227,0.950
+genesis gv70,1341,1.000
+getz,125,0.950
+ghibli,639,0.950
+giulia,532,0.950
+giulietta,559,0.950
+giulietta veloce,951,0.950
+gl class,677,0.950
+gla,901,0.950
+gla 180,653,0.950
+gla 200,91,0.950
+glb,1110,0.950
+glb 200,489,0.950
+glc,349,0.950
+glc 200,110,0.950
+glc 250,675,0.950
+glc 300,82,0.950
+glc 300 coupe,693,0.950
+glc 43,177,0.950
+glc300 amg,1116,0.950
+gle,446,0.950
+gle 450,127,0.950
+gle 500,1193,0.950
+glk,1315,0.950
+glk 250,552,0.950
+glk 300,425,0.950
+glk 350,553,0.950
+glory,1031,0.950
+glory 330,756,0.950
+gls,165,0.950
+gls 580,536,0.950
+gls 580 maybach,989,0.950
+gmc hummer ev,399,1.000
+gmc pickup,1030,1.000
+gmc sierra,635,1.000
+gmc terrain,758,1.000
+gmc yukon,455,1.000
+gmc yukon xl,1358,1.000
+golf,86,0.950
+golf 2,596,0.950
+golf 4,557,0.950
+golf 5,629,0.950
+golf 6,531,0.950
+golf 7,352,0.950
+golf r,948,0.950
+gr corolla,947,0.950
+gr86,1222,0.950
+gran coupe,1090,0.950
+gran max,691,0.950
+grancabrio,1367,0.950
+grand c max,1171,0.950
+grand cerato,231,0.950
+grand cherokee,46,0.950
+grand cherokee 4xe,1062,0.950
+grand i10,290,0.950
+grand land,285,0.950
+grand punto,209,0.950
+grand terios,841,0.950
+grand vitara,264,0.950
+grand wagoneer,1409,0.950
+grandland,108,0.950
+granta,161,0.950
+granturismo,1070,0.950
+granvia,1361,0.950
+great wall c30,1251,1.000
+great wall coolbear,1259,1.000
+great wall florid,847,1.000
+great wall hover,637,1.000
+great wall peri,1015,1.000
+grecale,658,0.950
+grecale modena,904,0.950
+groove,1095,0.950
+gs3,1297,0.950
+gs4,845,0.950
+gs4 max,974,0.950
+gt,427,0.950
+gt 43,449,0.950
+gt 53,678,0.950
+gt43,1195,0.950
+gv70,1341,0.950
+gx3 pro,345,0.950
+h 530,1165,0.950
+h1,616,0.950
+h3,1180,0.950
+h6,376,0.950
+h6 gt,1305,0.950
+h6 hev,898,0.950
+h7,543,0.950
+hafei lobo,883,1.000
+haima family,1385,1.000
+haima m3,978,1.000
+haima s5,848,1.000
+han,798,0.950
+haval h6,376,1.000
+haval h6 gt,1305,1.000
+haval h6 hev,898,1.000
+haval h7,543,1.000
+haval jolion,346,1.000
+haval jolion pro,1048,1.000
+haval v7,783,1.000
+hawtai a25,849,1.000
+hd260,852,0.950
+hiace,705,0.950
+highlander,1328,0.950
+highlander hybrid,1066,0.950
+hilux,373,0.950
+honda accord,347,1.000
+honda city,246,1.000
+honda civic,92,1.000
+honda cr v,327,1.000
+honda cr x del sol,1179,1.000
+honda e np1,1178,1.000
+honda e ns1,1177,1.000
+honda hr v,510,1.000
+honda jazz,850,1.000
+honda pilot,1035,1.000
+honda zr v,759,1.000
+hongqi e hs9,1387,1.000
+hongqi hs3,1319,1.000
+hongqi other,1314,1.000
+hover,637,0.950
+hr v,510,0.950
+hs,54,0.950
+hs3,1319,0.950
+huge,1310,0.950
+hummer ev,399,0.950
+hummer ev suv,851,0.950
+hummer h3,1180,1.000
+hummer hummer ev suv,851,1.000
+hummer other,1357,1.000
+huracan,909,0.950
+hyundai accent,12,1.000
+hyundai accent hci,323,1.000
+hyundai accent rb,74,1.000
+hyundai atos,153,1.000
+hyundai avante,107,1.000
+hyundai azera,1325,1.000
+hyundai bayon,445,1.000
+hyundai centennial,923,1.000
+hyundai coupe,306,1.000
+hyundai creta,208,1.000
+hyundai elantra,15,1.000
+hyundai elantra ad,158,1.000
+hyundai elantra cn7,137,1.000
+hyundai elantra coupe,668,1.000
+hyundai elantra hd,100,1.000
+hyundai elantra md,173,1.000
+hyundai excel,44,1.000
+hyundai galloper,670,1.000
+hyundai getz,125,1.000
+hyundai grand i10,290,1.000
+hyundai h1,616,1.000
+hyundai hd260,852,1.000
+hyundai i10,104,1.000
+hyundai i20,404,1.000
+hyundai i30,267,1.000
+hyundai ioniq 5,802,1.000
+hyundai ioniq 6,1338,1.000
+hyundai ix 20,853,1.000
+hyundai ix 35,220,1.000
+hyundai ix20,730,1.000
+hyundai ix35,359,1.000
+hyundai kona,1097,1.000
+hyundai matrix,43,1.000
+hyundai other,801,1.000
+hyundai palisade,1354,1.000
+hyundai santa fe,422,1.000
+hyundai santamo,924,1.000
+hyundai solaris,324,1.000
+hyundai sonata,266,1.000
+hyundai staria,524,1.000
+hyundai tucson,21,1.000
+hyundai tucson gdi,170,1.000
+hyundai tucson nx4e,389,1.000
+hyundai tucson turbo gdi,403,1.000
+hyundai veloster,669,1.000
+hyundai venue,709,1.000
+hyundai veracruz,1098,1.000
+hyundai verna,10,1.000
+hyundai verna 1 6,435,1.000
+hyundai viva,468,1.000
+hyundai xd,617,1.000
+i pace,1318,0.950
+i10,104,0.950
+i20,404,0.950
+i3,366,0.950
+i3 sedan,1153,0.950
+i30,267,0.950
+i4,580,0.950
+i5,443,0.950
+i7,330,0.950
+i8,1351,0.950
+ibiza,30,0.950
+icar 03,1061,0.950
+icaur v27,657,1.000
+id 4,431,0.950
+id 4 crozz,539,0.950
+id 6,685,0.950
+id 6 crozz,768,0.950
+id era 9x,788,0.950
+id unyx,869,0.950
+id3,1292,0.950
+id4,460,0.950
+id6,398,0.950
+id7,686,0.950
+ideal,568,0.950
+im 5,1331,1.000
+im 6,1063,1.000
+im ls7,786,1.000
+imperial,975,0.950
+impreza,254,0.950
+insignia,60,0.950
+ioniq 5,802,0.950
+ioniq 6,1338,0.950
+isuzu d max,394,1.000
+isuzu npr,602,1.000
+ix,478,0.950
+ix 20,853,0.950
+ix 35,220,0.950
+ix1,661,0.950
+ix2,1337,0.950
+ix20,730,0.950
+ix3,400,0.950
+ix35,359,0.950
+ix40,1316,0.950
+ix50,910,0.950
+j2,1278,0.950
+j7,651,0.950
+jac a10,1269,1.000
+jac a13,1021,1.000
+jac b15,1257,1.000
+jac j2,1278,1.000
+jac j7,651,1.000
+jac js3,1036,1.000
+jac js4,1045,1.000
+jac js6,889,1.000
+jac js8 pro,1050,1.000
+jac s2,1032,1.000
+jac s3,1038,1.000
+jac s4,1039,1.000
+jaguar e pace,638,1.000
+jaguar f pace,212,1.000
+jaguar f type,436,1.000
+jaguar i pace,1318,1.000
+jaguar s type,1270,1.000
+jaguar x type,1182,1.000
+jaguar xf,692,1.000
+jaguar xj,979,1.000
+jaguar xj6,1268,1.000
+jaguar xjl,1181,1.000
+jazz,850,0.950
+jeep cherokee,105,1.000
+jeep commander,854,1.000
+jeep grand cherokee,46,1.000
+jeep grand cherokee 4xe,1062,1.000
+jeep grand wagoneer,1409,1.000
+jeep komodo,1400,1.000
+jeep liberty,284,1.000
+jeep other,881,1.000
+jeep renegade,97,1.000
+jeep wrangler,131,1.000
+jeep wrangler rubicon,1074,1.000
+jeep wrangler willys,1242,1.000
+jetour dashing,234,1.000
+jetour t1,320,1.000
+jetour t2,88,1.000
+jetour x70,164,1.000
+jetour x70 facelift,1183,1.000
+jetour x70 plus,295,1.000
+jetour x70 plus ckd,603,1.000
+jetour x90,305,1.000
+jetour x90 plus,855,1.000
+jetour x95,390,1.000
+jetta,111,0.950
+jimny,822,0.950
+john cooper works,365,0.950
+jolion,346,0.950
+jolion pro,1048,0.950
+js3,1036,0.950
+js4,1045,0.950
+js6,889,0.950
+js8 pro,1050,0.950
+juke,85,0.950
+juliet,150,0.950
+jumpy,1378,0.950
+k01,1027,0.950
+k3,129,0.950
+k4,548,0.950
+k5,618,0.950
+kadjar,48,0.950
+kaiyi e5,887,1.000
+kaiyi x3,980,1.000
+kaiyi x3 pro,573,1.000
+kaiyi x7,1307,1.000
+kamiq,340,0.950
+kancil,571,0.950
+kardian,555,0.950
+karoq,372,0.950
+karry q22,1023,1.000
+kelisa,1029,0.950
+kgm actyon,1320,1.000
+kgm torres,760,1.000
+kia cadenza,731,1.000
+kia carens,77,1.000
+kia carnival,142,1.000
+kia carnival mpv,1024,1.000
+kia ceed,297,1.000
+kia cerato,17,1.000
+kia cerato coupe,486,1.000
+kia cerato koup,423,1.000
+kia clarus,1272,1.000
+kia ev3,1052,1.000
+kia ev5,856,1.000
+kia ev6,1329,1.000
+kia forte,307,1.000
+kia grand cerato,231,1.000
+kia k3,129,1.000
+kia k4,548,1.000
+kia k5,618,1.000
+kia mohave,1185,1.000
+kia morning,1186,1.000
+kia other,1011,1.000
+kia pegas,424,1.000
+kia picanto,42,1.000
+kia pride,94,1.000
+kia rio,36,1.000
+kia saiba,981,1.000
+kia saipa,588,1.000
+kia seltos,367,1.000
+kia sephia,122,1.000
+kia shuma,214,1.000
+kia sonet,1099,1.000
+kia sorento,81,1.000
+kia sorento hybrid,259,1.000
+kia soul,155,1.000
+kia spectra,206,1.000
+kia sportage,5,1.000
+kia sportage hybrid,785,1.000
+kia sportage l,803,1.000
+kia xceed,121,1.000
+king long van,1044,1.000
+kodiaq,40,0.950
+komodo,1400,0.950
+kona,1097,0.950
+kuga,283,0.950
+kushaq,1304,0.950
+kyc 1500,1147,1.000
+kyc box,1148,1.000
+kyc grand cherokee,1149,1.000
+kyc grandland,1146,1.000
+kyc grecale,1143,1.000
+kyc lanos,1144,1.000
+kyc sorento,1142,1.000
+kyc soul,1145,1.000
+kyc v3,1184,1.000
+kyc x3,1037,1.000
+l 200,811,0.950
+l200,1209,0.950
+l3,218,0.950
+l300,1252,0.950
+l6,1189,0.950
+l7,983,0.950
+l9,1348,0.950
+lacetti,230,0.950
+lada 1200,771,1.000
+lada 1500,703,1.000
+lada 2017,772,1.000
+lada 2103,1232,1.000
+lada 2104,1235,1.000
+lada 2105,203,1.000
+lada 2106,1236,1.000
+lada 2107,65,1.000
+lada 2110,377,1.000
+lada 2111,1413,1.000
+lada aleko,1396,1.000
+lada granta,161,1.000
+lada niva,355,1.000
+lada oka,1405,1.000
+lada samara,511,1.000
+lada tavria,1231,1.000
+laguna,682,0.950
+lamborghini huracan,909,1.000
+lamborghini other,1369,1.000
+lamborghini urus,908,1.000
+lamborghini urus s,982,1.000
+lancer,22,0.950
+lancer crystala,248,0.950
+lancer ex shark,135,0.950
+lancer puma,95,0.950
+lancer shark,457,0.950
+lancia dedra,706,1.000
+land cruiser,138,0.950
+land cruiser 70,1291,0.950
+land rover,761,0.950
+land rover defender,481,1.000
+land rover discovery,456,1.000
+land rover discovery sport,534,1.000
+land rover evoque,217,1.000
+land rover land rover,761,1.000
+land rover lr2,1042,1.000
+land rover lr3,1188,1.000
+land rover lr4,1187,1.000
+land rover range rover,328,1.000
+land rover range rover evoque,252,1.000
+land rover range rover sport,93,1.000
+land rover range rover sport svr,578,1.000
+land rover range rover svr,1359,1.000
+land rover range rover vogue,159,1.000
+land rover rover defender,732,1.000
+land rover rover discovery,619,1.000
+land rover rover discovery sport,804,1.000
+land rover rover lr3,1100,1.000
+land rover rover range rover,671,1.000
+land rover rover range rover evoque,308,1.000
+land rover rover range rover sport,175,1.000
+land rover rover range rover sport svr,925,1.000
+land rover rover range rover svr,926,1.000
+land rover rover range rover vogue,309,1.000
+land rover rover velar,226,1.000
+land rover velar,118,1.000
+lanos,8,0.950
+lanos 2,147,0.950
+lanos ii,194,0.950
+legacy,1001,0.950
+leganza,172,0.950
+leon,128,0.950
+leopard 5,662,0.950
+leopard 7,715,0.950
+leopard 8,1163,0.950
+leopard5,835,0.950
+levante,1059,0.950
+lexus lx,659,1.000
+li auto l6,1189,1.000
+li auto l7,983,1.000
+li auto l9,1348,1.000
+liberty,284,0.950
+lifan 320,604,1.000
+lifan 620,1402,1.000
+lifan foison,1010,1.000
+lifan other,878,1.000
+lincoln navigator,1295,1.000
+lincoln town car,984,1.000
+linea,727,0.950
+livina,624,0.950
+lobo,883,0.950
+lodgy,995,0.950
+logan,2,0.950
+logan mcv,314,0.950
+lotus emeya,1294,1.000
+lotus emira,857,1.000
+lr2,1042,0.950
+lr3,1188,0.950
+lr4,1187,0.950
+ls7,786,0.950
+lx,659,0.950
+lynk co 06,985,1.000
+lynk co 08,544,1.000
+lynk co 1,1060,1.000
+lynk co 3,897,1.000
+lynk co 9,1071,1.000
+lynk co 900,263,1.000
+lynk co other model,1056,1.000
+lyriq,664,0.950
+m hero mhero 1,1349,1.000
+m03,1303,0.950
+m11,287,0.950
+m12,484,0.950
+m140i,1389,0.950
+m235i,1085,0.950
+m240i,1388,0.950
+m3,401,0.950
+m300,775,0.950
+m4,383,0.950
+m5,832,0.950
+m50s,751,0.950
+m8,1155,0.950
+m850,721,0.950
+m850i,954,0.950
+m9,903,0.950
+macan,132,0.950
+macan electric,1075,0.950
+macan t,1214,0.950
+maextro s800,1362,1.000
+mage,1051,0.950
+magnite,357,0.950
+mahindra scorpio,563,1.000
+malibu,333,0.950
+maple,541,0.950
+march,695,0.950
+marea,1238,0.950
+mark,1245,0.950
+marke,1221,0.950
+maruti,59,0.950
+maserati ghibli,639,1.000
+maserati grancabrio,1367,1.000
+maserati granturismo,1070,1.000
+maserati grecale,658,1.000
+maserati grecale modena,904,1.000
+maserati levante,1059,1.000
+maserati qp,1339,1.000
+materia,842,0.950
+matiz,238,0.950
+matrix,43,0.950
+maxima,1258,0.950
+maybach,497,0.950
+maybach gls,738,0.950
+maybach s 560,1203,0.950
+maybach s 680,1192,0.950
+mazda 121,877,1.000
+mazda 2,535,1.000
+mazda 3,120,1.000
+mazda 323,235,1.000
+mazda 626,873,1.000
+mazda 929,605,1.000
+mazda cx 3,986,1.000
+mazda cx 30,1302,1.000
+mazda familia,640,1.000
+mazda other,1323,1.000
+mazda pickup,1241,1.000
+mazda rx,876,1.000
+megane,9,0.950
+mercedes benz 180,280,1.000
+mercedes benz 190,554,1.000
+mercedes benz 200,156,1.000
+mercedes benz 220,1114,1.000
+mercedes benz 230,292,1.000
+mercedes benz 240,737,1.000
+mercedes benz 250,676,1.000
+mercedes benz 250 se,1107,1.000
+mercedes benz 280,935,1.000
+mercedes benz 300,736,1.000
+mercedes benz 300d,1414,1.000
+mercedes benz 320,1109,1.000
+mercedes benz 350,1113,1.000
+mercedes benz 500,934,1.000
+mercedes benz a 150,807,1.000
+mercedes benz a 180,551,1.000
+mercedes benz a 200,385,1.000
+mercedes benz a 35 amg,679,1.000
+mercedes benz a150,1028,1.000
+mercedes benz a180,382,1.000
+mercedes benz a200,180,1.000
+mercedes benz a250e,808,1.000
+mercedes benz a35,1064,1.000
+mercedes benz amg gt,932,1.000
+mercedes benz b 150,673,1.000
+mercedes benz b 160,806,1.000
+mercedes benz b 180,368,1.000
+mercedes benz b 200,312,1.000
+mercedes benz b150,642,1.000
+mercedes benz b160,863,1.000
+mercedes benz b180,247,1.000
+mercedes benz b200,458,1.000
+mercedes benz c 180,27,1.000
+mercedes benz c 180 station,694,1.000
+mercedes benz c 200,103,1.000
+mercedes benz c 200 amg,447,1.000
+mercedes benz c 230,1103,1.000
+mercedes benz c 250,325,1.000
+mercedes benz c 280,526,1.000
+mercedes benz c 300,550,1.000
+mercedes benz c amg,1117,1.000
+mercedes benz c class,930,1.000
+mercedes benz c coupe,861,1.000
+mercedes benz c180,3,1.000
+mercedes benz c200,23,1.000
+mercedes benz c230,862,1.000
+mercedes benz c240,993,1.000
+mercedes benz c250,415,1.000
+mercedes benz c260l,674,1.000
+mercedes benz c280,649,1.000
+mercedes benz c300,364,1.000
+mercedes benz c350,1393,1.000
+mercedes benz c43,1102,1.000
+mercedes benz c43 amg,778,1.000
+mercedes benz cla 180,148,1.000
+mercedes benz cla 200,78,1.000
+mercedes benz cla 250,1344,1.000
+mercedes benz cla 300l,902,1.000
+mercedes benz cla 45 s,1353,1.000
+mercedes benz cla class,708,1.000
+mercedes benz cle 200,335,1.000
+mercedes benz cle 300,740,1.000
+mercedes benz cle 53,906,1.000
+mercedes benz clk,1287,1.000
+mercedes benz cls,711,1.000
+mercedes benz cls 550,1202,1.000
+mercedes benz cls class,1104,1.000
+mercedes benz e 180,186,1.000
+mercedes benz e 200,71,1.000
+mercedes benz e 200 amg,496,1.000
+mercedes benz e 230,549,1.000
+mercedes benz e 240,621,1.000
+mercedes benz e 250,311,1.000
+mercedes benz e 280,672,1.000
+mercedes benz e 300,291,1.000
+mercedes benz e 320,805,1.000
+mercedes benz e 350,525,1.000
+mercedes benz e 53 amg,928,1.000
+mercedes benz e 63s,1191,1.000
+mercedes benz e cabriolet,1204,1.000
+mercedes benz e class,589,1.000
+mercedes benz e coupe,1197,1.000
+mercedes benz e180,174,1.000
+mercedes benz e200,11,1.000
+mercedes benz e230,437,1.000
+mercedes benz e240,378,1.000
+mercedes benz e250,265,1.000
+mercedes benz e280,411,1.000
+mercedes benz e300,144,1.000
+mercedes benz e300e,606,1.000
+mercedes benz e320,537,1.000
+mercedes benz e350,356,1.000
+mercedes benz e400,1340,1.000
+mercedes benz e53 amg,1072,1.000
+mercedes benz eqa 250,990,1.000
+mercedes benz eqa 260,622,1.000
+mercedes benz eqb,1065,1.000
+mercedes benz eqb 260,763,1.000
+mercedes benz eqb 300,991,1.000
+mercedes benz eqb 350,527,1.000
+mercedes benz eqe,931,1.000
+mercedes benz eqe 300,860,1.000
+mercedes benz eqe 350,470,1.000
+mercedes benz eqe 500,513,1.000
+mercedes benz eqe suv,988,1.000
+mercedes benz eqs 450,448,1.000
+mercedes benz eqs 500,927,1.000
+mercedes benz eqs 53,739,1.000
+mercedes benz eqs 580,590,1.000
+mercedes benz eqs suv,859,1.000
+mercedes benz eqv 300,734,1.000
+mercedes benz g 500,987,1.000
+mercedes benz g 63,641,1.000
+mercedes benz g 65 amg,1105,1.000
+mercedes benz g class,810,1.000
+mercedes benz g500,471,1.000
+mercedes benz g580 with eq technology,1199,1.000
+mercedes benz g63,185,1.000
+mercedes benz gl class,677,1.000
+mercedes benz gla,901,1.000
+mercedes benz gla 180,653,1.000
+mercedes benz gla 200,91,1.000
+mercedes benz glb,1110,1.000
+mercedes benz glb 200,489,1.000
+mercedes benz glc,349,1.000
+mercedes benz glc 200,110,1.000
+mercedes benz glc 250,675,1.000
+mercedes benz glc 300,82,1.000
+mercedes benz glc 300 coupe,693,1.000
+mercedes benz glc 43,177,1.000
+mercedes benz glc300 amg,1116,1.000
+mercedes benz gle,446,1.000
+mercedes benz gle 450,127,1.000
+mercedes benz gle 500,1193,1.000
+mercedes benz glk,1315,1.000
+mercedes benz glk 250,552,1.000
+mercedes benz glk 300,425,1.000
+mercedes benz glk 350,553,1.000
+mercedes benz gls,165,1.000
+mercedes benz gls 580,536,1.000
+mercedes benz gls 580 maybach,989,1.000
+mercedes benz gt 43,449,1.000
+mercedes benz gt 53,678,1.000
+mercedes benz gt43,1195,1.000
+mercedes benz maybach,497,1.000
+mercedes benz maybach gls,738,1.000
+mercedes benz maybach s 560,1203,1.000
+mercedes benz maybach s 680,1192,1.000
+mercedes benz ml,1106,1.000
+mercedes benz other,792,1.000
+mercedes benz s 280,1108,1.000
+mercedes benz s 320,809,1.000
+mercedes benz s 350,620,1.000
+mercedes benz s 400,735,1.000
+mercedes benz s 450,336,1.000
+mercedes benz s 500,469,1.000
+mercedes benz s 560,1101,1.000
+mercedes benz s 63 amg,933,1.000
+mercedes benz s280,1025,1.000
+mercedes benz s300,648,1.000
+mercedes benz s320,765,1.000
+mercedes benz s350,482,1.000
+mercedes benz s400,512,1.000
+mercedes benz s450,197,1.000
+mercedes benz s500,204,1.000
+mercedes benz s550,1053,1.000
+mercedes benz s560,607,1.000
+mercedes benz s580,764,1.000
+mercedes benz sel 280,1111,1.000
+mercedes benz sel 300,929,1.000
+mercedes benz sel 500,1115,1.000
+mercedes benz sel300,1201,1.000
+mercedes benz sl 500,1200,1.000
+mercedes benz sl class,1363,1.000
+mercedes benz sl roadster,591,1.000
+mercedes benz sl43 amg cabriolet,1198,1.000
+mercedes benz sl55 amg,1194,1.000
+mercedes benz slc class,1352,1.000
+mercedes benz slk,1333,1.000
+mercedes benz slk 55 amg,1112,1.000
+mercedes benz sprinter,992,1.000
+mercedes benz v 250,350,1.000
+mercedes benz v 300,490,1.000
+mercedes benz v300,1196,1.000
+mercedes benz viano,310,1.000
+mercedes benz vito,733,1.000
+meriva,428,0.950
+mg 1,440,0.950
+mg 3,813,1.000
+mg 350,1279,1.000
+mg 350 s,1190,1.000
+mg 360,1121,1.000
+mg 4,1123,0.950
+mg 5,47,1.000
+mg 6,140,1.000
+mg 7,529,1.000
+mg 750,762,1.000
+mg c 350,938,1.000
+mg crossover,939,1.000
+mg cyberster,900,1.000
+mg g50,487,1.000
+mg gt,427,1.000
+mg hs,54,1.000
+mg mg 1,440,1.000
+mg mg 3,858,1.000
+mg mg 4,1123,1.000
+mg mg 5,67,1.000
+mg mg 6,162,1.000
+mg mg 7,360,1.000
+mg one,215,1.000
+mg rx5,57,1.000
+mg rx5 plus,351,1.000
+mg rx9,1321,1.000
+mg zr,1122,1.000
+mg zs,63,1.000
+mg zs ev,937,1.000
+mg zst,1047,1.000
+mhero 1,1349,0.950
+mini cabrio,886,1.000
+mini clubman,1312,1.000
+mini cooper,200,1.000
+mini cooper countryman,1205,1.000
+mini cooper f55,1206,1.000
+mini cooper paceman,1282,1.000
+mini cooper s,300,1.000
+mini countryman,277,1.000
+mini countryman s,412,1.000
+mini john cooper works,365,1.000
+mini paceman,1207,1.000
+mira,570,0.950
+mirage,369,0.950
+mito,687,0.950
+mitsubishi atrage,517,1.000
+mitsubishi attrage,272,1.000
+mitsubishi colt,528,1.000
+mitsubishi destinator,782,1.000
+mitsubishi eclipse,210,1.000
+mitsubishi eclipse cross,337,1.000
+mitsubishi evolution,1273,1.000
+mitsubishi galant,426,1.000
+mitsubishi gt,1120,1.000
+mitsubishi l 200,811,1.000
+mitsubishi l200,1209,1.000
+mitsubishi l300,1252,1.000
+mitsubishi lancer,22,1.000
+mitsubishi lancer crystala,248,1.000
+mitsubishi lancer ex shark,135,1.000
+mitsubishi lancer puma,95,1.000
+mitsubishi lancer shark,457,1.000
+mitsubishi mirage,369,1.000
+mitsubishi montero,812,1.000
+mitsubishi nativa,1118,1.000
+mitsubishi other,1119,1.000
+mitsubishi outlander,766,1.000
+mitsubishi outlander phev,1306,1.000
+mitsubishi outlander sport,1208,1.000
+mitsubishi pajero,112,1.000
+mitsubishi pickup,1016,1.000
+mitsubishi space star,1382,1.000
+mitsubishi xpander,187,1.000
+mitsubishi xpander cross,936,1.000
+mk,879,0.950
+ml,1106,0.950
+model 3,542,0.950
+model s,1002,0.950
+model x,784,0.950
+model y,438,0.950
+mohave,1185,0.950
+mokka,168,0.950
+mondeo,388,0.950
+montero,812,0.950
+morning,1186,0.950
+mustang,509,0.950
+n200,402,0.950
+n300,191,0.950
+n5,1244,0.950
+n6,942,0.950
+n7,940,0.950
+nativa,1118,0.950
+navara,1301,0.950
+navigator,1295,0.950
+neon,1243,0.950
+nevo q05,779,0.950
+new beetles,1225,0.950
+nissan 350 z,1210,1.000
+nissan altima,1211,1.000
+nissan armada,941,1.000
+nissan bluebird,814,1.000
+nissan datsun,451,1.000
+nissan juke,85,1.000
+nissan livina,624,1.000
+nissan magnite,357,1.000
+nissan march,695,1.000
+nissan maxima,1258,1.000
+nissan n6,942,1.000
+nissan n7,940,1.000
+nissan navara,1301,1.000
+nissan other,704,1.000
+nissan pathfinder,623,1.000
+nissan patrol,370,1.000
+nissan pick up,815,1.000
+nissan pickup,650,1.000
+nissan pulsar,1124,1.000
+nissan qashqai,16,1.000
+nissan sentra,33,1.000
+nissan sunny,1,1.000
+nissan tiida,183,1.000
+nissan x trail,244,1.000
+nissan xtrail,450,1.000
+niva,355,0.950
+nkr,963,0.950
+nova,918,0.950
+npr,602,0.950
+nubira,20,0.950
+nubira 1,219,0.950
+nubira 2,69,0.950
+octavia,19,0.950
+octavia a4,101,0.950
+octavia a5,198,0.950
+octavia a7,184,0.950
+octavia a8,249,0.950
+octavia combi,1130,0.950
+oka,1405,0.950
+okavango,601,0.950
+one,215,0.950
+opel adam,817,1.000
+opel ascona,1410,1.000
+opel astra,7,1.000
+opel cascada,592,1.000
+opel corsa,32,1.000
+opel corsa e,1125,1.000
+opel cross land,257,1.000
+opel crossland,115,1.000
+opel frontera,459,1.000
+opel grand land,285,1.000
+opel grandland,108,1.000
+opel insignia,60,1.000
+opel meriva,428,1.000
+opel mokka,168,1.000
+opel other,943,1.000
+opel tigra,816,1.000
+opel vectra,28,1.000
+optima,473,0.950
+optra,6,0.950
+other,419,0.950
+other make other,884,1.000
+other model,1056,0.950
+outlander,766,0.950
+outlander phev,1306,0.950
+outlander sport,1208,0.950
+p7,1227,0.950
+paceman,1207,0.950
+pacifica,1067,0.950
+pajero,112,0.950
+palio,255,0.950
+palisade,1354,0.950
+panamera,696,0.950
+panda,1096,0.950
+pandino,196,0.950
+parati,353,0.950
+park avenue,1034,0.950
+pars,1019,0.950
+partner,944,0.950
+passat,34,0.950
+passat cc,1224,0.950
+pathfinder,623,0.950
+patrol,370,0.950
+pegas,424,0.950
+peri,1015,0.950
+perodua kelisa,1029,1.000
+persona,358,0.950
+petra,334,0.950
+peugeot 104,1229,1.000
+peugeot 106,874,1.000
+peugeot 2008,80,1.000
+peugeot 205,625,1.000
+peugeot 206,221,1.000
+peugeot 207,452,1.000
+peugeot 207 sw,1412,1.000
+peugeot 208,499,1.000
+peugeot 3008,29,1.000
+peugeot 301,64,1.000
+peugeot 305,429,1.000
+peugeot 307,143,1.000
+peugeot 307 sw,281,1.000
+peugeot 308,313,1.000
+peugeot 308 sw,405,1.000
+peugeot 309,1008,1.000
+peugeot 404,1213,1.000
+peugeot 405,53,1.000
+peugeot 406,178,1.000
+peugeot 407,498,1.000
+peugeot 408,160,1.000
+peugeot 5008,89,1.000
+peugeot 504,130,1.000
+peugeot 504 sw,472,1.000
+peugeot 505,273,1.000
+peugeot 508,45,1.000
+peugeot 508 gt max,1212,1.000
+peugeot 605,818,1.000
+peugeot 607,1381,1.000
+peugeot other,1126,1.000
+peugeot pars,1019,1.000
+peugeot partner,944,1.000
+peugeot rcz,680,1.000
+picanto,42,0.950
+picasso,969,0.950
+pick up,380,0.950
+pickup,362,0.950
+pickup dababa,169,0.950
+pilot,1035,0.950
+pointer,171,0.950
+polo,66,0.950
+polonez,239,0.950
+porsche 718,1360,1.000
+porsche 718 boxster,994,1.000
+porsche 911,521,1.000
+porsche boxster,520,1.000
+porsche carrera,793,1.000
+porsche cayenne,124,1.000
+porsche cayenne coupe,643,1.000
+porsche cayenne new,1215,1.000
+porsche cayenne s,608,1.000
+porsche cayman,717,1.000
+porsche macan,132,1.000
+porsche macan electric,1075,1.000
+porsche macan t,1214,1.000
+porsche panamera,696,1.000
+porsche taycan,697,1.000
+prado,274,0.950
+preve,609,0.950
+previa,743,0.950
+pride,94,0.950
+pride sedan,514,0.950
+proton exora,1375,1.000
+proton gen 2,227,1.000
+proton persona,358,1.000
+proton preve,609,1.000
+proton saga,301,1.000
+proton waja,391,1.000
+proton wira,413,1.000
+pt cruiser,1254,0.950
+pulsar,1124,0.950
+puma,1253,0.950
+punto,83,0.950
+punto evo,799,0.950
+q2,502,0.950
+q22,1023,0.950
+q3,152,0.950
+q4 e tron,631,0.950
+q5,688,0.950
+q5 e tron,1330,0.950
+q7,167,0.950
+q8,245,0.950
+qashqai,16,0.950
+qin,957,0.950
+qp,1339,0.950
+qq,341,0.950
+racer,523,0.950
+rainbow,371,0.950
+raize,1136,0.950
+ram,354,0.950
+range rover,328,0.950
+range rover evoque,252,0.950
+range rover sport,93,0.950
+range rover sport svr,578,0.950
+range rover svr,1359,0.950
+range rover vogue,159,0.950
+ranger,1397,0.950
+rapid,474,0.950
+rapid spaceback,1379,0.950
+rapide s,1398,0.950
+rav4,1223,0.950
+rcz,680,0.950
+regata,145,0.950
+rehigh rh8,1332,1.000
+renault 11,864,1.000
+renault 12,945,1.000
+renault 14,819,1.000
+renault 18,767,1.000
+renault 19,386,1.000
+renault 21,1127,1.000
+renault 25,1128,1.000
+renault 5,564,1.000
+renault 9,626,1.000
+renault austral,363,1.000
+renault captur,216,1.000
+renault clio,56,1.000
+renault dokker,681,1.000
+renault duster,25,1.000
+renault espace,1256,1.000
+renault express van,1216,1.000
+renault fluence,68,1.000
+renault kadjar,48,1.000
+renault kardian,555,1.000
+renault laguna,682,1.000
+renault lodgy,995,1.000
+renault logan,2,1.000
+renault logan mcv,314,1.000
+renault megane,9,1.000
+renault optima,473,1.000
+renault rainbow,371,1.000
+renault sandero,75,1.000
+renault sandero step way,136,1.000
+renault sandero stepway,84,1.000
+renault scala,683,1.000
+renault scenic,339,1.000
+renault symbol,338,1.000
+renault taliant,282,1.000
+renault trafic,1129,1.000
+renault twizy,698,1.000
+renegade,97,0.950
+rh8,1332,0.950
+rio,36,0.950
+ritmo,420,0.950
+rolls royce cullinan,1078,1.000
+rolls royce spectre,996,1.000
+roma,1368,0.950
+roomster,742,0.950
+rover defender,732,0.950
+rover discovery,619,0.950
+rover discovery sport,804,0.950
+rover lr3,1100,0.950
+rover range rover,671,0.950
+rover range rover evoque,308,0.950
+rover range rover sport,175,0.950
+rover range rover sport svr,925,0.950
+rover range rover svr,926,0.950
+rover range rover vogue,309,0.950
+rover velar,226,0.950
+rox 01,181,1.000
+rox adamas,416,1.000
+rox rox 01,1350,1.000
+rs q8,952,0.950
+rs5,905,0.950
+rumion,1133,0.950
+rush,275,0.950
+rx,876,0.950
+rx5,57,0.950
+rx5 plus,351,0.950
+rx9,1321,0.950
+s 05,1217,0.950
+s 06,1218,0.950
+s 07,392,0.950
+s 09,483,0.950
+s 280,1108,0.950
+s 320,809,0.950
+s 350,620,0.950
+s 400,735,0.950
+s 450,336,0.950
+s 5,1151,0.950
+s 500,469,0.950
+s 560,1101,0.950
+s 63 amg,933,0.950
+s presso,316,0.950
+s type,1270,0.950
+s05,395,0.950
+s06,397,0.950
+s07,656,0.950
+s08,612,0.950
+s09,1394,0.950
+s2,1032,0.950
+s280,1025,0.950
+s3,1038,0.950
+s300,648,0.950
+s320,765,0.950
+s350,482,0.950
+s4,1039,0.950
+s400,512,0.950
+s450,197,0.950
+s5,663,0.950
+s500,204,0.950
+s550,1053,0.950
+s560,607,0.950
+s580,764,0.950
+s60,379,0.950
+s7,519,0.950
+s80,1005,0.950
+s800,1362,0.950
+s90,1006,0.950
+saga,301,0.950
+saiba,981,0.950
+saipa,588,0.950
+saipa pride,644,1.000
+saipa pride sedan,514,1.000
+saipa tiba,485,1.000
+saipa tiipa,865,1.000
+samara,511,0.950
+samurai,1131,0.950
+sandero,75,0.950
+sandero step way,136,0.950
+sandero stepway,84,0.950
+santa fe,422,0.950
+santamo,924,0.950
+scala,683,0.950
+scenic,339,0.950
+scirocco,630,0.950
+scorpio,563,0.950
+seagull,464,0.950
+seal,780,0.950
+sealion 5,713,0.950
+sealion 6,326,0.950
+seat 124,1240,1.000
+seat 131,1230,1.000
+seat 133,872,1.000
+seat altea,997,1.000
+seat arona,253,1.000
+seat ateca,258,1.000
+seat cordoba,515,1.000
+seat ibiza,30,1.000
+seat leon,128,1.000
+seat other,1009,1.000
+seat tarraco,286,1.000
+seat toledo,228,1.000
+sel 280,1111,0.950
+sel 300,929,0.950
+sel 500,1115,0.950
+sel300,1201,0.950
+seltos,367,0.950
+senova a1,565,1.000
+senova other,1265,1.000
+senova x25,538,1.000
+senova x35,866,1.000
+sentra,33,0.950
+sephia,122,0.950
+shahin,38,0.950
+shark 6,716,0.950
+shine,1281,0.950
+shineray x30,645,1.000
+shuma,214,0.950
+siena,58,0.950
+sienna,1334,0.950
+sierra,635,0.950
+silverado,752,0.950
+sirion,454,0.950
+skoda fabia,166,1.000
+skoda fantasia,146,1.000
+skoda favorit,222,1.000
+skoda favorite,867,1.000
+skoda felecia,72,1.000
+skoda felicia,141,1.000
+skoda felicia combi,315,1.000
+skoda foreman,820,1.000
+skoda forman,699,1.000
+skoda kamiq,340,1.000
+skoda karoq,372,1.000
+skoda kodiaq,40,1.000
+skoda kushaq,1304,1.000
+skoda octavia,19,1.000
+skoda octavia a4,101,1.000
+skoda octavia a5,198,1.000
+skoda octavia a7,184,1.000
+skoda octavia a8,249,1.000
+skoda octavia combi,1130,1.000
+skoda rapid,474,1.000
+skoda rapid spaceback,1379,1.000
+skoda roomster,742,1.000
+skoda scala,741,1.000
+skoda superb,90,1.000
+skoda yeti,684,1.000
+skylark,1406,0.950
+sl 500,1200,0.950
+sl class,1363,0.950
+sl roadster,591,0.950
+sl43 amg cabriolet,1198,0.950
+sl55 amg,1194,0.950
+slc class,1352,0.950
+slk,1333,0.950
+slk 55 amg,1112,0.950
+smart 3,1317,1.000
+smart other,1246,1.000
+solaris,324,0.950
+sonata,266,0.950
+sonet,1099,0.950
+song l,289,0.950
+song plus,494,0.950
+sonic,584,0.950
+sorento,81,0.950
+sorento hybrid,259,0.950
+soueast a 5,1219,1.000
+soueast crystala,1260,1.000
+soueast dx 8s,1043,1.000
+soueast dx3,1277,1.000
+soueast dx5,1220,1.000
+soueast dx8s coupe,998,1.000
+soueast s 05,1217,1.000
+soueast s 06,1218,1.000
+soueast s 07,392,1.000
+soueast s 09,483,1.000
+soueast s05,395,1.000
+soueast s06,397,1.000
+soueast s08,612,1.000
+soueast v3,999,1.000
+soueast veryca,1386,1.000
+soul,155,0.950
+souran,770,0.950
+space star,1382,0.950
+spark,114,0.950
+spark ev,1290,0.950
+sparky,880,0.950
+spectra,206,0.950
+spectre,996,0.950
+speranza a11,647,1.000
+speranza a113,70,1.000
+speranza a213,329,1.000
+speranza a516,76,1.000
+speranza a620,302,1.000
+speranza chery qq,1407,1.000
+speranza envy,414,1.000
+speranza m11,287,1.000
+speranza m12,484,1.000
+speranza marke,1221,1.000
+speranza tiggo,176,1.000
+splendor,560,0.950
+sportage,5,0.950
+sportage hybrid,785,0.950
+sportage l,803,0.950
+spresso,566,0.950
+sprinter,992,0.950
+sr7,1228,0.950
+ssang yong actyon,1284,1.000
+ssang yong other,1248,1.000
+ssang yong tivoli,777,1.000
+ssang yong tivoli xlv,885,1.000
+ssang yong torres,888,1.000
+ssr,1371,0.950
+staria,524,0.950
+starlet,824,0.950
+starray,846,0.950
+stelvio,501,0.950
+su7,702,0.950
+subaru forester,1000,1.000
+subaru impreza,254,1.000
+subaru legacy,1001,1.000
+subaru other,1239,1.000
+subaru xv,205,1.000
+suburban,1356,0.950
+sunny,1,0.950
+super panda,774,0.950
+superb,90,0.950
+supercarry,700,0.950
+suran,477,0.950
+suzuki alto,102,1.000
+suzuki apv,1132,1.000
+suzuki baleno,298,1.000
+suzuki carry,821,1.000
+suzuki celerio,406,1.000
+suzuki ciaz,211,1.000
+suzuki dzire,271,1.000
+suzuki ertiga,594,1.000
+suzuki fronx,946,1.000
+suzuki grand vitara,264,1.000
+suzuki jimny,822,1.000
+suzuki maruti,59,1.000
+suzuki other,593,1.000
+suzuki pick up,380,1.000
+suzuki pickup,823,1.000
+suzuki s presso,316,1.000
+suzuki samurai,1131,1.000
+suzuki spresso,566,1.000
+suzuki supercarry,700,1.000
+suzuki swift,62,1.000
+suzuki swift dzire,232,1.000
+suzuki sx4,627,1.000
+suzuki van,96,1.000
+suzuki vitara,233,1.000
+swift,62,0.950
+swift dzire,232,0.950
+sx4,627,0.950
+symbol,338,0.950
+t roc,558,0.950
+t series,665,0.950
+t1,320,0.950
+t2,88,0.950
+t200,1266,0.950
+t33,1164,0.950
+t5,575,0.950
+t5 evo,562,0.950
+t500,1007,0.950
+t55,959,0.950
+t600,610,0.950
+t77,960,0.950
+tahoe,1069,0.950
+taliant,282,0.950
+tang,913,0.950
+tang l,787,0.950
+tarraco,286,0.950
+taurus,1013,0.950
+tavria,1231,0.950
+taycan,697,0.950
+tayron,293,0.950
+tempra,139,0.950
+teramont,950,0.950
+tercel,475,0.950
+terios,119,0.950
+terrain,758,0.950
+terramar,202,0.950
+tesla 3 model,868,1.000
+tesla cybertruck,579,1.000
+tesla model 3,542,1.000
+tesla model s,1002,1.000
+tesla model x,784,1.000
+tesla model y,438,1.000
+tfr,508,0.950
+ti7,462,0.950
+tiba,485,0.950
+tiggo,117,0.950
+tiggo 2 pro max,1094,0.950
+tiggo 3,49,0.950
+tiggo 4,914,0.950
+tiggo 4 pro,182,0.950
+tiggo 5,1022,0.950
+tiggo 7,55,0.950
+tiggo 7 pro,225,0.950
+tiggo 7 pro max,332,0.950
+tiggo 8,133,0.950
+tiggo 8 pro,322,0.950
+tiggo 8 pro max,279,0.950
+tiggo 9,1079,0.950
+tigra,816,0.950
+tiguan,39,0.950
+tiida,183,0.950
+tiipa,865,0.950
+tipo,24,0.950
+tipo hatchback,634,0.950
+tivoli,777,0.950
+tivoli xlv,885,0.950
+toledo,228,0.950
+tonale,433,0.950
+torres,760,0.950
+touareg,432,0.950
+touran,769,0.950
+town and country,599,0.950
+town car,984,0.950
+town country,967,0.950
+toyota 86,1345,1.000
+toyota auris,595,1.000
+toyota avanza,628,1.000
+toyota avensis,776,1.000
+toyota belta,408,1.000
+toyota bz3,1296,1.000
+toyota bz3x,1311,1.000
+toyota bz4x,1327,1.000
+toyota c hr,430,1.000
+toyota camry,556,1.000
+toyota celica,1135,1.000
+toyota corolla,4,1.000
+toyota corolla cross,1134,1.000
+toyota corolla hybrid,1286,1.000
+toyota corona,387,1.000
+toyota cressida,409,1.000
+toyota crown,1012,1.000
+toyota echo,407,1.000
+toyota fortuner,116,1.000
+toyota gr corolla,947,1.000
+toyota gr86,1222,1.000
+toyota granvia,1361,1.000
+toyota hiace,705,1.000
+toyota highlander,1328,1.000
+toyota highlander hybrid,1066,1.000
+toyota hilux,373,1.000
+toyota land cruiser,138,1.000
+toyota land cruiser 70,1291,1.000
+toyota mark,1245,1.000
+toyota other,1137,1.000
+toyota prado,274,1.000
+toyota previa,743,1.000
+toyota raize,1136,1.000
+toyota rav4,1223,1.000
+toyota rumion,1133,1.000
+toyota rush,275,1.000
+toyota sienna,1334,1.000
+toyota starlet,824,1.000
+toyota tercel,475,1.000
+toyota urban cruiser,530,1.000
+toyota yaris,51,1.000
+trafic,1129,0.950
+trailblazer,964,0.950
+transporter,1140,0.950
+trax,614,0.950
+trial blazer,916,0.950
+tt,746,0.950
+tucson,21,0.950
+tucson gdi,170,0.950
+tucson nx4e,389,0.950
+tucson turbo gdi,403,0.950
+turan,1138,0.950
+twizy,698,0.950
+u tour,1309,0.950
+u5 plus,303,0.950
+uni t,410,0.950
+uni v,749,0.950
+uno,123,0.950
+urban cruiser,530,0.950
+urus,908,0.950
+urus s,982,0.950
+v 250,350,0.950
+v 300,490,0.950
+v27,657,0.950
+v3,836,0.950
+v300,1196,0.950
+v5,533,0.950
+v6,597,0.950
+v7,748,0.950
+v9,1336,0.950
+van,96,0.950
+vantage,1366,0.950
+vectra,28,0.950
+velar,118,0.950
+veloster,669,0.950
+venue,709,0.950
+veracruz,1098,0.950
+verna,10,0.950
+verna 1 6,435,0.950
+veryca,1386,0.950
+viano,310,0.950
+vistiq,1355,0.950
+vita,971,0.950
+vitara,233,0.950
+vito,733,0.950
+viva,468,0.950
+volkswagen amarok,1139,1.000
+volkswagen beetle,157,1.000
+volkswagen beetles,646,1.000
+volkswagen bora,294,1.000
+volkswagen caddy,827,1.000
+volkswagen caddy life,1003,1.000
+volkswagen cc,476,1.000
+volkswagen crossfox,1026,1.000
+volkswagen e golf,949,1.000
+volkswagen eos,826,1.000
+volkswagen golf,86,1.000
+volkswagen golf 2,596,1.000
+volkswagen golf 4,557,1.000
+volkswagen golf 5,629,1.000
+volkswagen golf 6,531,1.000
+volkswagen golf 7,352,1.000
+volkswagen golf r,948,1.000
+volkswagen id 4,431,1.000
+volkswagen id 4 crozz,539,1.000
+volkswagen id 6,685,1.000
+volkswagen id 6 crozz,768,1.000
+volkswagen id era 9x,788,1.000
+volkswagen id unyx,869,1.000
+volkswagen id3,1292,1.000
+volkswagen id4,460,1.000
+volkswagen id6,398,1.000
+volkswagen id7,686,1.000
+volkswagen jetta,111,1.000
+volkswagen new beetles,1225,1.000
+volkswagen other,825,1.000
+volkswagen parati,353,1.000
+volkswagen passat,34,1.000
+volkswagen passat cc,1224,1.000
+volkswagen pointer,171,1.000
+volkswagen polo,66,1.000
+volkswagen scirocco,630,1.000
+volkswagen souran,770,1.000
+volkswagen suran,477,1.000
+volkswagen t roc,558,1.000
+volkswagen tayron,293,1.000
+volkswagen teramont,950,1.000
+volkswagen tiguan,39,1.000
+volkswagen touareg,432,1.000
+volkswagen touran,769,1.000
+volkswagen transporter,1140,1.000
+volkswagen turan,1138,1.000
+volvo 240,773,1.000
+volvo 460,871,1.000
+volvo 740,1004,1.000
+volvo 940,870,1.000
+volvo ex 90,1346,1.000
+volvo ex30,1313,1.000
+volvo s60,379,1.000
+volvo s80,1005,1.000
+volvo s90,1006,1.000
+volvo xc 40,567,1.000
+volvo xc 60,393,1.000
+volvo xc 90,540,1.000
+volvo xc40,654,1.000
+volvo xc40 recharge,1343,1.000
+volvo xc60,396,1.000
+volvo xc90,441,1.000
+voyager,753,0.950
+vx,1049,0.950
+waja,391,0.950
+wira,413,0.950
+wrangler,131,0.950
+wrangler rubicon,1074,0.950
+wrangler willys,1242,0.950
+x,1076,0.950
+x 7,636,0.950
+x pandido,882,0.950
+x pandino,976,0.950
+x trail,244,0.950
+x type,1182,0.950
+x1,52,0.950
+x2,190,0.950
+x25,538,0.950
+x3,41,0.950
+x3 m,491,0.950
+x3 pro,573,0.950
+x30,645,0.950
+x35,866,0.950
+x4,201,0.950
+x40,844,0.950
+x4m,492,0.950
+x5,73,0.950
+x5 m,361,0.950
+x5 plus,893,0.950
+x55,710,0.950
+x6,98,0.950
+x6 m,237,0.950
+x7,444,0.950
+x7 m60i,581,0.950
+x70,164,0.950
+x70 facelift,1183,0.950
+x70 plus,295,0.950
+x70 plus ckd,603,0.950
+x90,305,0.950
+x90 plus,855,0.950
+x95,390,0.950
+xc 40,567,0.950
+xc 60,393,0.950
+xc 90,540,0.950
+xc40,654,0.950
+xc40 recharge,1343,0.950
+xc60,396,0.950
+xc90,441,0.950
+xceed,121,0.950
+xd,617,0.950
+xf,692,0.950
+xiaomi su7,702,1.000
+xiaomi yu7,439,1.000
+xj,979,0.950
+xj6,1268,0.950
+xjl,1181,0.950
+xm,794,0.950
+xpander,187,0.950
+xpander cross,936,0.950
+xpeng g6,1411,1.000
+xpeng g9,1226,1.000
+xpeng m03,1303,1.000
+xpeng other,1326,1.000
+xpeng p7,1227,1.000
+xplosion,701,0.950
+xsara,343,0.950
+xsara picasso,1080,0.950
+xtrail,450,0.950
+xv,205,0.950
+yaris,51,0.950
+yeti,684,0.950
+yrv,970,0.950
+yu7,439,0.950
+yuan,1384,0.950
+yuan plus,1092,0.950
+yukon,455,0.950
+yukon xl,1358,0.950
+z100,1262,0.950
+z4,442,0.950
+zastava,922,0.950
+zaz,1403,0.950
+zeekr 001,500,1.000
+zeekr 007,828,1.000
+zeekr 009,1377,1.000
+zeekr 7x,488,1.000
+zeekr 9 0,1141,1.000
+zeekr 9x,789,1.000
+zeekr x,1076,1.000
+zotye explosion,319,1.000
+zotye sr7,1228,1.000
+zotye t200,1266,1.000
+zotye t500,1007,1.000
+zotye t600,610,1.000
+zotye xplosion,701,1.000
+zotye z100,1262,1.000
+zr,1122,0.950
+zr v,759,0.950
+zs,63,0.950
+zs ev,937,0.950
+zst,1047,0.950
+zx,690,0.950

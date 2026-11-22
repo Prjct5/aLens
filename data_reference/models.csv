@@ -1,0 +1,1415 @@
+model_id,make,model,trim,body_type,segment,n_observations
+1,Nissan,Sunny,,,,629
+2,Renault,Logan,,,,608
+3,Mercedes-Benz,C180,,,,577
+4,Toyota,Corolla,,,,526
+5,Kia,Sportage,,,,484
+6,Chevrolet,Optra,,,,465
+7,Opel,Astra,,,,454
+8,Chevrolet,Lanos,,,,437
+9,Renault,Megane,,,,435
+10,Hyundai,Verna,,,,408
+11,Mercedes-Benz,E200,,,,377
+12,Hyundai,Accent,,,,352
+13,Chevrolet,Aveo,,,,343
+14,Daewoo,Lanos,,,,341
+15,Hyundai,Elantra,,,,331
+16,Nissan,Qashqai,,,,328
+17,Kia,Cerato,,,,305
+18,Fiat,128,,,,300
+19,Skoda,Octavia,,,,300
+20,Daewoo,Nubira,,,,291
+21,Hyundai,Tucson,,,,289
+22,Mitsubishi,Lancer,,,,287
+23,Mercedes-Benz,C200,,,,270
+24,Fiat,Tipo,,,,255
+25,Renault,Duster,,,,238
+26,BMW,320i,,,,235
+27,Mercedes-Benz,C 180,,,,232
+28,Opel,Vectra,,,,228
+29,Peugeot,3008,,,,228
+30,Seat,Ibiza,,,,226
+31,Chery,Arrizo 5,,,,221
+32,Opel,Corsa,,,,219
+33,Nissan,Sentra,,,,214
+34,Volkswagen,Passat,,,,207
+35,Chevrolet,Cruze,,,,204
+36,Kia,Rio,,,,204
+37,BYD,F3,,,,202
+38,Fiat,Shahin,,,,199
+39,Volkswagen,Tiguan,,,,196
+40,Skoda,Kodiaq,,,,185
+41,BMW,X3,,,,184
+42,Kia,Picanto,,,,182
+43,Hyundai,Matrix,,,,176
+44,Hyundai,Excel,,,,171
+45,Peugeot,508,,,,167
+46,Jeep,Grand Cherokee,,,,167
+47,MG,5,,,,164
+48,Renault,Kadjar,,,,164
+49,Chery,Tiggo 3,,,,151
+50,BMW,520,,,,148
+51,Toyota,Yaris,,,,147
+52,BMW,X1,,,,145
+53,Peugeot,405,,,,144
+54,MG,HS,,,,143
+55,Chery,Tiggo 7,,,,142
+56,Renault,Clio,,,,140
+57,MG,RX5,,,,138
+58,Fiat,Siena,,,,137
+59,Suzuki,Maruti,,,,137
+60,Opel,Insignia,,,,136
+61,BMW,318,,,,135
+62,Suzuki,Swift,,,,135
+63,MG,ZS,,,,133
+64,Peugeot,301,,,,132
+65,Lada,2107,,,,131
+66,Volkswagen,Polo,,,,127
+67,MG,MG 5,,,,126
+68,Renault,Fluence,,,,124
+69,Daewoo,Nubira 2,,,,122
+70,Speranza,A113,,,,122
+71,Mercedes-Benz,E 200,,,,120
+72,Skoda,Felecia,,,,120
+73,BMW,X5,,,,119
+74,Hyundai,Accent RB,,,,119
+75,Renault,Sandero,,,,119
+76,Speranza,A516,,,,119
+77,Kia,Carens,,,,118
+78,Mercedes-Benz,CLA 200,,,,118
+79,Ford,Focus,,,,118
+80,Peugeot,2008,,,,115
+81,Kia,Sorento,,,,112
+82,Mercedes-Benz,GLC 300,,,,111
+83,Fiat,Punto,,,,110
+84,Renault,Sandero Stepway,,,,108
+85,Nissan,Juke,,,,105
+86,Volkswagen,Golf,,,,105
+87,BMW,316,,,,103
+88,Jetour,T2,,,,102
+89,Peugeot,5008,,,,101
+90,Skoda,Superb,,,,101
+91,Mercedes-Benz,GLA 200,,,,100
+92,Honda,Civic,,,,100
+93,Land Rover,Range Rover Sport,,,,99
+94,Kia,Pride,,,,97
+95,Mitsubishi,Lancer Puma,,,,95
+96,Suzuki,Van,,,,95
+97,Jeep,Renegade,,,,95
+98,BMW,X6,,,,94
+99,Fiat,131,,,,94
+100,Hyundai,Elantra HD,,,,94
+101,Skoda,Octavia A4,,,,94
+102,Suzuki,Alto,,,,94
+103,Mercedes-Benz,C 200,,,,93
+104,Hyundai,I10,,,,92
+105,Jeep,Cherokee,,,,92
+106,Fiat,127,,,,91
+107,Hyundai,Avante,,,,91
+108,Opel,Grandland,,,,91
+109,Geely,Emgrand 7,,,,89
+110,Mercedes-Benz,GLC 200,,,,88
+111,Volkswagen,Jetta,,,,87
+112,Mitsubishi,Pajero,,,,85
+113,BMW,320,,,,84
+114,Chevrolet,Spark,,,,84
+115,Opel,Crossland,,,,83
+116,Toyota,Fortuner,,,,83
+117,Chery,Tiggo,,,,82
+118,Land Rover,Velar,,,,82
+119,Daihatsu,Terios,,,,80
+120,Mazda,3,,,,79
+121,Kia,Xceed,,,,77
+122,Kia,Sephia,,,,77
+123,Fiat,Uno,,,,76
+124,Porsche,Cayenne,,,,76
+125,Hyundai,Getz,,,,75
+126,Chevrolet,Captiva,,,,73
+127,Mercedes-Benz,GLE 450,,,,73
+128,Seat,Leon,,,,73
+129,Kia,K3,,,,72
+130,Peugeot,504,,,,72
+131,Jeep,Wrangler,,,,72
+132,Porsche,Macan,,,,71
+133,Chery,Tiggo 8,,,,70
+134,Fiat,132,,,,70
+135,Mitsubishi,Lancer EX Shark,,,,70
+136,Renault,Sandero Step Way,,,,69
+137,Hyundai,Elantra CN7,,,,68
+138,Toyota,Land Cruiser,,,,68
+139,Fiat,Tempra,,,,67
+140,MG,6,,,,64
+141,Skoda,Felicia,,,,64
+142,Kia,Carnival,,,,63
+143,Peugeot,307,,,,63
+144,Mercedes-Benz,E300,,,,63
+145,Fiat,Regata,,,,62
+146,Skoda,Fantasia,,,,62
+147,Daewoo,Lanos 2,,,,61
+148,Mercedes-Benz,CLA 180,,,,61
+149,Chery,Envy,,,,60
+150,Daewoo,Juliet,,,,59
+151,Fiat,128 nova,,,,58
+152,Audi,Q3,,,,58
+153,Hyundai,Atos,,,,57
+154,Audi,A3,,,,57
+155,Kia,Soul,,,,56
+156,Mercedes-Benz,200,,,,56
+157,Volkswagen,Beetle,,,,56
+158,Hyundai,Elantra AD,,,,55
+159,Land Rover,Range Rover Vogue,,,,55
+160,Peugeot,408,,,,54
+161,Lada,Granta,,,,53
+162,MG,MG 6,,,,52
+163,Citroen,C4,,,,51
+164,Jetour,X70,,,,51
+165,Mercedes-Benz,GLS,,,,50
+166,Skoda,Fabia,,,,50
+167,Audi,Q7,,,,50
+168,Opel,Mokka,,,,49
+169,Chevrolet,Pickup/Dababa,,,,49
+170,Hyundai,Tucson GDI,,,,48
+171,Volkswagen,Pointer,,,,48
+172,Daewoo,Leganza,,,,47
+173,Hyundai,Elantra MD,,,,47
+174,Mercedes-Benz,E180,,,,47
+175,Land Rover,Rover Range Rover Sport,,,,46
+176,Speranza,Tiggo,,,,46
+177,Mercedes-Benz,GLC 43,,,,45
+178,Peugeot,406,,,,45
+179,BMW,318i,,,,45
+180,Mercedes-Benz,A200,,,,45
+181,ROX,01,,,,45
+182,Chery,Tiggo 4 Pro,,,,44
+183,Nissan,Tiida,,,,44
+184,Skoda,Octavia A7,,,,44
+185,Mercedes-Benz,G63,,,,43
+186,Mercedes-Benz,E 180,,,,43
+187,Mitsubishi,Xpander,,,,43
+188,Citroen,C-Elysee,,,,43
+189,Citroen,C5 Aircross,,,,43
+190,BMW,X2,,,,42
+191,Chevrolet,N300,,,,42
+192,Citroen,C5,,,,42
+193,Citroen,C3,,,,42
+194,Daewoo,Lanos II,,,,42
+195,Fiat,500X,,,,42
+196,Geely,Pandino,,,,42
+197,Mercedes-Benz,S450,,,,42
+198,Skoda,Octavia A5,,,,41
+199,BMW,520i,,,,41
+200,MINI,Cooper,,,,41
+201,BMW,X4,,,,40
+202,Cupra,Terramar,,,,40
+203,Lada,2105,,,,40
+204,Mercedes-Benz,S500,,,,40
+205,Subaru,XV,,,,40
+206,Kia,Spectra,,,,39
+207,Audi,A4,,,,39
+208,Hyundai,Creta,,,,38
+209,Fiat,Grand Punto,,,,37
+210,Mitsubishi,Eclipse,,,,37
+211,Suzuki,Ciaz,,,,37
+212,Jaguar,F-Pace,,,,37
+213,Chery,A11,,,,36
+214,Kia,Shuma,,,,36
+215,MG,One,,,,36
+216,Renault,Captur,,,,36
+217,Land Rover,Evoque,,,,36
+218,BYD,L3,,,,35
+219,Daewoo,Nubira 1,,,,35
+220,Hyundai,IX 35,,,,35
+221,Peugeot,206,,,,35
+222,Skoda,Favorit,,,,35
+223,BMW,316i,,,,35
+224,Brilliance,Galena,,,,35
+225,Chery,Tiggo 7 Pro,,,,34
+226,Land Rover,Rover Velar,,,,34
+227,Proton,Gen-2,,,,34
+228,Seat,Toledo,,,,34
+229,Cadillac,Escalade,,,,33
+230,Daewoo,Lacetti,,,,33
+231,Kia,Grand Cerato,,,,33
+232,Suzuki,Swift Dzire,,,,33
+233,Suzuki,Vitara,,,,33
+234,Jetour,Dashing,,,,33
+235,Mazda,323,,,,33
+236,Cupra,Leon,,,,32
+237,BMW,X6 M,,,,31
+238,Daewoo,Matiz,,,,31
+239,Fiat,Polonez,,,,31
+240,Audi,A5,,,,31
+241,Avatr,12,,,,31
+242,Brilliance,FRV,,,,31
+243,Ford,Fiesta,,,,31
+244,Nissan,X-Trail,,,,31
+245,Audi,Q8,,,,30
+246,Honda,City,,,,30
+247,Mercedes-Benz,B180,,,,30
+248,Mitsubishi,Lancer Crystala,,,,29
+249,Skoda,Octavia A8,,,,29
+250,Citroen,C3 Aircross,,,,29
+251,Cupra,Formentor,,,,29
+252,Land Rover,Range Rover Evoque,,,,29
+253,Seat,Arona,,,,29
+254,Subaru,Impreza,,,,29
+255,Fiat,Palio,,,,28
+256,Geely,Emgrand X7,,,,28
+257,Opel,Cross Land,,,,28
+258,Seat,Ateca,,,,28
+259,Kia,Sorento Hybrid,,,,28
+260,BMW,218 i,,,,27
+261,BMW,740,,,,27
+262,Fiat,Dogan,,,,27
+263,Lynk & Co,900,,,,27
+264,Suzuki,Grand vitara,,,,27
+265,Mercedes-Benz,E250,,,,27
+266,Hyundai,Sonata,,,,26
+267,Hyundai,I30,,,,26
+268,Brilliance,FSV,,,,26
+269,Daihatsu,Charade,,,,26
+270,Ford,Escort,,,,26
+271,Suzuki,Dzire,,,,26
+272,Mitsubishi,Attrage,,,,25
+273,Peugeot,505,,,,25
+274,Toyota,Prado,,,,25
+275,Toyota,Rush,,,,25
+276,Audi,A6,,,,25
+277,MINI,Countryman,,,,25
+278,BMW,525,,,,24
+279,Chery,Tiggo 8 Pro Max,,,,24
+280,Mercedes-Benz,180,,,,24
+281,Peugeot,307 SW,,,,24
+282,Renault,Taliant,,,,24
+283,Ford,Kuga,,,,24
+284,Jeep,Liberty,,,,24
+285,Opel,Grand Land,,,,24
+286,Seat,Tarraco,,,,24
+287,Speranza,M11,,,,24
+288,BMW,420,,,,23
+289,BYD,Song L,,,,23
+290,Hyundai,Grand I10,,,,23
+291,Mercedes-Benz,E 300,,,,23
+292,Mercedes-Benz,230,,,,23
+293,Volkswagen,Tayron,,,,23
+294,Volkswagen,Bora,,,,23
+295,Jetour,X70 Plus,,,,23
+296,BMW,523,,,,22
+297,Kia,Ceed,,,,22
+298,Suzuki,Baleno,,,,22
+299,Changan,Benni mini,,,,22
+300,MINI,Cooper s,,,,22
+301,Proton,Saga,,,,22
+302,Speranza,A620,,,,22
+303,Baic,U5 Plus,,,,22
+304,Changan,CS55,,,,22
+305,Jetour,X90,,,,22
+306,Hyundai,Coupe,,,,21
+307,Kia,Forte,,,,21
+308,Land Rover,Rover Range Rover Evoque,,,,21
+309,Land Rover,Rover Range Rover Vogue,,,,21
+310,Mercedes-Benz,Viano,,,,21
+311,Mercedes-Benz,E 250,,,,21
+312,Mercedes-Benz,B 200,,,,21
+313,Peugeot,308,,,,21
+314,Renault,Logan MCV,,,,21
+315,Skoda,Felicia Combi,,,,21
+316,Suzuki,S-Presso,,,,21
+317,Ford,EcoSport,,,,21
+318,Ford,Fusion,,,,21
+319,Zotye,Explosion,,,,21
+320,Jetour,T1,,,,21
+321,BMW,330i,,,,20
+322,Chery,Tiggo 8 Pro,,,,20
+323,Hyundai,Accent HCI,,,,20
+324,Hyundai,Solaris,,,,20
+325,Mercedes-Benz,C 250,,,,20
+326,BYD,Sealion 6,,,,20
+327,Honda,CR-V,,,,20
+328,Land Rover,Range Rover,,,,20
+329,Speranza,A213,,,,20
+330,BMW,I7,,,,19
+331,BMW,530,,,,19
+332,Chery,Tiggo 7 pro max,,,,19
+333,Chevrolet,Malibu,,,,19
+334,Fiat,Petra,,,,19
+335,Mercedes-Benz,CLE 200,,,,19
+336,Mercedes-Benz,S 450,,,,19
+337,Mitsubishi,Eclipse Cross,,,,19
+338,Renault,Symbol,,,,19
+339,Renault,Scenic,,,,19
+340,Skoda,Kamiq,,,,19
+341,Chery,QQ,,,,19
+342,Citroen,C4 Grand Picasso,,,,19
+343,Citroen,Xsara,,,,19
+344,Geely,Coolray,,,,19
+345,Geely,GX3 Pro,,,,19
+346,Haval,Jolion,,,,19
+347,Honda,Accord,,,,19
+348,BMW,118,,,,18
+349,Mercedes-Benz,GLC,,,,18
+350,Mercedes-Benz,V 250,,,,18
+351,MG,RX5 Plus,,,,18
+352,Volkswagen,Golf 7,,,,18
+353,Volkswagen,Parati,,,,18
+354,Dodge,Ram,,,,18
+355,Lada,Niva,,,,18
+356,Mercedes-Benz,E350,,,,18
+357,Nissan,Magnite,,,,18
+358,Proton,Persona,,,,18
+359,Hyundai,IX35,,,,18
+360,MG,MG 7,,,,18
+361,BMW,X5 M,,,,17
+362,Chevrolet,Pickup,,,,17
+363,Renault,Austral,,,,17
+364,Mercedes-Benz,C300,,,,17
+365,MINI,John Cooper Works,,,,17
+366,BMW,I3,,,,16
+367,Kia,Seltos,,,,16
+368,Mercedes-Benz,B 180,,,,16
+369,Mitsubishi,Mirage,,,,16
+370,Nissan,Patrol,,,,16
+371,Renault,Rainbow,,,,16
+372,Skoda,Karoq,,,,16
+373,Toyota,Hilux,,,,16
+374,Changan,EADO,,,,16
+375,Geely,Emgrand,,,,16
+376,Haval,H6,,,,16
+377,Lada,2110,,,,16
+378,Mercedes-Benz,E240,,,,16
+379,Volvo,s60,,,,16
+380,Suzuki,Pick up,,,,16
+381,Chery,Arrizo 6,,,,16
+382,Mercedes-Benz,A180,,,,16
+383,BMW,M4,,,,15
+384,Daewoo,Espero,,,,15
+385,Mercedes-Benz,A 200,,,,15
+386,Renault,19,,,,15
+387,Toyota,Corona,,,,15
+388,Ford,Mondeo,,,,15
+389,Hyundai,Tucson NX4e,,,,15
+390,Jetour,X95,,,,15
+391,Proton,Waja,,,,15
+392,Soueast,S 07,,,,15
+393,Volvo,XC 60,,,,15
+394,Isuzu,D-Max,,,,15
+395,Soueast,S05,,,,15
+396,Volvo,XC60,,,,15
+397,Soueast,S06,,,,15
+398,Volkswagen,ID6,,,,15
+399,GMC,Hummer EV,,,,15
+400,BMW,IX3,,,,14
+401,BMW,M3,,,,14
+402,Chevrolet,N200,,,,14
+403,Hyundai,Tucson Turbo GDI,,,,14
+404,Hyundai,I20,,,,14
+405,Peugeot,308 SW,,,,14
+406,Suzuki,Celerio,,,,14
+407,Toyota,Echo,,,,14
+408,Toyota,Belta,,,,14
+409,Toyota,Cressida,,,,14
+410,Changan,UNI-T,,,,14
+411,Mercedes-Benz,E280,,,,14
+412,MINI,Countryman S,,,,14
+413,Proton,Wira,,,,14
+414,Speranza,Envy,,,,14
+415,Mercedes-Benz,C250,,,,14
+416,ROX,ADAMAS,,,,14
+417,BMW,528,,,,13
+418,BYD,Flyer,,,,13
+419,Chevrolet,Other,,,,13
+420,Fiat,Ritmo,,,,13
+421,Fiat,500,,,,13
+422,Hyundai,Santa Fe,,,,13
+423,Kia,Cerato Koup,,,,13
+424,Kia,Pegas,,,,13
+425,Mercedes-Benz,GLK 300,,,,13
+426,Mitsubishi,Galant,,,,13
+427,MG,GT,,,,13
+428,Opel,Meriva,,,,13
+429,Peugeot,305,,,,13
+430,Toyota,C-HR,,,,13
+431,Volkswagen,ID 4,,,,13
+432,Volkswagen,Touareg,,,,13
+433,Alfa Romeo,Tonale,,,,13
+434,GAC,EMPOW,,,,13
+435,Hyundai,Verna 1.6,,,,13
+436,Jaguar,F-type,,,,13
+437,Mercedes-Benz,E230,,,,13
+438,Tesla,Model Y,,,,13
+439,Xiaomi,YU7,,,,13
+440,MG,MG 1,,,,13
+441,Volvo,XC90,,,,13
+442,BMW,Z4,,,,12
+443,BMW,I5,,,,12
+444,BMW,X7,,,,12
+445,Hyundai,Bayon,,,,12
+446,Mercedes-Benz,GLE,,,,12
+447,Mercedes-Benz,C 200 AMG,,,,12
+448,Mercedes-Benz,EQS 450+,,,,12
+449,Mercedes-Benz,GT 43,,,,12
+450,Nissan,XTrail,,,,12
+451,Nissan,Datsun,,,,12
+452,Peugeot,207,,,,12
+453,Brilliance,FRV Cross,,,,12
+454,Daihatsu,Sirion,,,,12
+455,GMC,Yukon,,,,12
+456,Land Rover,Discovery,,,,12
+457,Mitsubishi,Lancer Shark,,,,12
+458,Mercedes-Benz,B200,,,,12
+459,Opel,Frontera,,,,12
+460,Volkswagen,ID4,,,,12
+461,Deepal,G318,,,,12
+462,BYD,Ti7,,,,12
+463,BMW,340,,,,11
+464,BYD,Seagull,,,,11
+465,BYD,F0,,,,11
+466,Chery,A15,,,,11
+467,Chevrolet,Camaro,,,,11
+468,Hyundai,Viva,,,,11
+469,Mercedes-Benz,S 500,,,,11
+470,Mercedes-Benz,EQE 350,,,,11
+471,Mercedes-Benz,G500,,,,11
+472,Peugeot,504 SW,,,,11
+473,Renault,Optima,,,,11
+474,Skoda,Rapid,,,,11
+475,Toyota,Tercel,,,,11
+476,Volkswagen,CC,,,,11
+477,Volkswagen,Suran,,,,11
+478,BMW,IX,,,,11
+479,Chana,Benni,,,,11
+480,Dodge,Durango,,,,11
+481,Land Rover,Defender,,,,11
+482,Mercedes-Benz,S350,,,,11
+483,Soueast,S 09,,,,11
+484,Speranza,M12,,,,11
+485,Saipa,Tiba,,,,11
+486,Kia,Cerato Coupe,,,,11
+487,MG,G50,,,,11
+488,Zeekr,7X,,,,11
+489,Mercedes-Benz,GLB 200,,,,11
+490,Mercedes-Benz,V 300,,,,11
+491,BMW,X3 M,,,,10
+492,BMW,X4M,,,,10
+493,BMW,116,,,,10
+494,BYD,Song Plus,,,,10
+495,Chevrolet,Equinox,,,,10
+496,Mercedes-Benz,E 200 AMG,,,,10
+497,Mercedes-Benz,Maybach,,,,10
+498,Peugeot,407,,,,10
+499,Peugeot,208,,,,10
+500,Zeekr,001,,,,10
+501,Alfa Romeo,Stelvio,,,,10
+502,Audi,Q2,,,,10
+503,Avatr,07,,,,10
+504,BMW,523i,,,,10
+505,BMW,525i,,,,10
+506,BMW,218i,,,,10
+507,Changan,CS15,,,,10
+508,Chevrolet,TFR,,,,10
+509,Ford,Mustang,,,,10
+510,Honda,HR-V,,,,10
+511,Lada,Samara,,,,10
+512,Mercedes-Benz,S400,,,,10
+513,Mercedes-Benz,EQE 500,,,,10
+514,Saipa,Pride Sedan,,,,10
+515,Seat,Cordoba,,,,10
+516,Citroen,AX,,,,10
+517,Mitsubishi,Atrage,,,,10
+518,BYD,Destroyer 05,,,,10
+519,Forthing,S7,,,,10
+520,Porsche,Boxster,,,,10
+521,Porsche,911,,,,10
+522,BMW,750,,,,9
+523,Daewoo,Racer,,,,9
+524,Hyundai,Staria,,,,9
+525,Mercedes-Benz,E 350,,,,9
+526,Mercedes-Benz,C 280,,,,9
+527,Mercedes-Benz,EQB 350,,,,9
+528,Mitsubishi,Colt,,,,9
+529,MG,7,,,,9
+530,Toyota,Urban Cruiser,,,,9
+531,Volkswagen,Golf 6,,,,9
+532,Alfa Romeo,Giulia,,,,9
+533,Brilliance,V5,,,,9
+534,Land Rover,Discovery Sport,,,,9
+535,Mazda,2,,,,9
+536,Mercedes-Benz,GLS 580,,,,9
+537,Mercedes-Benz,E320,,,,9
+538,Senova,X25,,,,9
+539,Volkswagen,ID.4 Crozz,,,,9
+540,Volvo,XC 90,,,,9
+541,Geely,Maple,,,,9
+542,Tesla,Model 3,,,,9
+543,Haval,H7,,,,9
+544,Lynk & Co,08,,,,9
+545,Fiat,500 X,,,,8
+546,Fiat,500C,,,,8
+547,Fiat,125,,,,8
+548,Kia,K4,,,,8
+549,Mercedes-Benz,E 230,,,,8
+550,Mercedes-Benz,C 300,,,,8
+551,Mercedes-Benz,A 180,,,,8
+552,Mercedes-Benz,GLK 250,,,,8
+553,Mercedes-Benz,GLK 350,,,,8
+554,Mercedes-Benz,190,,,,8
+555,Renault,Kardian,,,,8
+556,Toyota,Camry,,,,8
+557,Volkswagen,Golf 4,,,,8
+558,Volkswagen,T-Roc,,,,8
+559,Alfa Romeo,Giulietta,,,,8
+560,Brilliance,Splendor,,,,8
+561,Changan,Eado plus,,,,8
+562,Forthing,T5 EVO,,,,8
+563,Mahindra,Scorpio,,,,8
+564,Renault,5,,,,8
+565,Senova,A1,,,,8
+566,Suzuki,Spresso,,,,8
+567,Volvo,XC 40,,,,8
+568,Changhe,Ideal,,,,8
+569,Geely,Ck,,,,8
+570,Daihatsu,Mira,,,,8
+571,Daihatsu,Kancil,,,,8
+572,Changan,Benni,,,,8
+573,Kaiyi,X3 Pro,,,,8
+574,Citroen,C4X,,,,8
+575,Forthing,T5,,,,8
+576,GAC,Aion i60,,,,8
+577,Deepal,S05,,,,8
+578,Land Rover,Range Rover Sport SVR,,,,8
+579,Tesla,Cybertruck,,,,8
+580,BMW,i4,,,,7
+581,BMW,X7 M60i,,,,7
+582,Chery,Other,,,,7
+583,Chery,A5,,,,7
+584,Chevrolet,Sonic,,,,7
+585,Fiat,Bravo,,,,7
+586,Fiat,Brava,,,,7
+587,Fiat,Other,,,,7
+588,Kia,Saipa,,,,7
+589,Mercedes-Benz,E Class,,,,7
+590,Mercedes-Benz,EQS 580,,,,7
+591,Mercedes-Benz,SL Roadster,,,,7
+592,Opel,Cascada,,,,7
+593,Suzuki,Other,,,,7
+594,Suzuki,Ertiga,,,,7
+595,Toyota,Auris,,,,7
+596,Volkswagen,Golf 2,,,,7
+597,Brilliance,V6,,,,7
+598,Changan,Alsvin,,,,7
+599,Chrysler,Town and Country,,,,7
+600,DFSK,Eagel 580,,,,7
+601,Geely,Okavango,,,,7
+602,Isuzu,NPR,,,,7
+603,Jetour,X70 Plus CKD,,,,7
+604,Lifan,320,,,,7
+605,Mazda,929,,,,7
+606,Mercedes-Benz,E300e,,,,7
+607,Mercedes-Benz,S560,,,,7
+608,Porsche,Cayenne S,,,,7
+609,Proton,Preve,,,,7
+610,Zotye,T600,,,,7
+611,Baic,BJ30,,,,7
+612,Soueast,S08,,,,7
+613,BMW,418,,,,6
+614,Chevrolet,Trax,,,,6
+615,Chevrolet,Caprice,,,,6
+616,Hyundai,H1,,,,6
+617,Hyundai,XD,,,,6
+618,Kia,K5,,,,6
+619,Land Rover,Rover Discovery,,,,6
+620,Mercedes-Benz,S 350,,,,6
+621,Mercedes-Benz,E 240,,,,6
+622,Mercedes-Benz,EQA 260,,,,6
+623,Nissan,Pathfinder,,,,6
+624,Nissan,Livina,,,,6
+625,Peugeot,205,,,,6
+626,Renault,9,,,,6
+627,Suzuki,Sx4,,,,6
+628,Toyota,Avanza,,,,6
+629,Volkswagen,Golf 5,,,,6
+630,Volkswagen,Scirocco,,,,6
+631,Audi,Q4 E-Tron,,,,6
+632,BMW,530i,,,,6
+633,BMW,116i,,,,6
+634,Fiat,Tipo Hatchback,,,,6
+635,GMC,Sierra,,,,6
+636,Geely,X 7,,,,6
+637,Great Wall,Hover,,,,6
+638,Jaguar,E-Pace,,,,6
+639,Maserati,Ghibli,,,,6
+640,Mazda,Familia,,,,6
+641,Mercedes-Benz,G 63,,,,6
+642,Mercedes-Benz,B150,,,,6
+643,Porsche,Cayenne Coupe,,,,6
+644,Saipa,Pride,,,,6
+645,Shineray,X30,,,,6
+646,Volkswagen,Beetles,,,,6
+647,Speranza,A11,,,,6
+648,Mercedes-Benz,S300,,,,6
+649,Mercedes-Benz,C280,,,,6
+650,Nissan,Pickup,,,,6
+651,Jac,J7,,,,6
+652,DFSK,E5 Plus,,,,6
+653,Mercedes-Benz,GLA 180,,,,6
+654,Volvo,XC40,,,,6
+655,Geely,EX5,,,,6
+656,Deepal,S07,,,,6
+657,ICAUR,V27,,,,6
+658,Maserati,Grecale,,,,6
+659,Lexus,LX,,,,6
+660,BMW,328,,,,5
+661,BMW,IX1,,,,5
+662,BYD,Leopard 5,,,,5
+663,BYD,S5,,,,5
+664,Cadillac,Lyriq,,,,5
+665,Chevrolet,T-Series,,,,5
+666,Daewoo,Cielo,,,,5
+667,Fiat,1100,,,,5
+668,Hyundai,Elantra Coupe,,,,5
+669,Hyundai,Veloster,,,,5
+670,Hyundai,Galloper,,,,5
+671,Land Rover,Rover Range Rover,,,,5
+672,Mercedes-Benz,E 280,,,,5
+673,Mercedes-Benz,B 150,,,,5
+674,Mercedes-Benz,C260L,,,,5
+675,Mercedes-Benz,GLC 250,,,,5
+676,Mercedes-Benz,250,,,,5
+677,Mercedes-Benz,GL-Class,,,,5
+678,Mercedes-Benz,GT 53,,,,5
+679,Mercedes-Benz,A 35 AMG,,,,5
+680,Peugeot,RCZ,,,,5
+681,Renault,Dokker,,,,5
+682,Renault,Laguna,,,,5
+683,Renault,Scala,,,,5
+684,Skoda,Yeti,,,,5
+685,Volkswagen,ID 6,,,,5
+686,Volkswagen,ID7,,,,5
+687,Alfa Romeo,Mito,,,,5
+688,Audi,Q5,,,,5
+689,Citroen,Berlingo,,,,5
+690,Citroen,ZX,,,,5
+691,Daihatsu,Gran Max,,,,5
+692,Jaguar,XF,,,,5
+693,Mercedes-Benz,GLC 300 COUPE,,,,5
+694,Mercedes-Benz,C 180 station,,,,5
+695,Nissan,March,,,,5
+696,Porsche,Panamera,,,,5
+697,Porsche,Taycan,,,,5
+698,Renault,Twizy,,,,5
+699,Skoda,Forman,,,,5
+700,Suzuki,SuperCarry,,,,5
+701,Zotye,Xplosion,,,,5
+702,Xiaomi,SU7,,,,5
+703,Lada,1500,,,,5
+704,Nissan,Other,,,,5
+705,Toyota,Hiace,,,,5
+706,Lancia,Dedra,,,,5
+707,Daihatsu,Pickup,,,,5
+708,Mercedes-Benz,CLA Class,,,,5
+709,Hyundai,Venue,,,,5
+710,Baic,X55,,,,5
+711,Mercedes-Benz,CLS,,,,5
+712,Geely,EX5 EM-i,,,,5
+713,BYD,Sealion 5,,,,5
+714,Ds,DS7,,,,5
+715,BYD,Leopard 7,,,,5
+716,BYD,Shark 6,,,,5
+717,Porsche,Cayman,,,,5
+718,BMW,730,,,,4
+719,BMW,430,,,,4
+720,BMW,218,,,,4
+721,BMW,M850,,,,4
+722,BMW,850,,,,4
+723,BMW,3 Series,,,,4
+724,BYD,Dolphin,,,,4
+725,Fiat,1300,,,,4
+726,Fiat,Doblo,,,,4
+727,Fiat,Linea,,,,4
+728,Fiat,124,,,,4
+729,Fiat,Florida,,,,4
+730,Hyundai,Ix20,,,,4
+731,Kia,Cadenza,,,,4
+732,Land Rover,Rover Defender,,,,4
+733,Mercedes-Benz,Vito,,,,4
+734,Mercedes-Benz,EQV 300,,,,4
+735,Mercedes-Benz,S 400,,,,4
+736,Mercedes-Benz,300,,,,4
+737,Mercedes-Benz,240,,,,4
+738,Mercedes-Benz,Maybach GLS,,,,4
+739,Mercedes-Benz,EQS 53,,,,4
+740,Mercedes-Benz,CLE 300,,,,4
+741,Skoda,SCALA,,,,4
+742,Skoda,Roomster,,,,4
+743,Toyota,Previa,,,,4
+744,Alfa Romeo,156,,,,4
+745,Audi,A1,,,,4
+746,Audi,TT,,,,4
+747,BMW,740Li,,,,4
+748,Changan,V7,,,,4
+749,Changan,UNI-V,,,,4
+750,Changan,CS35,,,,4
+751,Changhe,M50s,,,,4
+752,Chevrolet,Silverado,,,,4
+753,Chrysler,Voyager,,,,4
+754,Citroen,C4 X,,,,4
+755,Citroen,DS7,,,,4
+756,DFSK,Glory 330,,,,4
+757,Dodge,Charger,,,,4
+758,GMC,Terrain,,,,4
+759,Honda,ZR-V,,,,4
+760,KGM,Torres,,,,4
+761,Land Rover,Land rover,,,,4
+762,MG,750,,,,4
+763,Mercedes-Benz,EQB 260,,,,4
+764,Mercedes-Benz,S580,,,,4
+765,Mercedes-Benz,S320,,,,4
+766,Mitsubishi,Outlander,,,,4
+767,Renault,18,,,,4
+768,Volkswagen,ID.6 Crozz,,,,4
+769,Volkswagen,Touran,,,,4
+770,Volkswagen,Souran,,,,4
+771,Lada,1200,,,,4
+772,Lada,2017,,,,4
+773,Volvo,240,,,,4
+774,Changhe,Super Panda,,,,4
+775,Chrysler,M300,,,,4
+776,Toyota,Avensis,,,,4
+777,Ssang Yong,Tivoli,,,,4
+778,Mercedes-Benz,C43 AMG,,,,4
+779,Changan,Nevo Q05,,,,4
+780,BYD,Seal,,,,4
+781,Dongfeng,007 REEV,,,,4
+782,Mitsubishi,Destinator,,,,4
+783,Haval,V7,,,,4
+784,Tesla,Model X,,,,4
+785,Kia,Sportage Hybrid,,,,4
+786,IM,LS7,,,,4
+787,BYD,Tang L,,,,4
+788,Volkswagen,ID ERA 9X,,,,4
+789,Zeekr,9X,,,,4
+790,Dodge,Challenger,,,,4
+791,Bentley,Bentayga,,,,4
+792,Mercedes-Benz,Other,,,,4
+793,Porsche,Carrera,,,,4
+794,BMW,XM,,,,3
+795,BMW,Other,,,,3
+796,BMW,335,,,,3
+797,BMW,440i,,,,3
+798,BYD,Han,,,,3
+799,Fiat,Punto Evo,,,,3
+800,Fiat,Cinquecento,,,,3
+801,Hyundai,Other,,,,3
+802,Hyundai,Ioniq 5,,,,3
+803,Kia,Sportage L,,,,3
+804,Land Rover,Rover Discovery sport,,,,3
+805,Mercedes-Benz,E 320,,,,3
+806,Mercedes-Benz,B 160,,,,3
+807,Mercedes-Benz,A 150,,,,3
+808,Mercedes-Benz,A250e,,,,3
+809,Mercedes-Benz,S 320,,,,3
+810,Mercedes-Benz,G Class,,,,3
+811,Mitsubishi,L 200,,,,3
+812,Mitsubishi,Montero,,,,3
+813,MG,3,,,,3
+814,Nissan,Bluebird,,,,3
+815,Nissan,Pick up,,,,3
+816,Opel,Tigra,,,,3
+817,Opel,Adam,,,,3
+818,Peugeot,605,,,,3
+819,Renault,14,,,,3
+820,Skoda,Foreman,,,,3
+821,Suzuki,Carry,,,,3
+822,Suzuki,Jimny,,,,3
+823,Suzuki,Pickup,,,,3
+824,Toyota,Starlet,,,,3
+825,Volkswagen,Other,,,,3
+826,Volkswagen,Eos,,,,3
+827,Volkswagen,Caddy,,,,3
+828,Zeekr,007,,,,3
+829,Alfa Romeo,147,,,,3
+830,Avatr,06,,,,3
+831,BMW,118i,,,,3
+832,BMW,M5,,,,3
+833,BMW,420i Convertible,,,,3
+834,BMW,420i Gran Coupe,,,,3
+835,BYD,Leopard5,,,,3
+836,Brilliance,V3,,,,3
+837,Changan,CS55-Plus,,,,3
+838,Chevrolet,Corvette,,,,3
+839,Citroen,C4 Picasso,,,,3
+840,Citroen,DS3,,,,3
+841,Daihatsu,Grand Terios,,,,3
+842,Daihatsu,Materia,,,,3
+843,Dongfeng,Box,,,,3
+844,Faw,X40,,,,3
+845,GAC,GS4,,,,3
+846,Geely,Starray,,,,3
+847,Great Wall,Florid,,,,3
+848,Haima,S5,,,,3
+849,Hawtai,A25,,,,3
+850,Honda,Jazz,,,,3
+851,Hummer,Hummer EV SUV,,,,3
+852,Hyundai,HD260,,,,3
+853,Hyundai,IX 20,,,,3
+854,Jeep,Commander,,,,3
+855,Jetour,X90 Plus,,,,3
+856,Kia,EV5,,,,3
+857,Lotus,Emira,,,,3
+858,MG,MG 3,,,,3
+859,Mercedes-Benz,EQS SUV,,,,3
+860,Mercedes-Benz,EQE 300,,,,3
+861,Mercedes-Benz,C Coupe,,,,3
+862,Mercedes-Benz,C230,,,,3
+863,Mercedes-Benz,B160,,,,3
+864,Renault,11,,,,3
+865,Saipa,Tiipa,,,,3
+866,Senova,X35,,,,3
+867,Skoda,favorite,,,,3
+868,Tesla,3 Model,,,,3
+869,Volkswagen,ID Unyx,,,,3
+870,Volvo,940,,,,3
+871,Volvo,460,,,,3
+872,Seat,133,,,,3
+873,Mazda,626,,,,3
+874,Peugeot,106,,,,3
+875,Geely,Frota,,,,3
+876,Mazda,RX,,,,3
+877,Mazda,121,,,,3
+878,Lifan,Other,,,,3
+879,Geely,MK,,,,3
+880,Geely,Sparky,,,,3
+881,Jeep,Other,,,,3
+882,Geely,X Pandido,,,,3
+883,Hafei,Lobo,,,,3
+884,Other make,Other,,,,3
+885,Ssang Yong,Tivoli XLV,,,,3
+886,MINI,Cabrio,,,,3
+887,Kaiyi,E5,,,,3
+888,Ssang Yong,Torres,,,,3
+889,Jac,JS6,,,,3
+890,Chery,EQ7,,,,3
+891,Baic,X7,,,,3
+892,Geely,City Ray,,,,3
+893,Changan,X5 Plus,,,,3
+894,DFSK,E5,,,,3
+895,GAC,EMZOOM,,,,3
+896,BMW,535,,,,3
+897,Lynk & Co,3,,,,3
+898,Haval,H6 HEV,,,,3
+899,Avatr,11,,,,3
+900,MG,Cyberster,,,,3
+901,Mercedes-Benz,GLA,,,,3
+902,Mercedes-Benz,CLA 300L,,,,3
+903,BYD,M9,,,,3
+904,Maserati,Grecale Modena,,,,3
+905,Audi,RS5,,,,3
+906,Mercedes-Benz,CLE 53,,,,3
+907,Bentley,Continental GT,,,,3
+908,Lamborghini,Urus,,,,3
+909,Lamborghini,Huracan,,,,3
+910,BMW,IX50,,,,2
+911,BMW,640,,,,2
+912,BMW,325,,,,2
+913,BYD,Tang,,,,2
+914,Chery,Tiggo 4,,,,2
+915,Chery,A3,,,,2
+916,Chevrolet,Trial Blazer,,,,2
+917,Chevrolet,Frontera,,,,2
+918,Fiat,Nova,,,,2
+919,Fiat,126,,,,2
+920,Fiat,Fiorino,,,,2
+921,Fiat,1200,,,,2
+922,Fiat,Zastava,,,,2
+923,Hyundai,Centennial,,,,2
+924,Hyundai,Santamo,,,,2
+925,Land Rover,Rover Range Rover Sport SVR,,,,2
+926,Land Rover,Rover Range Rover SVR,,,,2
+927,Mercedes-Benz,EQS 500,,,,2
+928,Mercedes-Benz,E 53 AMG,,,,2
+929,Mercedes-Benz,SEL 300,,,,2
+930,Mercedes-Benz,C Class,,,,2
+931,Mercedes-Benz,EQE,,,,2
+932,Mercedes-Benz,AMG GT,,,,2
+933,Mercedes-Benz,S 63 AMG,,,,2
+934,Mercedes-Benz,500,,,,2
+935,Mercedes-Benz,280,,,,2
+936,Mitsubishi,Xpander Cross,,,,2
+937,MG,ZS EV,,,,2
+938,MG,C 350,,,,2
+939,MG,Crossover,,,,2
+940,Nissan,N7,,,,2
+941,Nissan,Armada,,,,2
+942,Nissan,N6,,,,2
+943,Opel,Other,,,,2
+944,Peugeot,Partner,,,,2
+945,Renault,12,,,,2
+946,Suzuki,Fronx,,,,2
+947,Toyota,GR Corolla,,,,2
+948,Volkswagen,Golf R,,,,2
+949,Volkswagen,E Golf,,,,2
+950,Volkswagen,Teramont,,,,2
+951,Alfa Romeo,Giulietta veloce,,,,2
+952,Audi,RS Q8,,,,2
+953,BMW,340i,,,,2
+954,BMW,M850i,,,,2
+955,BMW,740i,,,,2
+956,BMW,325i,,,,2
+957,BYD,QIN,,,,2
+958,Bentley,Bentiaga,,,,2
+959,Bestune,T55,,,,2
+960,Bestune,T77,,,,2
+961,Changan,CS35 PLUS,,,,2
+962,Chery,E5,,,,2
+963,Chevrolet,NKR,,,,2
+964,Chevrolet,Trailblazer,,,,2
+965,Chevrolet,Chevrolet Trax,,,,2
+966,Chrysler,300C,,,,2
+967,Chrysler,Town & Country,,,,2
+968,Citroen,DS5,,,,2
+969,Citroen,Picasso,,,,2
+970,Daihatsu,YRV,,,,2
+971,Faw,Vita,,,,2
+972,Fiat,Chenko,,,,2
+973,Ford,Explorer,,,,2
+974,GAC,GS4 Max,,,,2
+975,Geely,Imperial,,,,2
+976,Geely,X Pandino,,,,2
+977,Geely,CK 2,,,,2
+978,Haima,M3,,,,2
+979,Jaguar,XJ,,,,2
+980,Kaiyi,X3,,,,2
+981,Kia,Saiba,,,,2
+982,Lamborghini,URUS S,,,,2
+983,Li Auto,L7,,,,2
+984,Lincoln,Town Car,,,,2
+985,Lynk & Co,06,,,,2
+986,Mazda,CX 3,,,,2
+987,Mercedes-Benz,G 500,,,,2
+988,Mercedes-Benz,EQE SUV,,,,2
+989,Mercedes-Benz,GLS 580 Maybach,,,,2
+990,Mercedes-Benz,EQA 250,,,,2
+991,Mercedes-Benz,EQB 300,,,,2
+992,Mercedes-Benz,sprinter,,,,2
+993,Mercedes-Benz,C240,,,,2
+994,Porsche,718 Boxster,,,,2
+995,Renault,Lodgy,,,,2
+996,Rolls Royce,Spectre,,,,2
+997,Seat,Altea,,,,2
+998,Soueast,DX8S COUPE,,,,2
+999,Soueast,V3,,,,2
+1000,Subaru,Forester,,,,2
+1001,Subaru,Legacy,,,,2
+1002,Tesla,Model S,,,,2
+1003,Volkswagen,Caddy life,,,,2
+1004,Volvo,740,,,,2
+1005,Volvo,S80,,,,2
+1006,Volvo,S90,,,,2
+1007,Zotye,T500,,,,2
+1008,Peugeot,309,,,,2
+1009,Seat,Other,,,,2
+1010,Lifan,Foison,,,,2
+1011,Kia,Other,,,,2
+1012,Toyota,Crown,,,,2
+1013,Ford,Taurus,,,,2
+1014,Geely,Ck2,,,,2
+1015,Great Wall,Peri,,,,2
+1016,Mitsubishi,Pickup,,,,2
+1017,Alfa Romeo,146,,,,2
+1018,Daihatsu,Other,,,,2
+1019,Peugeot,Pars,,,,2
+1020,Chana,Other,,,,2
+1021,Jac,A13,,,,2
+1022,Chery,Tiggo 5,,,,2
+1023,Karry,Q22,,,,2
+1024,Kia,Carnival MPV,,,,2
+1025,Mercedes-Benz,S280,,,,2
+1026,Volkswagen,CrossFox,,,,2
+1027,DFSK,K01,,,,2
+1028,Mercedes-Benz,A150,,,,2
+1029,Perodua,Kelisa,,,,2
+1030,GMC,Pickup,,,,2
+1031,DFSK,Glory,,,,2
+1032,Jac,S2,,,,2
+1033,DFSK,Other,,,,2
+1034,Buick,Park Avenue,,,,2
+1035,Honda,Pilot,,,,2
+1036,Jac,JS3,,,,2
+1037,KYC,X3,,,,2
+1038,Jac,S3,,,,2
+1039,Jac,S4,,,,2
+1040,Chery,Arrizo 5 pro,,,,2
+1041,Geely,EX2,,,,2
+1042,Land Rover,LR2,,,,2
+1043,Soueast,DX 8S,,,,2
+1044,King Long,Van,,,,2
+1045,Jac,JS4,,,,2
+1046,Arcfox,T1,,,,2
+1047,MG,ZST,,,,2
+1048,Haval,Jolion Pro,,,,2
+1049,Exeed,VX,,,,2
+1050,Jac,JS8 Pro,,,,2
+1051,Dongfeng,Mage,,,,2
+1052,Kia,EV3,,,,2
+1053,Mercedes-Benz,S550,,,,2
+1054,Dongfeng,E Pai 007,,,,2
+1055,GAC,Aion LX,,,,2
+1056,Lynk & Co,Other Model,,,,2
+1057,Ds,Ds4,,,,2
+1058,Arcfox,Alpha T5,,,,2
+1059,Maserati,Levante,,,,2
+1060,Lynk & Co,1,,,,2
+1061,Chery,iCAR 03,,,,2
+1062,Jeep,Grand cherokee 4xe,,,,2
+1063,IM,6,,,,2
+1064,Mercedes-Benz,A35,,,,2
+1065,Mercedes-Benz,EQB,,,,2
+1066,Toyota,Highlander Hybrid,,,,2
+1067,Chrysler,Pacifica,,,,2
+1068,BYD,Other,,,,2
+1069,Chevrolet,Tahoe,,,,2
+1070,Maserati,GranTurismo,,,,2
+1071,Lynk & Co,9,,,,2
+1072,Mercedes-Benz,E53 AMG,,,,2
+1073,Audi,A7,,,,2
+1074,Jeep,Wrangler Rubicon,,,,2
+1075,Porsche,Macan Electric,,,,2
+1076,Zeekr,X,,,,2
+1077,Bentley,Flying Spur,,,,2
+1078,Rolls Royce,Cullinan,,,,2
+1079,Chery,Tiggo 9,,,,2
+1080,Citroen,Xsara Picasso,,,,2
+1081,Fiat,Argenta,,,,2
+1082,BMW,323,,,,1
+1083,BMW,760,,,,1
+1084,BMW,760i,,,,1
+1085,BMW,M235i,,,,1
+1086,BMW,630,,,,1
+1087,BMW,1 Series,,,,1
+1088,BMW,840i,,,,1
+1089,BMW,120,,,,1
+1090,BMW,Gran Coupe,,,,1
+1091,BYD,F3R,,,,1
+1092,BYD,Yuan plus,,,,1
+1093,BYD,Atto 3,,,,1
+1094,Chery,Tiggo 2 Pro Max,,,,1
+1095,Chevrolet,Groove,,,,1
+1096,Fiat,Panda,,,,1
+1097,Hyundai,Kona,,,,1
+1098,Hyundai,Veracruz,,,,1
+1099,Kia,Sonet,,,,1
+1100,Land Rover,Rover lr3,,,,1
+1101,Mercedes-Benz,S 560,,,,1
+1102,Mercedes-Benz,C43,,,,1
+1103,Mercedes-Benz,C 230,,,,1
+1104,Mercedes-Benz,CLS Class,,,,1
+1105,Mercedes-Benz,G 65 AMG,,,,1
+1106,Mercedes-Benz,ML,,,,1
+1107,Mercedes-Benz,250 SE,,,,1
+1108,Mercedes-Benz,S 280,,,,1
+1109,Mercedes-Benz,320,,,,1
+1110,Mercedes-Benz,GLB,,,,1
+1111,Mercedes-Benz,SEL 280,,,,1
+1112,Mercedes-Benz,SLK 55 AMG,,,,1
+1113,Mercedes-Benz,350,,,,1
+1114,Mercedes-Benz,220,,,,1
+1115,Mercedes-Benz,SEL 500,,,,1
+1116,Mercedes-Benz,GLC300 AMG,,,,1
+1117,Mercedes-Benz,C AMG,,,,1
+1118,Mitsubishi,Nativa,,,,1
+1119,Mitsubishi,Other,,,,1
+1120,Mitsubishi,GT,,,,1
+1121,MG,360,,,,1
+1122,MG,ZR,,,,1
+1123,MG,MG 4,,,,1
+1124,Nissan,Pulsar,,,,1
+1125,Opel,Corsa E,,,,1
+1126,Peugeot,Other,,,,1
+1127,Renault,21,,,,1
+1128,Renault,25,,,,1
+1129,Renault,Trafic,,,,1
+1130,Skoda,Octavia Combi,,,,1
+1131,Suzuki,Samurai,,,,1
+1132,Suzuki,APV,,,,1
+1133,Toyota,Rumion,,,,1
+1134,Toyota,Corolla Cross,,,,1
+1135,Toyota,Celica,,,,1
+1136,Toyota,Raize,,,,1
+1137,Toyota,Other,,,,1
+1138,Volkswagen,Turan,,,,1
+1139,Volkswagen,Amarok,,,,1
+1140,Volkswagen,Transporter,,,,1
+1141,Zeekr,9.0,,,,1
+1142,KYC,Sorento,,,,1
+1143,KYC,Grecale,,,,1
+1144,KYC,Lanos,,,,1
+1145,KYC,Soul,,,,1
+1146,KYC,Grandland,,,,1
+1147,KYC,1500,,,,1
+1148,KYC,Box,,,,1
+1149,KYC,Grand Cherokee,,,,1
+1150,Alfa Romeo,Alfa romeo,,,,1
+1151,Audi,S 5,,,,1
+1152,BMW,750Li,,,,1
+1153,BMW,i3 sedan,,,,1
+1154,BMW,430i Gran Coupe,,,,1
+1155,BMW,M8,,,,1
+1156,BMW,730Li,,,,1
+1157,BMW,528i,,,,1
+1158,BMW,328i,,,,1
+1159,BMW,640i,,,,1
+1160,BMW,418i,,,,1
+1161,BMW,335i,,,,1
+1162,BMW,535i,,,,1
+1163,BYD,Leopard 8,,,,1
+1164,Bestune,T33,,,,1
+1165,Brilliance,H 530,,,,1
+1166,Chevrolet,Captiva EV,,,,1
+1167,Chevrolet,Caprice classic,,,,1
+1168,Citroen,DS4,,,,1
+1169,Citroen,C3 Picasso,,,,1
+1170,Daewoo,Celio,,,,1
+1171,Ford,Grand C-Max,,,,1
+1172,Ford,F150,,,,1
+1173,Ford,Bronco Raptor,,,,1
+1174,Ford,Edge,,,,1
+1175,Ford,Expedition,,,,1
+1176,GAC,EMKOO,,,,1
+1177,Honda,e:NS1,,,,1
+1178,Honda,e:NP1,,,,1
+1179,Honda,Cr-x del sol,,,,1
+1180,Hummer,H3,,,,1
+1181,Jaguar,XJL,,,,1
+1182,Jaguar,X Type,,,,1
+1183,Jetour,X70 - facelift,,,,1
+1184,KYC,V3,,,,1
+1185,Kia,Mohave,,,,1
+1186,Kia,Morning,,,,1
+1187,Land Rover,LR4,,,,1
+1188,Land Rover,LR3,,,,1
+1189,Li Auto,L6,,,,1
+1190,MG,350 S,,,,1
+1191,Mercedes-Benz,E 63S,,,,1
+1192,Mercedes-Benz,Maybach S 680,,,,1
+1193,Mercedes-Benz,GLE 500,,,,1
+1194,Mercedes-Benz,SL55 AMG,,,,1
+1195,Mercedes-Benz,GT43,,,,1
+1196,Mercedes-Benz,V300,,,,1
+1197,Mercedes-Benz,E coupe,,,,1
+1198,Mercedes-Benz,SL43 AMG Cabriolet,,,,1
+1199,Mercedes-Benz,G580 with EQ Technology,,,,1
+1200,Mercedes-Benz,Sl 500,,,,1
+1201,Mercedes-Benz,SEL300,,,,1
+1202,Mercedes-Benz,CLS 550,,,,1
+1203,Mercedes-Benz,Maybach S 560,,,,1
+1204,Mercedes-Benz,E Cabriolet,,,,1
+1205,MINI,Cooper Countryman,,,,1
+1206,MINI,Cooper F55,,,,1
+1207,MINI,Paceman,,,,1
+1208,Mitsubishi,Outlander Sport,,,,1
+1209,Mitsubishi,L200,,,,1
+1210,Nissan,350 Z,,,,1
+1211,Nissan,Altima,,,,1
+1212,Peugeot,508 GT MAX,,,,1
+1213,Peugeot,404,,,,1
+1214,Porsche,Macan T,,,,1
+1215,Porsche,Cayenne New,,,,1
+1216,Renault,Express van,,,,1
+1217,Soueast,S 05,,,,1
+1218,Soueast,S 06,,,,1
+1219,Soueast,A 5,,,,1
+1220,Soueast,DX5,,,,1
+1221,Speranza,Marke,,,,1
+1222,Toyota,GR86,,,,1
+1223,Toyota,Rav4,,,,1
+1224,Volkswagen,Passat CC,,,,1
+1225,Volkswagen,New Beetles,,,,1
+1226,XPeng,G9,,,,1
+1227,XPeng,P7,,,,1
+1228,Zotye,sr7,,,,1
+1229,Peugeot,104,,,,1
+1230,Seat,131,,,,1
+1231,Lada,Tavria,,,,1
+1232,Lada,2103,,,,1
+1233,Aito,M9,,,,1
+1234,BMW,518,,,,1
+1235,Lada,2104,,,,1
+1236,Lada,2106,,,,1
+1237,Buick,Apollo,,,,1
+1238,Fiat,Marea,,,,1
+1239,Subaru,Other,,,,1
+1240,Seat,124,,,,1
+1241,Mazda,Pickup,,,,1
+1242,Jeep,Wrangler willys,,,,1
+1243,Chrysler,Neon,,,,1
+1244,Faw,N5,,,,1
+1245,Toyota,Mark,,,,1
+1246,Smart,Other,,,,1
+1247,Audi,80,,,,1
+1248,Ssang Yong,Other,,,,1
+1249,Geely,Englon,,,,1
+1250,Foton,Other,,,,1
+1251,Great Wall,C30,,,,1
+1252,Mitsubishi,L300,,,,1
+1253,Ford,Puma,,,,1
+1254,Chrysler,PT Cruiser,,,,1
+1255,Brilliance,Cross,,,,1
+1256,Renault,Espace,,,,1
+1257,Jac,B15,,,,1
+1258,Nissan,Maxima,,,,1
+1259,Great Wall,Coolbear,,,,1
+1260,Soueast,Crystala,,,,1
+1261,Baic,A1,,,,1
+1262,Zotye,Z100,,,,1
+1263,Ford,Aerostar,,,,1
+1264,Chevrolet,Blazer,,,,1
+1265,Senova,Other,,,,1
+1266,Zotye,T200,,,,1
+1267,BMW,225,,,,1
+1268,Jaguar,XJ6,,,,1
+1269,Jac,A10,,,,1
+1270,Jaguar,S-Type,,,,1
+1271,Citroen,C-Elysée,,,,1
+1272,Kia,Clarus,,,,1
+1273,Mitsubishi,Evolution,,,,1
+1274,BMW,130,,,,1
+1275,Audi,A8,,,,1
+1276,Baic,X3,,,,1
+1277,Soueast,DX3,,,,1
+1278,Jac,J2,,,,1
+1279,MG,350,,,,1
+1280,Ds,DS5,,,,1
+1281,Dongfeng,Shine,,,,1
+1282,MINI,Cooper Paceman,,,,1
+1283,Ds,DS3,,,,1
+1284,Ssang Yong,Actyon,,,,1
+1285,Baic,X35,,,,1
+1286,Toyota,Corolla Hybrid,,,,1
+1287,Mercedes-Benz,CLK,,,,1
+1288,Chrysler,300,,,,1
+1289,BYD,Dolphin Surf,,,,1
+1290,Chevrolet,Spark EV,,,,1
+1291,Toyota,Land Cruiser 70,,,,1
+1292,Volkswagen,ID3,,,,1
+1293,Domy,X7,,,,1
+1294,Lotus,Emeya,,,,1
+1295,Lincoln,Navigator,,,,1
+1296,Toyota,BZ3,,,,1
+1297,GAC,GS3,,,,1
+1298,Foton,C2,,,,1
+1299,BMW,540,,,,1
+1300,Chery,Arrizo 8,,,,1
+1301,Nissan,Navara,,,,1
+1302,Mazda,CX 30,,,,1
+1303,XPeng,M03,,,,1
+1304,Skoda,Kushaq,,,,1
+1305,Haval,H6 GT,,,,1
+1306,Mitsubishi,Outlander PHEV,,,,1
+1307,Kaiyi,X7,,,,1
+1308,Changan,CS75,,,,1
+1309,Forthing,U-Tour,,,,1
+1310,Dongfeng,Huge,,,,1
+1311,Toyota,bZ3X,,,,1
+1312,MINI,Clubman,,,,1
+1313,Volvo,EX30,,,,1
+1314,Hongqi,Other,,,,1
+1315,Mercedes-Benz,GLK,,,,1
+1316,BMW,IX40,,,,1
+1317,Smart,3,,,,1
+1318,Jaguar,I‑Pace,,,,1
+1319,Hongqi,HS3,,,,1
+1320,KGM,Actyon,,,,1
+1321,MG,RX9,,,,1
+1322,Arcfox,Alpha S5,,,,1
+1323,Mazda,Other,,,,1
+1324,Dongfeng,008,,,,1
+1325,Hyundai,Azera,,,,1
+1326,XPeng,Other,,,,1
+1327,Toyota,bz4X,,,,1
+1328,Toyota,Highlander,,,,1
+1329,Kia,EV6,,,,1
+1330,Audi,Q5 E-Tron,,,,1
+1331,IM,5,,,,1
+1332,Rehigh,RH8,,,,1
+1333,Mercedes-Benz,SLK,,,,1
+1334,Toyota,Sienna,,,,1
+1335,Abarth,695,,,,1
+1336,Forthing,V9,,,,1
+1337,BMW,IX2,,,,1
+1338,Hyundai,Ioniq 6,,,,1
+1339,Maserati,QP,,,,1
+1340,Mercedes-Benz,E400,,,,1
+1341,Genesis,GV70,,,,1
+1342,BYD,Atto 8 DM-i,,,,1
+1343,Volvo,XC40 Recharge,,,,1
+1344,Mercedes-Benz,CLA 250+,,,,1
+1345,Toyota,86,,,,1
+1346,Volvo,EX 90,,,,1
+1347,Geely,Galaxy M9,,,,1
+1348,Li Auto,L9,,,,1
+1349,M-Hero,MHERO 1,,,,1
+1350,ROX,Rox 01,,,,1
+1351,BMW,I8,,,,1
+1352,Mercedes-Benz,SLC-Class,,,,1
+1353,Mercedes-Benz,CLA 45 S,,,,1
+1354,Hyundai,Palisade,,,,1
+1355,Cadillac,Vistiq,,,,1
+1356,Chevrolet,Suburban,,,,1
+1357,Hummer,Other,,,,1
+1358,GMC,Yukon XL,,,,1
+1359,Land Rover,Range Rover SVR,,,,1
+1360,Porsche,718,,,,1
+1361,Toyota,Granvia,,,,1
+1362,Maextro,S800,,,,1
+1363,Mercedes-Benz,SL-Class,,,,1
+1364,Aston Martin,DBX,,,,1
+1365,Aston Martin,Other,,,,1
+1366,Aston Martin,Vantage,,,,1
+1367,Maserati,GranCabrio,,,,1
+1368,Ferrari,Roma,,,,1
+1369,Lamborghini,Other,,,,1
+1370,BMW,633,,,,1
+1371,Chevrolet,ssr,,,,1
+1372,Chevrolet,Bolt,,,,1
+1373,Ford,C-max,,,,1
+1374,Citroen,C1,,,,1
+1375,Proton,Exora,,,,1
+1376,Ford,Escape,,,,1
+1377,Zeekr,009,,,,1
+1378,Citroen,Jumpy,,,,1
+1379,Skoda,Rapid Spaceback,,,,1
+1380,Dodge,Caravan,,,,1
+1381,Peugeot,607,,,,1
+1382,Mitsubishi,Space Star,,,,1
+1383,Faw,Besturn,,,,1
+1384,BYD,Yuan,,,,1
+1385,Haima,Family,,,,1
+1386,Soueast,Veryca,,,,1
+1387,Hongqi,E-HS9,,,,1
+1388,BMW,M240i,,,,1
+1389,BMW,M140i,,,,1
+1390,Aston Martin,DBS,,,,1
+1391,DFSK,Eagle 580,,,,1
+1392,Chrysler,C300,,,,1
+1393,Mercedes-Benz,C350,,,,1
+1394,Deepal,S09,,,,1
+1395,DFSK,Eagle Pro,,,,1
+1396,Lada,Aleko,,,,1
+1397,Ford,Ranger,,,,1
+1398,Aston Martin,Rapide S,,,,1
+1399,Dodge,Neon,,,,1
+1400,Jeep,Komodo,,,,1
+1401,Faw,Pickup,,,,1
+1402,Lifan,620,,,,1
+1403,Daewoo,Zaz,,,,1
+1404,Dodge,Dart,,,,1
+1405,Lada,Oka,,,,1
+1406,Buick,Skylark,,,,1
+1407,Speranza,Chery QQ,,,,1
+1408,Geely,Fc,,,,1
+1409,Jeep,Grand Wagoneer,,,,1
+1410,Opel,Ascona,,,,1
+1411,XPeng,G6,,,,1
+1412,Peugeot,207 SW,,,,1
+1413,Lada,2111,,,,1
+1414,Mercedes-Benz,300D,,,,1

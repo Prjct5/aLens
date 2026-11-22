@@ -1,5 +1,6 @@
 {
   "additionalProperties": false,
+  "description": "status keeps 'error' (unknown) distinct from 'gone' (disappeared); see M2 handbook 8.1.",
   "properties": {
     "date_key": {
       "title": "Date Key",
@@ -8,10 +9,6 @@
     "days_since_first_seen": {
       "title": "Days Since First Seen",
       "type": "integer"
-    },
-    "is_live": {
-      "title": "Is Live",
-      "type": "boolean"
     },
     "listing_key": {
       "title": "Listing Key",
@@ -29,6 +26,15 @@
       "default": null,
       "title": "Price Egp"
     },
+    "status": {
+      "enum": [
+        "live",
+        "gone",
+        "error"
+      ],
+      "title": "Status",
+      "type": "string"
+    },
     "vehicle_id": {
       "anyOf": [
         {
@@ -45,7 +51,7 @@
   "required": [
     "listing_key",
     "date_key",
-    "is_live",
+    "status",
     "days_since_first_seen"
   ],
   "title": "FactListingSnapshot",

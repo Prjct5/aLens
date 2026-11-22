@@ -50,7 +50,7 @@ class StubModelProvider:
 
     def market_index(self) -> MarketIndexResponse:
         today = today_cairo()
-        points = [MarketIndexPoint(week_start=today, index=100.0, lo=98.0, hi=102.0, n_listings=0)]
+        points = [MarketIndexPoint(week_start=today, index=100.0, ci_lo=98.0, ci_hi=102.0, n_obs=0)]
         return MarketIndexResponse(
             base_week=today, data_window=f"{today} to {today} (stub)", points=points
         )

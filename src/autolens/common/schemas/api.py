@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-from datetime import date
+from datetime import date, datetime
 from typing import Literal
 
 from pydantic import BaseModel, Field
@@ -60,17 +60,21 @@ class DuplicatesResponse(BaseModel):
 
 
 class MarketIndexPoint(BaseModel):
+    """One row of marts.price_index_weekly."""
+
     week_start: date
     index: float
-    lo: float
-    hi: float
-    n_listings: int
+    ci_lo: float
+    ci_hi: float
+    n_obs: int
 
 
 class MarketIndexResponse(BaseModel):
     base_week: date
     data_window: str
     points: list[MarketIndexPoint]
+    spec_version: str | None = None
+    estimated_at: datetime | None = None
     limitations: str = (
         "Asking prices, not transaction prices. Delisting is a proxy for sale, not proof of one."
     )

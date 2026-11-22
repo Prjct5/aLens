@@ -1,21 +1,22 @@
 {
   "$defs": {
     "MarketIndexPoint": {
+      "description": "One row of marts.price_index_weekly.",
       "properties": {
-        "hi": {
-          "title": "Hi",
+        "ci_hi": {
+          "title": "Ci Hi",
+          "type": "number"
+        },
+        "ci_lo": {
+          "title": "Ci Lo",
           "type": "number"
         },
         "index": {
           "title": "Index",
           "type": "number"
         },
-        "lo": {
-          "title": "Lo",
-          "type": "number"
-        },
-        "n_listings": {
-          "title": "N Listings",
+        "n_obs": {
+          "title": "N Obs",
           "type": "integer"
         },
         "week_start": {
@@ -27,9 +28,9 @@
       "required": [
         "week_start",
         "index",
-        "lo",
-        "hi",
-        "n_listings"
+        "ci_lo",
+        "ci_hi",
+        "n_obs"
       ],
       "title": "MarketIndexPoint",
       "type": "object"
@@ -45,6 +46,19 @@
       "title": "Data Window",
       "type": "string"
     },
+    "estimated_at": {
+      "anyOf": [
+        {
+          "format": "date-time",
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Estimated At"
+    },
     "limitations": {
       "default": "Asking prices, not transaction prices. Delisting is a proxy for sale, not proof of one.",
       "title": "Limitations",
@@ -56,6 +70,18 @@
       },
       "title": "Points",
       "type": "array"
+    },
+    "spec_version": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Spec Version"
     }
   },
   "required": [

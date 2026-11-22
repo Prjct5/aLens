@@ -1,7 +1,7 @@
 from __future__ import annotations
 
 from datetime import date, datetime
-from typing import Any
+from typing import Any, Literal
 
 from autolens.common.schemas._base import ContractModel, ImageId, PHash, Source
 
@@ -23,21 +23,58 @@ class VehicleIdMerge(ContractModel):
 
 
 class FactListingSnapshot(ContractModel):
+    """status keeps 'error' (unknown) distinct from 'gone' (disappeared); see M2 handbook 8.1."""
+
     listing_key: str
-    vehicle_id: int | None = None
     date_key: int
+    vehicle_id: int | None = None
+    status: Literal["live", "gone", "error"]
     price_egp: float | None = None
-    is_live: bool
     days_since_first_seen: int
+
+
+Day = date
+
+
+class DimDate(ContractModel):
+    date_key: int
+    date: Day
+    year: int | None = None
+    month: int | None = None
+    iso_week: int | None = None
+    week_start: Day | None = None
+    dow: int | None = None
 
 
 class DimListing(ContractModel):
     listing_key: str
     source: Source
+    source_listing_id: str
     url: str
     first_seen: date
     last_seen: date
+    last_live_date: date | None = None
     seller_type: str | None = None
+    posted_at: datetime | None = None
+
+
+class DimVehicle(ContractModel):
+    """SCD Type 2 vehicle dimension."""
+
+    vehicle_sk: int | None = None
+    vehicle_id: int
+    model_id: int | None = None
+    year: int | None = None
+    mileage_km: int | None = None
+    transmission: str | None = None
+    fuel_type: str | None = None
+    governorate_code: str | None = None
+    representative_listing_key: str | None = None
+    description_hash: str | None = None
+    row_hash: str
+    valid_from: date
+    valid_to: date = date(9999, 12, 31)
+    is_current: bool = True
 
 
 class DimModel(ContractModel):

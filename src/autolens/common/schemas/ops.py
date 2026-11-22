@@ -15,6 +15,7 @@ class PipelineRunRow(ContractModel):
     rows_in: int | None = None
     rows_out: int | None = None
     warnings: list[str] = []
+    metrics: dict[str, Any] = {}
     error: str | None = None
     started_at: datetime
     finished_at: datetime | None = None
@@ -39,3 +40,21 @@ class ApiRequestRow(ContractModel):
     n_5xx: int
     p50_ms: float | None = None
     p95_ms: float | None = None
+
+
+class ScrapeRun(ContractModel):
+    """ops.scrape_run: one row per source per run (M1 health metrics)."""
+
+    run_id: str
+    source: str
+    run_date: date
+    started_at: datetime
+    finished_at: datetime
+    n_index_pages: int = 0
+    n_listings_seen: int = 0
+    n_new: int = 0
+    n_gone: int = 0
+    n_error: int = 0
+    n_parse_fail: int = 0
+    http_429_count: int = 0
+    degraded: bool = False
