@@ -1,10 +1,19 @@
 {
   "additionalProperties": false,
+  "description": "staging.image_fetch: images in quarantine.",
   "properties": {
     "fetched_at": {
-      "format": "date-time",
-      "title": "Fetched At",
-      "type": "string"
+      "anyOf": [
+        {
+          "format": "date-time",
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Fetched At"
     },
     "height": {
       "anyOf": [
@@ -58,14 +67,24 @@
       "title": "Quarantine Key"
     },
     "source_url": {
-      "title": "Source Url",
-      "type": "string"
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Source Url"
     },
     "status": {
       "enum": [
         "fetched",
         "failed",
-        "promoted"
+        "promoted",
+        "open_source_commons",
+        "synthetic_placeholder"
       ],
       "title": "Status",
       "type": "string"
@@ -87,8 +106,6 @@
     "listing_key",
     "position",
     "image_id",
-    "source_url",
-    "fetched_at",
     "status"
   ],
   "title": "ImageFetch",

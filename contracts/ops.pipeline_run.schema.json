@@ -26,6 +26,12 @@
       "default": null,
       "title": "Finished At"
     },
+    "metrics": {
+      "additionalProperties": true,
+      "default": {},
+      "title": "Metrics",
+      "type": "object"
+    },
     "pipeline_run_id": {
       "anyOf": [
         {

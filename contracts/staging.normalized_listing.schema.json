@@ -1,5 +1,6 @@
 {
   "additionalProperties": false,
+  "description": "staging.normalized_listing: same key, canonical values.",
   "properties": {
     "body_type": {
       "anyOf": [
@@ -12,6 +13,34 @@
       ],
       "default": null,
       "title": "Body Type"
+    },
+    "color": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Color"
+    },
+    "condition": {
+      "anyOf": [
+        {
+          "enum": [
+            "new",
+            "used"
+          ],
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Condition"
     },
     "dq_flags": {
       "additionalProperties": {
@@ -28,6 +57,7 @@
             "diesel",
             "hybrid",
             "electric",
+            "cng",
             "other"
           ],
           "type": "string"
@@ -74,13 +104,13 @@
           "type": "null"
         }
       ],
-      "default": null,
+      "default": 0.0,
       "title": "Mapping Confidence"
     },
     "mileage_km": {
       "anyOf": [
         {
-          "type": "integer"
+          "type": "number"
         },
         {
           "type": "null"
@@ -112,6 +142,24 @@
       ],
       "default": null,
       "title": "Model Id"
+    },
+    "payment_option": {
+      "anyOf": [
+        {
+          "enum": [
+            "cash",
+            "installment",
+            "cash_or_installment",
+            "exchange"
+          ],
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Payment Option"
     },
     "price_egp": {
       "anyOf": [

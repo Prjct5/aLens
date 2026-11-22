@@ -51,3 +51,31 @@ def test_record_pipeline_run_roundtrip(db: Database) -> None:
     )
     assert row is not None
     assert row["status"] == "success" and row["rows_out"] == 2 and row["warnings"] == ["w"]
+
+
+def test_migration_runner_records_versions_and_guards_checksums(db: Database, tmp_path) -> None:
+    import psycopg
+    import pytest
+
+    from autolens.warehouse.migrate import MigrationError
+
+    url = os.environ["DATABASE_URL"]
+    (tmp_path / "V901__demo_a.sql").write_text(
+        "CREATE TABLE IF NOT EXISTS ops.migration_demo_a (id int PRIMARY KEY);"
+    )
+    (tmp_path / "902_demo_b.sql").write_text(
+        "CREATE TABLE IF NOT EXISTS ops.migration_demo_b (id int PRIMARY KEY);"
+    )
+    assert migrate(url, tmp_path) == ["V901__demo_a.sql", "902_demo_b.sql"]
+    assert migrate(url, tmp_path) == []
+    row = db.fetch_one(
+        "SELECT version FROM ops.schema_migrations WHERE filename = %s", ("V901__demo_a.sql",)
+    )
+    assert row is not None and row["version"] == 901
+    (tmp_path / "V901__demo_a.sql").write_text("CREATE TABLE IF NOT EXISTS ops.other (id int);")
+    with pytest.raises(MigrationError):
+        migrate(url, tmp_path)
+    with psycopg.connect(url) as conn:
+        conn.execute("DELETE FROM ops.schema_migrations WHERE version >= 901")
+        conn.execute("DROP TABLE IF EXISTS ops.migration_demo_a, ops.migration_demo_b")
+        conn.commit()

@@ -1,4 +1,4 @@
-.PHONY: install hooks up down ps logs test lint fmt e2e integration migrate seed schemas openapi clean
+.PHONY: run-m1 install hooks up down ps logs test lint fmt e2e integration migrate seed schemas openapi clean
 
 COMPOSE = docker compose -f docker/docker-compose.yml --env-file .env
 
@@ -50,3 +50,6 @@ schemas:
 
 clean:
 	$(COMPOSE) down -v
+
+run-m1:
+	python -m autolens.scrapers.local_run

@@ -1,0 +1,145 @@
+{
+  "additionalProperties": false,
+  "description": "SCD Type 2 vehicle dimension.",
+  "properties": {
+    "description_hash": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Description Hash"
+    },
+    "fuel_type": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Fuel Type"
+    },
+    "governorate_code": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Governorate Code"
+    },
+    "is_current": {
+      "default": true,
+      "title": "Is Current",
+      "type": "boolean"
+    },
+    "mileage_km": {
+      "anyOf": [
+        {
+          "type": "integer"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Mileage Km"
+    },
+    "model_id": {
+      "anyOf": [
+        {
+          "type": "integer"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Model Id"
+    },
+    "representative_listing_key": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Representative Listing Key"
+    },
+    "row_hash": {
+      "title": "Row Hash",
+      "type": "string"
+    },
+    "transmission": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Transmission"
+    },
+    "valid_from": {
+      "format": "date",
+      "title": "Valid From",
+      "type": "string"
+    },
+    "valid_to": {
+      "default": "9999-12-31",
+      "format": "date",
+      "title": "Valid To",
+      "type": "string"
+    },
+    "vehicle_id": {
+      "title": "Vehicle Id",
+      "type": "integer"
+    },
+    "vehicle_sk": {
+      "anyOf": [
+        {
+          "type": "integer"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Vehicle Sk"
+    },
+    "year": {
+      "anyOf": [
+        {
+          "type": "integer"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Year"
+    }
+  },
+  "required": [
+    "vehicle_id",
+    "row_hash",
+    "valid_from"
+  ],
+  "title": "DimVehicle",
+  "type": "object"
+}

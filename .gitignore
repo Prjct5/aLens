@@ -28,3 +28,13 @@ Thumbs.db
 .idea/
 .vscode/
 gate.json
+/raw/
+/quarantine/
+/data_labels/
+/outputs/
+/images/
+/exports/
+/work/
+/M1_VERIFY/
+*.db
+*.sqlite

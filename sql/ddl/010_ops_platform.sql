@@ -7,6 +7,7 @@ CREATE TABLE IF NOT EXISTS ops.pipeline_run (
   rows_in integer,
   rows_out integer,
   warnings jsonb NOT NULL DEFAULT '[]'::jsonb,
+  metrics jsonb NOT NULL DEFAULT '{}'::jsonb,
   error text,
   started_at timestamptz NOT NULL,
   finished_at timestamptz

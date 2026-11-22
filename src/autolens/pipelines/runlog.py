@@ -14,6 +14,7 @@ COLUMNS = (
     "rows_in",
     "rows_out",
     "warnings",
+    "metrics",
     "error",
     "started_at",
     "finished_at",
@@ -37,6 +38,7 @@ def record_pipeline_run(
         rows_in=result.rows_in if result else None,
         rows_out=result.rows_out if result else None,
         warnings=result.warnings if result else [],
+        metrics=result.metrics if result else {},
     )
     if ctx.db is None:
         return
@@ -52,6 +54,7 @@ def record_pipeline_run(
                 result.rows_in if result else None,
                 result.rows_out if result else None,
                 json.dumps(result.warnings if result else []),
+                json.dumps(result.metrics if result else {}, default=str),
                 error,
                 started_at,
                 utcnow(),

@@ -1,0 +1,78 @@
+{
+  "additionalProperties": false,
+  "description": "ops.scrape_run: one row per source per run (M1 health metrics).",
+  "properties": {
+    "degraded": {
+      "default": false,
+      "title": "Degraded",
+      "type": "boolean"
+    },
+    "finished_at": {
+      "format": "date-time",
+      "title": "Finished At",
+      "type": "string"
+    },
+    "http_429_count": {
+      "default": 0,
+      "title": "Http 429 Count",
+      "type": "integer"
+    },
+    "n_error": {
+      "default": 0,
+      "title": "N Error",
+      "type": "integer"
+    },
+    "n_gone": {
+      "default": 0,
+      "title": "N Gone",
+      "type": "integer"
+    },
+    "n_index_pages": {
+      "default": 0,
+      "title": "N Index Pages",
+      "type": "integer"
+    },
+    "n_listings_seen": {
+      "default": 0,
+      "title": "N Listings Seen",
+      "type": "integer"
+    },
+    "n_new": {
+      "default": 0,
+      "title": "N New",
+      "type": "integer"
+    },
+    "n_parse_fail": {
+      "default": 0,
+      "title": "N Parse Fail",
+      "type": "integer"
+    },
+    "run_date": {
+      "format": "date",
+      "title": "Run Date",
+      "type": "string"
+    },
+    "run_id": {
+      "title": "Run Id",
+      "type": "string"
+    },
+    "source": {
+      "title": "Source",
+      "type": "string"
+    },
+    "started_at": {
+      "format": "date-time",
+      "title": "Started At",
+      "type": "string"
+    }
+  },
+  "required": [
+    "run_id",
+    "source",
+    "run_date",
+    "started_at",
+    "finished_at"
+  ],
+  "title": "ScrapeRun",
+  "type": "object"
+}
